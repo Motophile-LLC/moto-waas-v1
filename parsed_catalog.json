@@ -1,0 +1,4522 @@
+[
+  {
+    "engineFamily": "Milwaukee-Eight 2017-2025",
+    "jobName": "Replace valve seal or spring after cylinder head removal - one seal or spring (intake or exhaust)",
+    "jtcCode": "3131",
+    "baseWarrantyHours": 0.2,
+    "requiredParts": [
+      {
+        "manufacturer": "Cometic",
+        "partNumber": "C9886",
+        "description": "C9886",
+        "qty": 1
+      },
+      {
+        "manufacturer": "James",
+        "partNumber": "JGI-17026-52",
+        "description": "JGI-17026-52",
+        "qty": 1
+      }
+    ]
+  },
+  {
+    "engineFamily": "Milwaukee-Eight 2017-2025",
+    "jobName": "Replace valve seal or spring after cylinder head removal - both seals or springs (intake or exhaust)",
+    "jtcCode": "3132",
+    "baseWarrantyHours": 0.2,
+    "requiredParts": [
+      {
+        "manufacturer": "Cometic",
+        "partNumber": "C9886",
+        "description": "C9886",
+        "qty": 1
+      },
+      {
+        "manufacturer": "James",
+        "partNumber": "JGI-17026-52",
+        "description": "JGI-17026-52",
+        "qty": 1
+      }
+    ]
+  },
+  {
+    "engineFamily": "Milwaukee-Eight 2017-2025",
+    "jobName": "Replace cylinder head gasket - front cylinder",
+    "jtcCode": "3140",
+    "baseWarrantyHours": 3.7,
+    "requiredParts": [
+      {
+        "manufacturer": "Cometic",
+        "partNumber": "C9886",
+        "description": "C9886",
+        "qty": 1
+      },
+      {
+        "manufacturer": "James",
+        "partNumber": "JGI-17026-52",
+        "description": "JGI-17026-52",
+        "qty": 1
+      }
+    ]
+  },
+  {
+    "engineFamily": "Milwaukee-Eight 2017-2025",
+    "jobName": "Replace cylinder head gasket - rear cylinder",
+    "jtcCode": "3142",
+    "baseWarrantyHours": 3.8,
+    "requiredParts": [
+      {
+        "manufacturer": "Cometic",
+        "partNumber": "C9886",
+        "description": "C9886",
+        "qty": 1
+      },
+      {
+        "manufacturer": "James",
+        "partNumber": "JGI-17026-52",
+        "description": "JGI-17026-52",
+        "qty": 1
+      }
+    ]
+  },
+  {
+    "engineFamily": "Milwaukee-Eight 2017-2025",
+    "jobName": "Replace cylinder head gasket - both cylinders",
+    "jtcCode": "3143",
+    "baseWarrantyHours": 4.8,
+    "requiredParts": [
+      {
+        "manufacturer": "Cometic",
+        "partNumber": "C9886",
+        "description": "C9886",
+        "qty": 1
+      },
+      {
+        "manufacturer": "James",
+        "partNumber": "JGI-17026-52",
+        "description": "JGI-17026-52",
+        "qty": 1
+      }
+    ]
+  },
+  {
+    "engineFamily": "Milwaukee-Eight 2017-2025",
+    "jobName": "Replace rocker arm covers and/or gaskets - front cylinder",
+    "jtcCode": "3144",
+    "baseWarrantyHours": 0.7,
+    "requiredParts": [
+      {
+        "manufacturer": "Cometic",
+        "partNumber": "C9886",
+        "description": "C9886",
+        "qty": 1
+      },
+      {
+        "manufacturer": "James",
+        "partNumber": "JGI-17026-52",
+        "description": "JGI-17026-52",
+        "qty": 1
+      }
+    ]
+  },
+  {
+    "engineFamily": "Milwaukee-Eight 2017-2025",
+    "jobName": "Replace rocker arm covers and/or gaskets - rear cylinder",
+    "jtcCode": "3145",
+    "baseWarrantyHours": 0.7,
+    "requiredParts": [
+      {
+        "manufacturer": "Cometic",
+        "partNumber": "C9886",
+        "description": "C9886",
+        "qty": 1
+      },
+      {
+        "manufacturer": "James",
+        "partNumber": "JGI-17026-52",
+        "description": "JGI-17026-52",
+        "qty": 1
+      }
+    ]
+  },
+  {
+    "engineFamily": "Milwaukee-Eight 2017-2025",
+    "jobName": "Replace lower rocker arm cover/gasket, or rocker arms and /or shafts/rocker arm support - front cylinder",
+    "jtcCode": "3147",
+    "baseWarrantyHours": 1.1,
+    "requiredParts": [
+      {
+        "manufacturer": "Cometic",
+        "partNumber": "C9886",
+        "description": "C9886",
+        "qty": 1
+      },
+      {
+        "manufacturer": "James",
+        "partNumber": "JGI-17026-52",
+        "description": "JGI-17026-52",
+        "qty": 1
+      }
+    ]
+  },
+  {
+    "engineFamily": "Milwaukee-Eight 2017-2025",
+    "jobName": "Replace rocker arm covers and/or gaskets - both cylinders",
+    "jtcCode": "3148",
+    "baseWarrantyHours": 0.8,
+    "requiredParts": [
+      {
+        "manufacturer": "Cometic",
+        "partNumber": "C9886",
+        "description": "C9886",
+        "qty": 1
+      },
+      {
+        "manufacturer": "James",
+        "partNumber": "JGI-17026-52",
+        "description": "JGI-17026-52",
+        "qty": 1
+      }
+    ]
+  },
+  {
+    "engineFamily": "Milwaukee-Eight 2017-2025",
+    "jobName": "Replace lower rocker arm cover/gasket, or rocker arms and /or shafts/rocker arm support - rear cylinder",
+    "jtcCode": "3152",
+    "baseWarrantyHours": 1.1,
+    "requiredParts": [
+      {
+        "manufacturer": "Cometic",
+        "partNumber": "C9886",
+        "description": "C9886",
+        "qty": 1
+      },
+      {
+        "manufacturer": "James",
+        "partNumber": "JGI-17026-52",
+        "description": "JGI-17026-52",
+        "qty": 1
+      }
+    ]
+  },
+  {
+    "engineFamily": "Milwaukee-Eight 2017-2025",
+    "jobName": "Replace lower rocker arm cover/gasket, or rocker arms and /or shafts/rocker arm support - both cylinders",
+    "jtcCode": "3153",
+    "baseWarrantyHours": 1.6,
+    "requiredParts": [
+      {
+        "manufacturer": "Cometic",
+        "partNumber": "C9886",
+        "description": "C9886",
+        "qty": 1
+      },
+      {
+        "manufacturer": "James",
+        "partNumber": "JGI-17026-52",
+        "description": "JGI-17026-52",
+        "qty": 1
+      }
+    ]
+  },
+  {
+    "engineFamily": "Milwaukee-Eight 2017-2025",
+    "jobName": "Replace cylinder base gasket - front cylinder",
+    "jtcCode": "3161",
+    "baseWarrantyHours": 3.7,
+    "requiredParts": [
+      {
+        "manufacturer": "Cometic",
+        "partNumber": "C9886",
+        "description": "C9886",
+        "qty": 1
+      },
+      {
+        "manufacturer": "James",
+        "partNumber": "JGI-17026-52",
+        "description": "JGI-17026-52",
+        "qty": 1
+      }
+    ]
+  },
+  {
+    "engineFamily": "Milwaukee-Eight 2017-2025",
+    "jobName": "Replace cylinder base gasket - rear cylinder",
+    "jtcCode": "3163",
+    "baseWarrantyHours": 3.8,
+    "requiredParts": [
+      {
+        "manufacturer": "Cometic",
+        "partNumber": "C9886",
+        "description": "C9886",
+        "qty": 1
+      },
+      {
+        "manufacturer": "James",
+        "partNumber": "JGI-17026-52",
+        "description": "JGI-17026-52",
+        "qty": 1
+      }
+    ]
+  },
+  {
+    "engineFamily": "Milwaukee-Eight 2017-2025",
+    "jobName": "Replace cylinder base gasket - both cylinders",
+    "jtcCode": "3168",
+    "baseWarrantyHours": 4.9,
+    "requiredParts": [
+      {
+        "manufacturer": "Cometic",
+        "partNumber": "C9886",
+        "description": "C9886",
+        "qty": 1
+      },
+      {
+        "manufacturer": "James",
+        "partNumber": "JGI-17026-52",
+        "description": "JGI-17026-52",
+        "qty": 1
+      }
+    ]
+  },
+  {
+    "engineFamily": "Milwaukee-Eight 2017-2025",
+    "jobName": "Replace piston rings. Includes deglaze cylinder - front cylinder",
+    "jtcCode": "3209",
+    "baseWarrantyHours": 4.2,
+    "requiredParts": [
+      {
+        "manufacturer": "Cometic",
+        "partNumber": "C9886",
+        "description": "C9886",
+        "qty": 1
+      },
+      {
+        "manufacturer": "James",
+        "partNumber": "JGI-17026-52",
+        "description": "JGI-17026-52",
+        "qty": 1
+      }
+    ]
+  },
+  {
+    "engineFamily": "Milwaukee-Eight 2017-2025",
+    "jobName": "Replace piston rings. Includes deglaze cylinder - rear cylinder",
+    "jtcCode": "3210",
+    "baseWarrantyHours": 4.3,
+    "requiredParts": [
+      {
+        "manufacturer": "Cometic",
+        "partNumber": "C9886",
+        "description": "C9886",
+        "qty": 1
+      },
+      {
+        "manufacturer": "James",
+        "partNumber": "JGI-17026-52",
+        "description": "JGI-17026-52",
+        "qty": 1
+      }
+    ]
+  },
+  {
+    "engineFamily": "Milwaukee-Eight 2017-2025",
+    "jobName": "Replace piston rings. Includes deglaze cylinder - both cylinders",
+    "jtcCode": "3216",
+    "baseWarrantyHours": 5.8,
+    "requiredParts": [
+      {
+        "manufacturer": "Cometic",
+        "partNumber": "C9886",
+        "description": "C9886",
+        "qty": 1
+      },
+      {
+        "manufacturer": "James",
+        "partNumber": "JGI-17026-52",
+        "description": "JGI-17026-52",
+        "qty": 1
+      }
+    ]
+  },
+  {
+    "engineFamily": "Milwaukee-Eight 2017-2025",
+    "jobName": "Replace cylinder and piston - front cylinder",
+    "jtcCode": "3233",
+    "baseWarrantyHours": 3.9,
+    "requiredParts": [
+      {
+        "manufacturer": "Cometic",
+        "partNumber": "C9886",
+        "description": "C9886",
+        "qty": 1
+      },
+      {
+        "manufacturer": "James",
+        "partNumber": "JGI-17026-52",
+        "description": "JGI-17026-52",
+        "qty": 1
+      }
+    ]
+  },
+  {
+    "engineFamily": "Milwaukee-Eight 2017-2025",
+    "jobName": "Replace cylinder and piston - rear cylinder",
+    "jtcCode": "3234",
+    "baseWarrantyHours": 4,
+    "requiredParts": [
+      {
+        "manufacturer": "Cometic",
+        "partNumber": "C9886",
+        "description": "C9886",
+        "qty": 1
+      },
+      {
+        "manufacturer": "James",
+        "partNumber": "JGI-17026-52",
+        "description": "JGI-17026-52",
+        "qty": 1
+      }
+    ]
+  },
+  {
+    "engineFamily": "Milwaukee-Eight 2017-2025",
+    "jobName": "Replace cylinder and piston - both cylinders",
+    "jtcCode": "3246",
+    "baseWarrantyHours": 5.5,
+    "requiredParts": [
+      {
+        "manufacturer": "Cometic",
+        "partNumber": "C9886",
+        "description": "C9886",
+        "qty": 1
+      },
+      {
+        "manufacturer": "James",
+        "partNumber": "JGI-17026-52",
+        "description": "JGI-17026-52",
+        "qty": 1
+      }
+    ]
+  },
+  {
+    "engineFamily": "Milwaukee-Eight 2017-2025",
+    "jobName": "Replace one cylinder stud - cylinder removed",
+    "jtcCode": "3253",
+    "baseWarrantyHours": 0.1,
+    "requiredParts": [
+      {
+        "manufacturer": "Cometic",
+        "partNumber": "C9886",
+        "description": "C9886",
+        "qty": 1
+      },
+      {
+        "manufacturer": "James",
+        "partNumber": "JGI-17026-52",
+        "description": "JGI-17026-52",
+        "qty": 1
+      }
+    ]
+  },
+  {
+    "engineFamily": "Milwaukee-Eight 2017-2025",
+    "jobName": "Replace all eight cylinder studs - cylinders removed",
+    "jtcCode": "3254",
+    "baseWarrantyHours": 0.5,
+    "requiredParts": [
+      {
+        "manufacturer": "Cometic",
+        "partNumber": "C9886",
+        "description": "C9886",
+        "qty": 1
+      },
+      {
+        "manufacturer": "James",
+        "partNumber": "JGI-17026-52",
+        "description": "JGI-17026-52",
+        "qty": 1
+      }
+    ]
+  },
+  {
+    "engineFamily": "Milwaukee-Eight 2017-2025",
+    "jobName": "Replace VVT phaser harness front cylinder - P1785, P1786, P1787, P1790, P1791, P1792",
+    "jtcCode": "3281",
+    "baseWarrantyHours": 0.4,
+    "requiredParts": [
+      {
+        "manufacturer": "Cometic",
+        "partNumber": "C9886",
+        "description": "C9886",
+        "qty": 1
+      },
+      {
+        "manufacturer": "James",
+        "partNumber": "JGI-17026-52",
+        "description": "JGI-17026-52",
+        "qty": 1
+      }
+    ]
+  },
+  {
+    "engineFamily": "Milwaukee-Eight 2017-2025",
+    "jobName": "Replace lifter cover/gasket or lifter/and, or anti-rotation pin - one or two same cylinder",
+    "jtcCode": "3307",
+    "baseWarrantyHours": 1.3,
+    "requiredParts": [
+      {
+        "manufacturer": "Cometic",
+        "partNumber": "C9886",
+        "description": "C9886",
+        "qty": 1
+      },
+      {
+        "manufacturer": "James",
+        "partNumber": "JGI-17026-52",
+        "description": "JGI-17026-52",
+        "qty": 1
+      }
+    ]
+  },
+  {
+    "engineFamily": "Milwaukee-Eight 2017-2025",
+    "jobName": "Replace camshaft sensor (CPS) O-ring - **0.1h**[24-25:TRG]",
+    "jtcCode": "3308",
+    "baseWarrantyHours": 0.1,
+    "requiredParts": [
+      {
+        "manufacturer": "Cometic",
+        "partNumber": "C9886",
+        "description": "C9886",
+        "qty": 1
+      },
+      {
+        "manufacturer": "James",
+        "partNumber": "JGI-17026-52",
+        "description": "JGI-17026-52",
+        "qty": 1
+      }
+    ]
+  },
+  {
+    "engineFamily": "Milwaukee-Eight 2017-2025",
+    "jobName": "Replace lifter cover/gasket or lifter/and, or anti-rotation pin - both on both cylinders",
+    "jtcCode": "3310",
+    "baseWarrantyHours": 1.6,
+    "requiredParts": [
+      {
+        "manufacturer": "Cometic",
+        "partNumber": "C9886",
+        "description": "C9886",
+        "qty": 1
+      },
+      {
+        "manufacturer": "James",
+        "partNumber": "JGI-17026-52",
+        "description": "JGI-17026-52",
+        "qty": 1
+      }
+    ]
+  },
+  {
+    "engineFamily": "Milwaukee-Eight 2017-2025",
+    "jobName": "Replace push rod, push rod cover and/or O-ring or quad seal - one or two same cylinder",
+    "jtcCode": "3317",
+    "baseWarrantyHours": 1.3,
+    "requiredParts": [
+      {
+        "manufacturer": "Cometic",
+        "partNumber": "C9886",
+        "description": "C9886",
+        "qty": 1
+      },
+      {
+        "manufacturer": "James",
+        "partNumber": "JGI-17026-52",
+        "description": "JGI-17026-52",
+        "qty": 1
+      }
+    ]
+  },
+  {
+    "engineFamily": "Milwaukee-Eight 2017-2025",
+    "jobName": "Replace push rod, push rod cover and/or O-ring or quad seal - one each cylinder",
+    "jtcCode": "3318",
+    "baseWarrantyHours": 1.5,
+    "requiredParts": [
+      {
+        "manufacturer": "Cometic",
+        "partNumber": "C9886",
+        "description": "C9886",
+        "qty": 1
+      },
+      {
+        "manufacturer": "James",
+        "partNumber": "JGI-17026-52",
+        "description": "JGI-17026-52",
+        "qty": 1
+      }
+    ]
+  },
+  {
+    "engineFamily": "Milwaukee-Eight 2017-2025",
+    "jobName": "Replace cam cover and/or gasket - **0.9h**[00-17:DYN,SFT] **1.6h**[00:FLTRSEI; 00,07-11:FLHPE; 00,07-16:FLHP; 00-03,07-09:FLTR; 00-05,07-13:FLHTC; 00-06:FLHPEI,FLHPI,FLHRCI,FLHRI,FLHTCI,FLHTPI,FLTRI; 00-10:FLHT; 00-16:FLHR; 03-06:FLHTI; 04-06:FLHRSI; 04-07:FLHRS; 06:FLHXI; 06-16:FLHX; 07-16:FLHRC,FLHTP; 10-13,15-16:FLTRX; 11:FLHRC 103,FLHTC 103,FLHX 103,FLHXSE2,FLTRX 103; 11,14:FLHR 103; 12:FLHXSE3,FLTRXSE; 13:FLHRSE5,FLTRXSE2; 14:FLHRSE; 14-16:FLHXS; 15-16:FLRT,FLTRXS; 17-18,20-25:TRK; 17-25:TRG; 18-25:SFT; 19:FLHTCUTG] **2.0h**[00-06:FLHTCUI,FLHTCUI WITH SIDECAR; 07-10:FLHTCU WITH SIDECAR; 07-16:FLHTCU; 09-14:TRK; 10-16:FLHTK; 11:FLHTCU 103,FLHTCUSE6,FLHTK WITH SIDECAR; 11,15-16:FLTRUSE; 11-13,16:FLTRU; 12:FLHTCUSE7; 13:FLHTCU8 103,FLHTCUSE8; 14:FLHTK 103; 14-16:FLHTCU TC,FLHTKSE; 15-16:FLHTCUL,FLHTCUL TC,FLHTCUTG,FLHTKL,FLHXSE] **2.9h**[19:FLRT]",
+    "jtcCode": "3325",
+    "baseWarrantyHours": 0.9,
+    "requiredParts": [
+      {
+        "manufacturer": "Cometic",
+        "partNumber": "C9886",
+        "description": "C9886",
+        "qty": 1
+      },
+      {
+        "manufacturer": "James",
+        "partNumber": "JGI-17026-52",
+        "description": "JGI-17026-52",
+        "qty": 1
+      }
+    ]
+  },
+  {
+    "engineFamily": "Milwaukee-Eight 2017-2025",
+    "jobName": "Replace primary cam chain, sprockets and/or fastener - **1.0h**[00-17:DYN,SFT] **1.7h**[00:FLTRSEI; 00,07-11:FLHPE; 00,07-16:FLHP; 00-03,07-09:FLTR; 00-05,07-13:FLHTC; 00-06:FLHPEI,FLHPI,FLHRCI,FLHRI,FLHTCI,FLHTPI,FLTRI; 00-10:FLHT; 00-16:FLHR; 03-06:FLHTI; 04-06:FLHRSI; 04-07:FLHRS; 06:FLHXI; 06-16:FLHX; 07-16:FLHRC,FLHTP; 10-13,15-16:FLTRX; 11:FLHRC 103,FLHTC 103,FLHX 103,FLHXSE2,FLTRX 103; 11,14:FLHR 103; 12:FLHXSE3,FLTRXSE; 13:FLHRSE5,FLTRXSE2; 14:FLHRSE; 14-16:FLHXS; 15-16:FLRT,FLTRXS] **1.9h**[17-18,20-25:TRK; 17-22:TRG; 18-25:SFT; 19:FLHTCUTG; 23:FLHFB,FLHTKANV,FLHXS,FLHXSANV,FLHXST,FLTRKSEANV,FLTRXS,FLTRXSANV,FLTRXST; 23-24:FLHTK,FLTRK; 23-25:FLHP,FLHRXS,FLHTP,FLHX,FLTRX; 24-25:FLTRXP,FLTRXSTSE; 25:FLHXU] **2.0h**[23-25:FLHXSE,FLTRXSE] **2.1h**[00-06:FLHTCUI,FLHTCUI WITH SIDECAR; 07-10:FLHTCU WITH SIDECAR; 07-16:FLHTCU; 09-14:TRK; 10-16:FLHTK; 11:FLHTCU 103,FLHTCUSE6,FLHTK WITH SIDECAR; 11,15-16:FLTRUSE; 11-13,16:FLTRU; 12:FLHTCUSE7; 13:FLHTCU8 103,FLHTCUSE8; 14:FLHTK 103; 14-16:FLHTCU TC,FLHTKSE; 15-16:FLHTCUL,FLHTCUL TC,FLHTCUTG,FLHTKL,FLHXSE] **3.2h**[19:FLRT]",
+    "jtcCode": "3327",
+    "baseWarrantyHours": 1,
+    "requiredParts": [
+      {
+        "manufacturer": "Cometic",
+        "partNumber": "C9886",
+        "description": "C9886",
+        "qty": 1
+      },
+      {
+        "manufacturer": "James",
+        "partNumber": "JGI-17026-52",
+        "description": "JGI-17026-52",
+        "qty": 1
+      }
+    ]
+  },
+  {
+    "engineFamily": "Milwaukee-Eight 2017-2025",
+    "jobName": "Replace primary cam chain tensioner - front cylinder",
+    "jtcCode": "3328",
+    "baseWarrantyHours": 1,
+    "requiredParts": [
+      {
+        "manufacturer": "Cometic",
+        "partNumber": "C9886",
+        "description": "C9886",
+        "qty": 1
+      },
+      {
+        "manufacturer": "James",
+        "partNumber": "JGI-17026-52",
+        "description": "JGI-17026-52",
+        "qty": 1
+      }
+    ]
+  },
+  {
+    "engineFamily": "Milwaukee-Eight 2017-2025",
+    "jobName": "Replace cam support plate - **2.1h**[00-05:DYN,SFT] **2.8h**[00:FLHP,FLHPE,FLTRSEI; 00-03:FLTR; 00-05:FLHT,FLHTC,FLHTCI,FLHTPI,FLTRI; 00-06:FLHPEI,FLHPI,FLHR,FLHRCI,FLHRI; 03-05:FLHTI; 04-06:FLHRS,FLHRSI] **3.0h**[06-17:DYN,SFT] **3.2h**[00-05:FLHTCUI,FLHTCUI WITH SIDECAR] **3.5h**[07:FLHRS; 07-11:FLHPE; 07-16:FLHP,FLHR,FLHRC; 11:FLHRC 103; 11,14:FLHR 103; 13:FLHRSE5; 14:FLHRSE; 15-16:FLRT] **3.7h**[06:FLHTCI,FLHTI,FLHTPI,FLHXI,FLTRI; 06-10:FLHT; 06-16:FLHX; 07-09:FLTR; 07-13:FLHTC; 07-16:FLHTP; 10-13,15-16:FLTRX; 11:FLHTC 103,FLHX 103,FLHXSE2,FLTRX 103; 12:FLHXSE3,FLTRXSE; 13:FLTRXSE2; 14-16:FLHXS; 15-16:FLTRXS] **4.1h**[06:FLHTCUI,FLHTCUI WITH SIDECAR; 07-10:FLHTCU WITH SIDECAR; 07-16:FLHTCU; 09-14,17-18,20-25:TRK; 10-16,23-24:FLHTK; 11:FLHTCU 103,FLHTCUSE6,FLHTK WITH SIDECAR; 11,15-16:FLTRUSE; 11-13,16:FLTRU; 12:FLHTCUSE7; 13:FLHTCU8 103,FLHTCUSE8; 14:FLHTK 103; 14-16:FLHTCU TC,FLHTKSE; 15-16:FLHTCUL,FLHTCUL TC,FLHTKL,FLHXSE; 15-16,19:FLHTCUTG; 17-22:TRG; 18-24:SFT; 23:FLHFB,FLHTKANV,FLHX,FLHXS,FLHXSANV,FLHXST,FLTRKSEANV,FLTRX,FLTRXS,FLTRXSANV,FLTRXST; 23-24:FLTRK; 23-25:FLHP,FLHRXS,FLHTP; 24-25:FLTRXP; 25:FLHXU] **4.3h**[25:SFT] **5.0h**[24-25:FLHX,FLTRX,FLTRXSTSE] **5.1h**[23-25:FLHXSE,FLTRXSE] **5.5h**[19:FLRT]",
+    "jtcCode": "3337",
+    "baseWarrantyHours": 3,
+    "requiredParts": [
+      {
+        "manufacturer": "Cometic",
+        "partNumber": "C9886",
+        "description": "C9886",
+        "qty": 1
+      },
+      {
+        "manufacturer": "James",
+        "partNumber": "JGI-17026-52",
+        "description": "JGI-17026-52",
+        "qty": 1
+      }
+    ]
+  },
+  {
+    "engineFamily": "Milwaukee-Eight 2017-2025",
+    "jobName": "Replace cam support bearing/cams/secondary cam chain/tensioner - **2.3h**[00-05:DYN,SFT] **3.0h**[00:FLHP,FLHPE,FLTRSEI; 00-03:FLTR; 00-05:FLHT,FLHTC,FLHTCI,FLHTPI,FLTRI; 00-06:FLHPEI,FLHPI,FLHR,FLHRCI,FLHRI; 03-05:FLHTI; 04-06:FLHRS,FLHRSI] **3.2h**[06-17:DYN,SFT] **3.4h**[00-05:FLHTCUI,FLHTCUI WITH SIDECAR] **3.7h**[07:FLHRS; 07-11:FLHPE; 07-16:FLHP,FLHR,FLHRC; 11:FLHRC 103; 11,14:FLHR 103; 13:FLHRSE5; 14:FLHRSE; 15-16:FLRT] **3.9h**[06:FLHTCI,FLHTI,FLHTPI,FLHXI,FLTRI; 06-10:FLHT; 06-16:FLHX; 07-09:FLTR; 07-13:FLHTC; 07-16:FLHTP; 10-13,15-16:FLTRX; 11:FLHTC 103,FLHX 103,FLHXSE2,FLTRX 103; 12:FLHXSE3,FLTRXSE; 13:FLTRXSE2; 14-16:FLHXS; 15-16:FLTRXS] **4.3h**[06:FLHTCUI,FLHTCUI WITH SIDECAR; 07-10:FLHTCU WITH SIDECAR; 07-16:FLHTCU; 09-14:TRK; 10-16:FLHTK; 11:FLHTCU 103,FLHTCUSE6,FLHTK WITH SIDECAR; 11,15-16:FLTRUSE; 11-13,16:FLTRU; 12:FLHTCUSE7; 13:FLHTCU8 103,FLHTCUSE8; 14:FLHTK 103; 14-16:FLHTCU TC,FLHTKSE; 15-16:FLHTCUL,FLHTCUL TC,FLHTCUTG,FLHTKL,FLHXSE] **4.7h**[17-18,20-25:TRK; 17-22:TRG; 18-25:SFT; 19:FLHTCUTG; 23:FLHFB,FLHTKANV,FLHX,FLHXS,FLHXSANV,FLHXST,FLTRKSEANV,FLTRX,FLTRXS,FLTRXSANV,FLTRXST; 23-24:FLHTK,FLTRK; 23-25:FLHP,FLHRXS,FLHTP; 24-25:FLTRXP; 25:FLHXU] **5.1h**[24-25:FLHX,FLTRX,FLTRXSTSE] **5.2h**[23-25:FLHXSE,FLTRXSE] **5.7h**[19:FLRT]",
+    "jtcCode": "3338",
+    "baseWarrantyHours": 3.2,
+    "requiredParts": [
+      {
+        "manufacturer": "Cometic",
+        "partNumber": "C9886",
+        "description": "C9886",
+        "qty": 1
+      },
+      {
+        "manufacturer": "James",
+        "partNumber": "JGI-17026-52",
+        "description": "JGI-17026-52",
+        "qty": 1
+      }
+    ]
+  },
+  {
+    "engineFamily": "Milwaukee-Eight 2017-2025",
+    "jobName": "Replace cam bearing crankcase - one bearing",
+    "jtcCode": "3342",
+    "baseWarrantyHours": 2.7,
+    "requiredParts": [
+      {
+        "manufacturer": "Cometic",
+        "partNumber": "C9886",
+        "description": "C9886",
+        "qty": 1
+      },
+      {
+        "manufacturer": "James",
+        "partNumber": "JGI-17026-52",
+        "description": "JGI-17026-52",
+        "qty": 1
+      }
+    ]
+  },
+  {
+    "engineFamily": "Milwaukee-Eight 2017-2025",
+    "jobName": "Replace piston rings - cylinders removed for non-related repairs. Deglaze only",
+    "jtcCode": "3428",
+    "baseWarrantyHours": 0.3,
+    "requiredParts": [
+      {
+        "manufacturer": "Cometic",
+        "partNumber": "C9886",
+        "description": "C9886",
+        "qty": 1
+      },
+      {
+        "manufacturer": "James",
+        "partNumber": "JGI-17026-52",
+        "description": "JGI-17026-52",
+        "qty": 1
+      }
+    ]
+  },
+  {
+    "engineFamily": "Milwaukee-Eight 2017-2025",
+    "jobName": "Replace pistons - cylinders removed (for non-related repairs) includes resizing cylinders",
+    "jtcCode": "3430",
+    "baseWarrantyHours": 1.4,
+    "requiredParts": [
+      {
+        "manufacturer": "Cometic",
+        "partNumber": "C9886",
+        "description": "C9886",
+        "qty": 1
+      },
+      {
+        "manufacturer": "James",
+        "partNumber": "JGI-17026-52",
+        "description": "JGI-17026-52",
+        "qty": 1
+      }
+    ]
+  },
+  {
+    "engineFamily": "Milwaukee-Eight 2017-2025",
+    "jobName": "Replace lock cam or cable in saddlebag or Tour-Pak - power locks inoperative",
+    "jtcCode": "6220",
+    "baseWarrantyHours": 0.5,
+    "requiredParts": [
+      {
+        "manufacturer": "Cometic",
+        "partNumber": "C9886",
+        "description": "C9886",
+        "qty": 1
+      },
+      {
+        "manufacturer": "James",
+        "partNumber": "JGI-17026-52",
+        "description": "JGI-17026-52",
+        "qty": 1
+      }
+    ]
+  },
+  {
+    "engineFamily": "Milwaukee-Eight 2017-2025",
+    "jobName": "Replace lock cylinder in saddlebag or Tour-Pak - power locks inoperative",
+    "jtcCode": "6221",
+    "baseWarrantyHours": 0.4,
+    "requiredParts": [
+      {
+        "manufacturer": "Cometic",
+        "partNumber": "C9886",
+        "description": "C9886",
+        "qty": 1
+      },
+      {
+        "manufacturer": "James",
+        "partNumber": "JGI-17026-52",
+        "description": "JGI-17026-52",
+        "qty": 1
+      }
+    ]
+  },
+  {
+    "engineFamily": "Twin Cam 1999-2017",
+    "jobName": "Recondition cylinder head – includes removal of head and gasket, remove carbon, service valve guides, grind valves and seats, test springs and install head and gaskets. - front head",
+    "jtcCode": "3101",
+    "baseWarrantyHours": 3.5,
+    "requiredParts": [
+      {
+        "manufacturer": "Cometic",
+        "partNumber": "C9886",
+        "description": "C9886",
+        "qty": 1
+      },
+      {
+        "manufacturer": "James",
+        "partNumber": "JGI-17026-52",
+        "description": "JGI-17026-52",
+        "qty": 1
+      }
+    ]
+  },
+  {
+    "engineFamily": "Twin Cam 1999-2017",
+    "jobName": "Recondition cylinder head – includes removal of head and gasket, remove carbon, service valve guides, grind valves and seats, test springs and install head and gaskets. - rear head",
+    "jtcCode": "3103",
+    "baseWarrantyHours": 3.5,
+    "requiredParts": [
+      {
+        "manufacturer": "Cometic",
+        "partNumber": "C9886",
+        "description": "C9886",
+        "qty": 1
+      },
+      {
+        "manufacturer": "James",
+        "partNumber": "JGI-17026-52",
+        "description": "JGI-17026-52",
+        "qty": 1
+      }
+    ]
+  },
+  {
+    "engineFamily": "Twin Cam 1999-2017",
+    "jobName": "Recondition cylinder head – includes removal of head and gasket, remove carbon, service valve guides, grind valves and seats, test springs and install head and gaskets. - both heads",
+    "jtcCode": "3104",
+    "baseWarrantyHours": 4.1,
+    "requiredParts": [
+      {
+        "manufacturer": "Cometic",
+        "partNumber": "C9886",
+        "description": "C9886",
+        "qty": 1
+      },
+      {
+        "manufacturer": "James",
+        "partNumber": "JGI-17026-52",
+        "description": "JGI-17026-52",
+        "qty": 1
+      }
+    ]
+  },
+  {
+    "engineFamily": "Twin Cam 1999-2017",
+    "jobName": "Replace cylinder head - one head",
+    "jtcCode": "3106",
+    "baseWarrantyHours": 2.2,
+    "requiredParts": [
+      {
+        "manufacturer": "Cometic",
+        "partNumber": "C9886",
+        "description": "C9886",
+        "qty": 1
+      },
+      {
+        "manufacturer": "James",
+        "partNumber": "JGI-17026-52",
+        "description": "JGI-17026-52",
+        "qty": 1
+      }
+    ]
+  },
+  {
+    "engineFamily": "Twin Cam 1999-2017",
+    "jobName": "Replace cylinder head - both heads",
+    "jtcCode": "3108",
+    "baseWarrantyHours": 2.8,
+    "requiredParts": [
+      {
+        "manufacturer": "Cometic",
+        "partNumber": "C9886",
+        "description": "C9886",
+        "qty": 1
+      },
+      {
+        "manufacturer": "James",
+        "partNumber": "JGI-17026-52",
+        "description": "JGI-17026-52",
+        "qty": 1
+      }
+    ]
+  },
+  {
+    "engineFamily": "Twin Cam 1999-2017",
+    "jobName": "Replace head bolt covers - all 4, add to FBW cylinder head service times",
+    "jtcCode": "3109",
+    "baseWarrantyHours": 0.2,
+    "requiredParts": [
+      {
+        "manufacturer": "Cometic",
+        "partNumber": "C9886",
+        "description": "C9886",
+        "qty": 1
+      },
+      {
+        "manufacturer": "James",
+        "partNumber": "JGI-17026-52",
+        "description": "JGI-17026-52",
+        "qty": 1
+      }
+    ]
+  },
+  {
+    "engineFamily": "Twin Cam 1999-2017",
+    "jobName": "Replace valve seal or spring after cylinder head removal - one seal or spring (intake or exhaust)",
+    "jtcCode": "3131",
+    "baseWarrantyHours": 0.1,
+    "requiredParts": [
+      {
+        "manufacturer": "Cometic",
+        "partNumber": "C9886",
+        "description": "C9886",
+        "qty": 1
+      },
+      {
+        "manufacturer": "James",
+        "partNumber": "JGI-17026-52",
+        "description": "JGI-17026-52",
+        "qty": 1
+      }
+    ]
+  },
+  {
+    "engineFamily": "Twin Cam 1999-2017",
+    "jobName": "Replace valve seal or spring after cylinder head removal - both seals or springs (intake or exhaust)",
+    "jtcCode": "3132",
+    "baseWarrantyHours": 0.2,
+    "requiredParts": [
+      {
+        "manufacturer": "Cometic",
+        "partNumber": "C9886",
+        "description": "C9886",
+        "qty": 1
+      },
+      {
+        "manufacturer": "James",
+        "partNumber": "JGI-17026-52",
+        "description": "JGI-17026-52",
+        "qty": 1
+      }
+    ]
+  },
+  {
+    "engineFamily": "Twin Cam 1999-2017",
+    "jobName": "Replace cylinder head gasket - front cylinder",
+    "jtcCode": "3140",
+    "baseWarrantyHours": 1.6,
+    "requiredParts": [
+      {
+        "manufacturer": "Cometic",
+        "partNumber": "C9886",
+        "description": "C9886",
+        "qty": 1
+      },
+      {
+        "manufacturer": "James",
+        "partNumber": "JGI-17026-52",
+        "description": "JGI-17026-52",
+        "qty": 1
+      }
+    ]
+  },
+  {
+    "engineFamily": "Twin Cam 1999-2017",
+    "jobName": "Replace cylinder head gasket - rear cylinder",
+    "jtcCode": "3142",
+    "baseWarrantyHours": 1.6,
+    "requiredParts": [
+      {
+        "manufacturer": "Cometic",
+        "partNumber": "C9886",
+        "description": "C9886",
+        "qty": 1
+      },
+      {
+        "manufacturer": "James",
+        "partNumber": "JGI-17026-52",
+        "description": "JGI-17026-52",
+        "qty": 1
+      }
+    ]
+  },
+  {
+    "engineFamily": "Twin Cam 1999-2017",
+    "jobName": "Replace cylinder head gasket - both cylinders",
+    "jtcCode": "3143",
+    "baseWarrantyHours": 2,
+    "requiredParts": [
+      {
+        "manufacturer": "Cometic",
+        "partNumber": "C9886",
+        "description": "C9886",
+        "qty": 1
+      },
+      {
+        "manufacturer": "James",
+        "partNumber": "JGI-17026-52",
+        "description": "JGI-17026-52",
+        "qty": 1
+      }
+    ]
+  },
+  {
+    "engineFamily": "Twin Cam 1999-2017",
+    "jobName": "Replace rocker arm covers and/or gaskets - front cylinder",
+    "jtcCode": "3144",
+    "baseWarrantyHours": 0.7,
+    "requiredParts": [
+      {
+        "manufacturer": "Cometic",
+        "partNumber": "C9886",
+        "description": "C9886",
+        "qty": 1
+      },
+      {
+        "manufacturer": "James",
+        "partNumber": "JGI-17026-52",
+        "description": "JGI-17026-52",
+        "qty": 1
+      }
+    ]
+  },
+  {
+    "engineFamily": "Twin Cam 1999-2017",
+    "jobName": "Replace rocker arm covers and/or gaskets - rear cylinder",
+    "jtcCode": "3145",
+    "baseWarrantyHours": 0.7,
+    "requiredParts": [
+      {
+        "manufacturer": "Cometic",
+        "partNumber": "C9886",
+        "description": "C9886",
+        "qty": 1
+      },
+      {
+        "manufacturer": "James",
+        "partNumber": "JGI-17026-52",
+        "description": "JGI-17026-52",
+        "qty": 1
+      }
+    ]
+  },
+  {
+    "engineFamily": "Twin Cam 1999-2017",
+    "jobName": "Replace lower rocker arm cover/gasket, or rocker arms and /or shafts/rocker arm support - front cylinder",
+    "jtcCode": "3147",
+    "baseWarrantyHours": 1.1,
+    "requiredParts": [
+      {
+        "manufacturer": "Cometic",
+        "partNumber": "C9886",
+        "description": "C9886",
+        "qty": 1
+      },
+      {
+        "manufacturer": "James",
+        "partNumber": "JGI-17026-52",
+        "description": "JGI-17026-52",
+        "qty": 1
+      }
+    ]
+  },
+  {
+    "engineFamily": "Twin Cam 1999-2017",
+    "jobName": "Replace rocker arm covers and/or gaskets - both cylinders",
+    "jtcCode": "3148",
+    "baseWarrantyHours": 0.8,
+    "requiredParts": [
+      {
+        "manufacturer": "Cometic",
+        "partNumber": "C9886",
+        "description": "C9886",
+        "qty": 1
+      },
+      {
+        "manufacturer": "James",
+        "partNumber": "JGI-17026-52",
+        "description": "JGI-17026-52",
+        "qty": 1
+      }
+    ]
+  },
+  {
+    "engineFamily": "Twin Cam 1999-2017",
+    "jobName": "Recondition rocker arms after heads are removed - one head",
+    "jtcCode": "3149",
+    "baseWarrantyHours": 0.7,
+    "requiredParts": [
+      {
+        "manufacturer": "Cometic",
+        "partNumber": "C9886",
+        "description": "C9886",
+        "qty": 1
+      },
+      {
+        "manufacturer": "James",
+        "partNumber": "JGI-17026-52",
+        "description": "JGI-17026-52",
+        "qty": 1
+      }
+    ]
+  },
+  {
+    "engineFamily": "Twin Cam 1999-2017",
+    "jobName": "Recondition rocker arms after heads are removed - both heads",
+    "jtcCode": "3150",
+    "baseWarrantyHours": 1.4,
+    "requiredParts": [
+      {
+        "manufacturer": "Cometic",
+        "partNumber": "C9886",
+        "description": "C9886",
+        "qty": 1
+      },
+      {
+        "manufacturer": "James",
+        "partNumber": "JGI-17026-52",
+        "description": "JGI-17026-52",
+        "qty": 1
+      }
+    ]
+  },
+  {
+    "engineFamily": "Twin Cam 1999-2017",
+    "jobName": "Replace lower rocker arm cover/gasket, or rocker arms and /or shafts/rocker arm support - rear cylinder",
+    "jtcCode": "3152",
+    "baseWarrantyHours": 1.1,
+    "requiredParts": [
+      {
+        "manufacturer": "Cometic",
+        "partNumber": "C9886",
+        "description": "C9886",
+        "qty": 1
+      },
+      {
+        "manufacturer": "James",
+        "partNumber": "JGI-17026-52",
+        "description": "JGI-17026-52",
+        "qty": 1
+      }
+    ]
+  },
+  {
+    "engineFamily": "Twin Cam 1999-2017",
+    "jobName": "Replace lower rocker arm cover/gasket, or rocker arms and /or shafts/rocker arm support - both cylinders",
+    "jtcCode": "3153",
+    "baseWarrantyHours": 1.3,
+    "requiredParts": [
+      {
+        "manufacturer": "Cometic",
+        "partNumber": "C9886",
+        "description": "C9886",
+        "qty": 1
+      },
+      {
+        "manufacturer": "James",
+        "partNumber": "JGI-17026-52",
+        "description": "JGI-17026-52",
+        "qty": 1
+      }
+    ]
+  },
+  {
+    "engineFamily": "Twin Cam 1999-2017",
+    "jobName": "Replace cylinder base gasket - front cylinder",
+    "jtcCode": "3161",
+    "baseWarrantyHours": 1.8,
+    "requiredParts": [
+      {
+        "manufacturer": "Cometic",
+        "partNumber": "C9886",
+        "description": "C9886",
+        "qty": 1
+      },
+      {
+        "manufacturer": "James",
+        "partNumber": "JGI-17026-52",
+        "description": "JGI-17026-52",
+        "qty": 1
+      }
+    ]
+  },
+  {
+    "engineFamily": "Twin Cam 1999-2017",
+    "jobName": "Replace cylinder base gasket - rear cylinder",
+    "jtcCode": "3163",
+    "baseWarrantyHours": 1.8,
+    "requiredParts": [
+      {
+        "manufacturer": "Cometic",
+        "partNumber": "C9886",
+        "description": "C9886",
+        "qty": 1
+      },
+      {
+        "manufacturer": "James",
+        "partNumber": "JGI-17026-52",
+        "description": "JGI-17026-52",
+        "qty": 1
+      }
+    ]
+  },
+  {
+    "engineFamily": "Twin Cam 1999-2017",
+    "jobName": "Replace cylinder base gasket - both cylinders",
+    "jtcCode": "3168",
+    "baseWarrantyHours": 2.2,
+    "requiredParts": [
+      {
+        "manufacturer": "Cometic",
+        "partNumber": "C9886",
+        "description": "C9886",
+        "qty": 1
+      },
+      {
+        "manufacturer": "James",
+        "partNumber": "JGI-17026-52",
+        "description": "JGI-17026-52",
+        "qty": 1
+      }
+    ]
+  },
+  {
+    "engineFamily": "Twin Cam 1999-2017",
+    "jobName": "Recondition TOP END - includes disassembly, replacement of piston and sizing cylinder (.005\" pistons), replacing piston rings and all items listed under RECONDITION CYLINDER HEAD and assembly. - one piston and cylinder",
+    "jtcCode": "3202",
+    "baseWarrantyHours": 4.5,
+    "requiredParts": [
+      {
+        "manufacturer": "Cometic",
+        "partNumber": "C9886",
+        "description": "C9886",
+        "qty": 1
+      },
+      {
+        "manufacturer": "James",
+        "partNumber": "JGI-17026-52",
+        "description": "JGI-17026-52",
+        "qty": 1
+      }
+    ]
+  },
+  {
+    "engineFamily": "Twin Cam 1999-2017",
+    "jobName": "Recondition TOP END - includes disassembly, replacement of piston and sizing cylinder (.005\" pistons), replacing piston rings and all items listed under RECONDITION CYLINDER HEAD and assembly. - both pistons and cylinders",
+    "jtcCode": "3203",
+    "baseWarrantyHours": 5.1,
+    "requiredParts": [
+      {
+        "manufacturer": "Cometic",
+        "partNumber": "C9886",
+        "description": "C9886",
+        "qty": 1
+      },
+      {
+        "manufacturer": "James",
+        "partNumber": "JGI-17026-52",
+        "description": "JGI-17026-52",
+        "qty": 1
+      }
+    ]
+  },
+  {
+    "engineFamily": "Twin Cam 1999-2017",
+    "jobName": "Replace piston rings – includes deglazing cylinder - one cylinder",
+    "jtcCode": "3206",
+    "baseWarrantyHours": 2.1,
+    "requiredParts": [
+      {
+        "manufacturer": "Cometic",
+        "partNumber": "C9886",
+        "description": "C9886",
+        "qty": 1
+      },
+      {
+        "manufacturer": "James",
+        "partNumber": "JGI-17026-52",
+        "description": "JGI-17026-52",
+        "qty": 1
+      }
+    ]
+  },
+  {
+    "engineFamily": "Twin Cam 1999-2017",
+    "jobName": "Recondition TOP END – includes disassembly, deglazing cylinder and replacing rings, or replacing cylinder and piston, all items listed under RECONDITIONING CYLINDER HEAD and assembly. - one piston and cylinder",
+    "jtcCode": "3207",
+    "baseWarrantyHours": 4.3,
+    "requiredParts": [
+      {
+        "manufacturer": "Cometic",
+        "partNumber": "C9886",
+        "description": "C9886",
+        "qty": 1
+      },
+      {
+        "manufacturer": "James",
+        "partNumber": "JGI-17026-52",
+        "description": "JGI-17026-52",
+        "qty": 1
+      }
+    ]
+  },
+  {
+    "engineFamily": "Twin Cam 1999-2017",
+    "jobName": "Recondition TOP END – includes disassembly, deglazing cylinder and replacing rings, or replacing cylinder and piston, all items listed under RECONDITIONING CYLINDER HEAD and assembly. - both pistons and cylinders",
+    "jtcCode": "3208",
+    "baseWarrantyHours": 4.9,
+    "requiredParts": [
+      {
+        "manufacturer": "Cometic",
+        "partNumber": "C9886",
+        "description": "C9886",
+        "qty": 1
+      },
+      {
+        "manufacturer": "James",
+        "partNumber": "JGI-17026-52",
+        "description": "JGI-17026-52",
+        "qty": 1
+      }
+    ]
+  },
+  {
+    "engineFamily": "Twin Cam 1999-2017",
+    "jobName": "Replace piston rings. Includes deglaze cylinder - front cylinder",
+    "jtcCode": "3209",
+    "baseWarrantyHours": 5.2,
+    "requiredParts": [
+      {
+        "manufacturer": "Cometic",
+        "partNumber": "C9886",
+        "description": "C9886",
+        "qty": 1
+      },
+      {
+        "manufacturer": "James",
+        "partNumber": "JGI-17026-52",
+        "description": "JGI-17026-52",
+        "qty": 1
+      }
+    ]
+  },
+  {
+    "engineFamily": "Twin Cam 1999-2017",
+    "jobName": "Replace piston rings. Includes deglaze cylinder - rear cylinder",
+    "jtcCode": "3210",
+    "baseWarrantyHours": 5.3,
+    "requiredParts": [
+      {
+        "manufacturer": "Cometic",
+        "partNumber": "C9886",
+        "description": "C9886",
+        "qty": 1
+      },
+      {
+        "manufacturer": "James",
+        "partNumber": "JGI-17026-52",
+        "description": "JGI-17026-52",
+        "qty": 1
+      }
+    ]
+  },
+  {
+    "engineFamily": "Twin Cam 1999-2017",
+    "jobName": "Recondition TOP END - includes disassembly, replacement of piston and bore and hone, resizing cylinder (.010\" oversize or above), replacing piston rings and all items listed under RECONDITION CYLINDER HEAD and assembly. - one piston and cylinder",
+    "jtcCode": "3211",
+    "baseWarrantyHours": 4.9,
+    "requiredParts": [
+      {
+        "manufacturer": "Cometic",
+        "partNumber": "C9886",
+        "description": "C9886",
+        "qty": 1
+      },
+      {
+        "manufacturer": "James",
+        "partNumber": "JGI-17026-52",
+        "description": "JGI-17026-52",
+        "qty": 1
+      }
+    ]
+  },
+  {
+    "engineFamily": "Twin Cam 1999-2017",
+    "jobName": "Recondition TOP END - includes disassembly, replacement of piston and bore and hone, resizing cylinder (.010\" oversize or above), replacing piston rings and all items listed under RECONDITION CYLINDER HEAD and assembly. - both pistons and cylinders",
+    "jtcCode": "3212",
+    "baseWarrantyHours": 5.5,
+    "requiredParts": [
+      {
+        "manufacturer": "Cometic",
+        "partNumber": "C9886",
+        "description": "C9886",
+        "qty": 1
+      },
+      {
+        "manufacturer": "James",
+        "partNumber": "JGI-17026-52",
+        "description": "JGI-17026-52",
+        "qty": 1
+      }
+    ]
+  },
+  {
+    "engineFamily": "Twin Cam 1999-2017",
+    "jobName": "Replace piston rings. Includes deglaze cylinder - both cylinders",
+    "jtcCode": "3216",
+    "baseWarrantyHours": 2.7,
+    "requiredParts": [
+      {
+        "manufacturer": "Cometic",
+        "partNumber": "C9886",
+        "description": "C9886",
+        "qty": 1
+      },
+      {
+        "manufacturer": "James",
+        "partNumber": "JGI-17026-52",
+        "description": "JGI-17026-52",
+        "qty": 1
+      }
+    ]
+  },
+  {
+    "engineFamily": "Twin Cam 1999-2017",
+    "jobName": "Replace piston and piston rings – includes removal of cylinder head and cylinder, fitting new piston with rings, resizing cylinder and assembly - one cylinder",
+    "jtcCode": "3221",
+    "baseWarrantyHours": 2.7,
+    "requiredParts": [
+      {
+        "manufacturer": "Cometic",
+        "partNumber": "C9886",
+        "description": "C9886",
+        "qty": 1
+      },
+      {
+        "manufacturer": "James",
+        "partNumber": "JGI-17026-52",
+        "description": "JGI-17026-52",
+        "qty": 1
+      }
+    ]
+  },
+  {
+    "engineFamily": "Twin Cam 1999-2017",
+    "jobName": "Replace piston and piston rings – includes removal of cylinder head and cylinder, fitting new piston with rings, resizing cylinder and assembly - both cylinders",
+    "jtcCode": "3231",
+    "baseWarrantyHours": 3.9,
+    "requiredParts": [
+      {
+        "manufacturer": "Cometic",
+        "partNumber": "C9886",
+        "description": "C9886",
+        "qty": 1
+      },
+      {
+        "manufacturer": "James",
+        "partNumber": "JGI-17026-52",
+        "description": "JGI-17026-52",
+        "qty": 1
+      }
+    ]
+  },
+  {
+    "engineFamily": "Twin Cam 1999-2017",
+    "jobName": "Replace cylinder and piston - front cylinder",
+    "jtcCode": "3233",
+    "baseWarrantyHours": 4.9,
+    "requiredParts": [
+      {
+        "manufacturer": "Cometic",
+        "partNumber": "C9886",
+        "description": "C9886",
+        "qty": 1
+      },
+      {
+        "manufacturer": "James",
+        "partNumber": "JGI-17026-52",
+        "description": "JGI-17026-52",
+        "qty": 1
+      }
+    ]
+  },
+  {
+    "engineFamily": "Twin Cam 1999-2017",
+    "jobName": "Replace cylinder and piston - rear cylinder",
+    "jtcCode": "3234",
+    "baseWarrantyHours": 5,
+    "requiredParts": [
+      {
+        "manufacturer": "Cometic",
+        "partNumber": "C9886",
+        "description": "C9886",
+        "qty": 1
+      },
+      {
+        "manufacturer": "James",
+        "partNumber": "JGI-17026-52",
+        "description": "JGI-17026-52",
+        "qty": 1
+      }
+    ]
+  },
+  {
+    "engineFamily": "Twin Cam 1999-2017",
+    "jobName": "Replace cylinder and piston - one cylinder",
+    "jtcCode": "3236",
+    "baseWarrantyHours": 2,
+    "requiredParts": [
+      {
+        "manufacturer": "Cometic",
+        "partNumber": "C9886",
+        "description": "C9886",
+        "qty": 1
+      },
+      {
+        "manufacturer": "James",
+        "partNumber": "JGI-17026-52",
+        "description": "JGI-17026-52",
+        "qty": 1
+      }
+    ]
+  },
+  {
+    "engineFamily": "Twin Cam 1999-2017",
+    "jobName": "Replace cylinder and piston - both cylinders",
+    "jtcCode": "3246",
+    "baseWarrantyHours": 2.5,
+    "requiredParts": [
+      {
+        "manufacturer": "Cometic",
+        "partNumber": "C9886",
+        "description": "C9886",
+        "qty": 1
+      },
+      {
+        "manufacturer": "James",
+        "partNumber": "JGI-17026-52",
+        "description": "JGI-17026-52",
+        "qty": 1
+      }
+    ]
+  },
+  {
+    "engineFamily": "Twin Cam 1999-2017",
+    "jobName": "Replace one cylinder stud - cylinder removed",
+    "jtcCode": "3253",
+    "baseWarrantyHours": 0.1,
+    "requiredParts": [
+      {
+        "manufacturer": "Cometic",
+        "partNumber": "C9886",
+        "description": "C9886",
+        "qty": 1
+      },
+      {
+        "manufacturer": "James",
+        "partNumber": "JGI-17026-52",
+        "description": "JGI-17026-52",
+        "qty": 1
+      }
+    ]
+  },
+  {
+    "engineFamily": "Twin Cam 1999-2017",
+    "jobName": "Replace all eight cylinder studs - cylinders removed",
+    "jtcCode": "3254",
+    "baseWarrantyHours": 0.5,
+    "requiredParts": [
+      {
+        "manufacturer": "Cometic",
+        "partNumber": "C9886",
+        "description": "C9886",
+        "qty": 1
+      },
+      {
+        "manufacturer": "James",
+        "partNumber": "JGI-17026-52",
+        "description": "JGI-17026-52",
+        "qty": 1
+      }
+    ]
+  },
+  {
+    "engineFamily": "Twin Cam 1999-2017",
+    "jobName": "Replace lifter cover/gasket or lifter/and, or anti-rotation pin - one or two same cylinder",
+    "jtcCode": "3307",
+    "baseWarrantyHours": 1.3,
+    "requiredParts": [
+      {
+        "manufacturer": "Cometic",
+        "partNumber": "C9886",
+        "description": "C9886",
+        "qty": 1
+      },
+      {
+        "manufacturer": "James",
+        "partNumber": "JGI-17026-52",
+        "description": "JGI-17026-52",
+        "qty": 1
+      }
+    ]
+  },
+  {
+    "engineFamily": "Twin Cam 1999-2017",
+    "jobName": "Replace lifter cover/gasket or lifter/and, or anti-rotation pin - both on both cylinders",
+    "jtcCode": "3310",
+    "baseWarrantyHours": 1.5,
+    "requiredParts": [
+      {
+        "manufacturer": "Cometic",
+        "partNumber": "C9886",
+        "description": "C9886",
+        "qty": 1
+      },
+      {
+        "manufacturer": "James",
+        "partNumber": "JGI-17026-52",
+        "description": "JGI-17026-52",
+        "qty": 1
+      }
+    ]
+  },
+  {
+    "engineFamily": "Twin Cam 1999-2017",
+    "jobName": "Replace push rod, push rod cover and/or O-ring or quad seal - one or two same cylinder",
+    "jtcCode": "3317",
+    "baseWarrantyHours": 1.3,
+    "requiredParts": [
+      {
+        "manufacturer": "Cometic",
+        "partNumber": "C9886",
+        "description": "C9886",
+        "qty": 1
+      },
+      {
+        "manufacturer": "James",
+        "partNumber": "JGI-17026-52",
+        "description": "JGI-17026-52",
+        "qty": 1
+      }
+    ]
+  },
+  {
+    "engineFamily": "Twin Cam 1999-2017",
+    "jobName": "Replace push rod, push rod cover and/or O-ring or quad seal - one each cylinder",
+    "jtcCode": "3318",
+    "baseWarrantyHours": 1.5,
+    "requiredParts": [
+      {
+        "manufacturer": "Cometic",
+        "partNumber": "C9886",
+        "description": "C9886",
+        "qty": 1
+      },
+      {
+        "manufacturer": "James",
+        "partNumber": "JGI-17026-52",
+        "description": "JGI-17026-52",
+        "qty": 1
+      }
+    ]
+  },
+  {
+    "engineFamily": "Twin Cam 1999-2017",
+    "jobName": "Replace cam cover and/or gasket - **0.9h**[00-17:DYN,SFT] **1.6h**[00:FLTRSEI; 00,07-11:FLHPE; 00,07-16:FLHP; 00-03,07-09:FLTR; 00-05,07-13:FLHTC; 00-06:FLHPEI,FLHPI,FLHRCI,FLHRI,FLHTCI,FLHTPI,FLTRI; 00-10:FLHT; 00-16:FLHR; 03-06:FLHTI; 04-06:FLHRSI; 04-07:FLHRS; 06:FLHXI; 06-16:FLHX; 07-16:FLHRC,FLHTP; 10-13,15-16:FLTRX; 11:FLHRC 103,FLHTC 103,FLHX 103,FLHXSE2,FLTRX 103; 11,14:FLHR 103; 12:FLHXSE3,FLTRXSE; 13:FLHRSE5,FLTRXSE2; 14:FLHRSE; 14-16:FLHXS; 15-16:FLRT,FLTRXS; 17-18,20-25:TRK; 17-25:TRG; 18-25:SFT; 19:FLHTCUTG] **2.0h**[00-06:FLHTCUI,FLHTCUI WITH SIDECAR; 07-10:FLHTCU WITH SIDECAR; 07-16:FLHTCU; 09-14:TRK; 10-16:FLHTK; 11:FLHTCU 103,FLHTCUSE6,FLHTK WITH SIDECAR; 11,15-16:FLTRUSE; 11-13,16:FLTRU; 12:FLHTCUSE7; 13:FLHTCU8 103,FLHTCUSE8; 14:FLHTK 103; 14-16:FLHTCU TC,FLHTKSE; 15-16:FLHTCUL,FLHTCUL TC,FLHTCUTG,FLHTKL,FLHXSE] **2.9h**[19:FLRT]",
+    "jtcCode": "3325",
+    "baseWarrantyHours": 0.9,
+    "requiredParts": [
+      {
+        "manufacturer": "Cometic",
+        "partNumber": "C9886",
+        "description": "C9886",
+        "qty": 1
+      },
+      {
+        "manufacturer": "James",
+        "partNumber": "JGI-17026-52",
+        "description": "JGI-17026-52",
+        "qty": 1
+      }
+    ]
+  },
+  {
+    "engineFamily": "Twin Cam 1999-2017",
+    "jobName": "Replace primary cam chain, sprockets and/or fastener - **1.0h**[00-17:DYN,SFT] **1.7h**[00:FLTRSEI; 00,07-11:FLHPE; 00,07-16:FLHP; 00-03,07-09:FLTR; 00-05,07-13:FLHTC; 00-06:FLHPEI,FLHPI,FLHRCI,FLHRI,FLHTCI,FLHTPI,FLTRI; 00-10:FLHT; 00-16:FLHR; 03-06:FLHTI; 04-06:FLHRSI; 04-07:FLHRS; 06:FLHXI; 06-16:FLHX; 07-16:FLHRC,FLHTP; 10-13,15-16:FLTRX; 11:FLHRC 103,FLHTC 103,FLHX 103,FLHXSE2,FLTRX 103; 11,14:FLHR 103; 12:FLHXSE3,FLTRXSE; 13:FLHRSE5,FLTRXSE2; 14:FLHRSE; 14-16:FLHXS; 15-16:FLRT,FLTRXS] **1.9h**[17-18,20-25:TRK; 17-22:TRG; 18-25:SFT; 19:FLHTCUTG; 23:FLHFB,FLHTKANV,FLHXS,FLHXSANV,FLHXST,FLTRKSEANV,FLTRXS,FLTRXSANV,FLTRXST; 23-24:FLHTK,FLTRK; 23-25:FLHP,FLHRXS,FLHTP,FLHX,FLTRX; 24-25:FLTRXP,FLTRXSTSE; 25:FLHXU] **2.0h**[23-25:FLHXSE,FLTRXSE] **2.1h**[00-06:FLHTCUI,FLHTCUI WITH SIDECAR; 07-10:FLHTCU WITH SIDECAR; 07-16:FLHTCU; 09-14:TRK; 10-16:FLHTK; 11:FLHTCU 103,FLHTCUSE6,FLHTK WITH SIDECAR; 11,15-16:FLTRUSE; 11-13,16:FLTRU; 12:FLHTCUSE7; 13:FLHTCU8 103,FLHTCUSE8; 14:FLHTK 103; 14-16:FLHTCU TC,FLHTKSE; 15-16:FLHTCUL,FLHTCUL TC,FLHTCUTG,FLHTKL,FLHXSE] **3.2h**[19:FLRT]",
+    "jtcCode": "3327",
+    "baseWarrantyHours": 1,
+    "requiredParts": [
+      {
+        "manufacturer": "Cometic",
+        "partNumber": "C9886",
+        "description": "C9886",
+        "qty": 1
+      },
+      {
+        "manufacturer": "James",
+        "partNumber": "JGI-17026-52",
+        "description": "JGI-17026-52",
+        "qty": 1
+      }
+    ]
+  },
+  {
+    "engineFamily": "Twin Cam 1999-2017",
+    "jobName": "Replace primary cam chain tensioner - front cylinder",
+    "jtcCode": "3328",
+    "baseWarrantyHours": 1,
+    "requiredParts": [
+      {
+        "manufacturer": "Cometic",
+        "partNumber": "C9886",
+        "description": "C9886",
+        "qty": 1
+      },
+      {
+        "manufacturer": "James",
+        "partNumber": "JGI-17026-52",
+        "description": "JGI-17026-52",
+        "qty": 1
+      }
+    ]
+  },
+  {
+    "engineFamily": "Twin Cam 1999-2017",
+    "jobName": "Replace cam support plate O-rings - **2.1h**[00-17:DYN,SFT] **2.8h**[00:FLTRSEI; 00,07-11:FLHPE; 00,07-16:FLHP; 00-03,07-09:FLTR; 00-05,07-13:FLHTC; 00-06:FLHPEI,FLHPI,FLHRCI,FLHRI,FLHTCI,FLHTPI,FLTRI; 00-10:FLHT; 00-16:FLHR; 03-06:FLHTI; 04-06:FLHRSI; 04-07:FLHRS; 06:FLHXI; 06-16:FLHX; 07-16:FLHRC,FLHTP; 10-13,15-16:FLTRX; 11:FLHRC 103,FLHTC 103,FLHX 103,FLHXSE2,FLTRX 103; 11,14:FLHR 103; 12:FLHXSE3,FLTRXSE; 13:FLHRSE5,FLTRXSE2; 14:FLHRSE; 14-16:FLHXS; 15-16:FLRT,FLTRXS] **3.2h**[00-06:FLHTCUI,FLHTCUI WITH SIDECAR; 07-10:FLHTCU WITH SIDECAR; 07-16:FLHTCU; 09-14:TRK; 10-16:FLHTK; 11:FLHTCU 103,FLHTCUSE6,FLHTK WITH SIDECAR; 11,15-16:FLTRUSE; 11-13,16:FLTRU; 12:FLHTCUSE7; 13:FLHTCU8 103,FLHTCUSE8; 14:FLHTK 103; 14-16:FLHTCU TC,FLHTKSE; 15-16:FLHTCUL,FLHTCUL TC,FLHTCUTG,FLHTKL,FLHXSE]",
+    "jtcCode": "3335",
+    "baseWarrantyHours": 2.1,
+    "requiredParts": [
+      {
+        "manufacturer": "Cometic",
+        "partNumber": "C9886",
+        "description": "C9886",
+        "qty": 1
+      },
+      {
+        "manufacturer": "James",
+        "partNumber": "JGI-17026-52",
+        "description": "JGI-17026-52",
+        "qty": 1
+      }
+    ]
+  },
+  {
+    "engineFamily": "Twin Cam 1999-2017",
+    "jobName": "Replace cam support plate - **2.1h**[00-05:DYN,SFT] **2.8h**[00:FLHP,FLHPE,FLTRSEI; 00-03:FLTR; 00-05:FLHT,FLHTC,FLHTCI,FLHTPI,FLTRI; 00-06:FLHPEI,FLHPI,FLHR,FLHRCI,FLHRI; 03-05:FLHTI; 04-06:FLHRS,FLHRSI] **3.0h**[06-17:DYN,SFT] **3.2h**[00-05:FLHTCUI,FLHTCUI WITH SIDECAR] **3.5h**[07:FLHRS; 07-11:FLHPE; 07-16:FLHP,FLHR,FLHRC; 11:FLHRC 103; 11,14:FLHR 103; 13:FLHRSE5; 14:FLHRSE; 15-16:FLRT] **3.7h**[06:FLHTCI,FLHTI,FLHTPI,FLHXI,FLTRI; 06-10:FLHT; 06-16:FLHX; 07-09:FLTR; 07-13:FLHTC; 07-16:FLHTP; 10-13,15-16:FLTRX; 11:FLHTC 103,FLHX 103,FLHXSE2,FLTRX 103; 12:FLHXSE3,FLTRXSE; 13:FLTRXSE2; 14-16:FLHXS; 15-16:FLTRXS] **4.1h**[06:FLHTCUI,FLHTCUI WITH SIDECAR; 07-10:FLHTCU WITH SIDECAR; 07-16:FLHTCU; 09-14,17-18,20-25:TRK; 10-16,23-24:FLHTK; 11:FLHTCU 103,FLHTCUSE6,FLHTK WITH SIDECAR; 11,15-16:FLTRUSE; 11-13,16:FLTRU; 12:FLHTCUSE7; 13:FLHTCU8 103,FLHTCUSE8; 14:FLHTK 103; 14-16:FLHTCU TC,FLHTKSE; 15-16:FLHTCUL,FLHTCUL TC,FLHTKL,FLHXSE; 15-16,19:FLHTCUTG; 17-22:TRG; 18-24:SFT; 23:FLHFB,FLHTKANV,FLHX,FLHXS,FLHXSANV,FLHXST,FLTRKSEANV,FLTRX,FLTRXS,FLTRXSANV,FLTRXST; 23-24:FLTRK; 23-25:FLHP,FLHRXS,FLHTP; 24-25:FLTRXP; 25:FLHXU] **4.3h**[25:SFT] **5.0h**[24-25:FLHX,FLTRX,FLTRXSTSE] **5.1h**[23-25:FLHXSE,FLTRXSE] **5.5h**[19:FLRT]",
+    "jtcCode": "3337",
+    "baseWarrantyHours": 2.1,
+    "requiredParts": [
+      {
+        "manufacturer": "Cometic",
+        "partNumber": "C9886",
+        "description": "C9886",
+        "qty": 1
+      },
+      {
+        "manufacturer": "James",
+        "partNumber": "JGI-17026-52",
+        "description": "JGI-17026-52",
+        "qty": 1
+      }
+    ]
+  },
+  {
+    "engineFamily": "Twin Cam 1999-2017",
+    "jobName": "Replace cam support bearing/cams/secondary cam chain/tensioner - **2.3h**[00-05:DYN,SFT] **3.0h**[00:FLHP,FLHPE,FLTRSEI; 00-03:FLTR; 00-05:FLHT,FLHTC,FLHTCI,FLHTPI,FLTRI; 00-06:FLHPEI,FLHPI,FLHR,FLHRCI,FLHRI; 03-05:FLHTI; 04-06:FLHRS,FLHRSI] **3.2h**[06-17:DYN,SFT] **3.4h**[00-05:FLHTCUI,FLHTCUI WITH SIDECAR] **3.7h**[07:FLHRS; 07-11:FLHPE; 07-16:FLHP,FLHR,FLHRC; 11:FLHRC 103; 11,14:FLHR 103; 13:FLHRSE5; 14:FLHRSE; 15-16:FLRT] **3.9h**[06:FLHTCI,FLHTI,FLHTPI,FLHXI,FLTRI; 06-10:FLHT; 06-16:FLHX; 07-09:FLTR; 07-13:FLHTC; 07-16:FLHTP; 10-13,15-16:FLTRX; 11:FLHTC 103,FLHX 103,FLHXSE2,FLTRX 103; 12:FLHXSE3,FLTRXSE; 13:FLTRXSE2; 14-16:FLHXS; 15-16:FLTRXS] **4.3h**[06:FLHTCUI,FLHTCUI WITH SIDECAR; 07-10:FLHTCU WITH SIDECAR; 07-16:FLHTCU; 09-14:TRK; 10-16:FLHTK; 11:FLHTCU 103,FLHTCUSE6,FLHTK WITH SIDECAR; 11,15-16:FLTRUSE; 11-13,16:FLTRU; 12:FLHTCUSE7; 13:FLHTCU8 103,FLHTCUSE8; 14:FLHTK 103; 14-16:FLHTCU TC,FLHTKSE; 15-16:FLHTCUL,FLHTCUL TC,FLHTCUTG,FLHTKL,FLHXSE] **4.7h**[17-18,20-25:TRK; 17-22:TRG; 18-25:SFT; 19:FLHTCUTG; 23:FLHFB,FLHTKANV,FLHX,FLHXS,FLHXSANV,FLHXST,FLTRKSEANV,FLTRX,FLTRXS,FLTRXSANV,FLTRXST; 23-24:FLHTK,FLTRK; 23-25:FLHP,FLHRXS,FLHTP; 24-25:FLTRXP; 25:FLHXU] **5.1h**[24-25:FLHX,FLTRX,FLTRXSTSE] **5.2h**[23-25:FLHXSE,FLTRXSE] **5.7h**[19:FLRT]",
+    "jtcCode": "3338",
+    "baseWarrantyHours": 2.3,
+    "requiredParts": [
+      {
+        "manufacturer": "Cometic",
+        "partNumber": "C9886",
+        "description": "C9886",
+        "qty": 1
+      },
+      {
+        "manufacturer": "James",
+        "partNumber": "JGI-17026-52",
+        "description": "JGI-17026-52",
+        "qty": 1
+      }
+    ]
+  },
+  {
+    "engineFamily": "Twin Cam 1999-2017",
+    "jobName": "Replace cam bearing crankcase - one bearing",
+    "jtcCode": "3342",
+    "baseWarrantyHours": 2.1,
+    "requiredParts": [
+      {
+        "manufacturer": "Cometic",
+        "partNumber": "C9886",
+        "description": "C9886",
+        "qty": 1
+      },
+      {
+        "manufacturer": "James",
+        "partNumber": "JGI-17026-52",
+        "description": "JGI-17026-52",
+        "qty": 1
+      }
+    ]
+  },
+  {
+    "engineFamily": "Twin Cam 1999-2017",
+    "jobName": "Replace cam bearing crankcase - two bearings",
+    "jtcCode": "3343",
+    "baseWarrantyHours": 2.2,
+    "requiredParts": [
+      {
+        "manufacturer": "Cometic",
+        "partNumber": "C9886",
+        "description": "C9886",
+        "qty": 1
+      },
+      {
+        "manufacturer": "James",
+        "partNumber": "JGI-17026-52",
+        "description": "JGI-17026-52",
+        "qty": 1
+      }
+    ]
+  },
+  {
+    "engineFamily": "Twin Cam 1999-2017",
+    "jobName": "Recondition cylinder heads - head removed (for non-related repairs) - one head",
+    "jtcCode": "3425",
+    "baseWarrantyHours": 1,
+    "requiredParts": [
+      {
+        "manufacturer": "Cometic",
+        "partNumber": "C9886",
+        "description": "C9886",
+        "qty": 1
+      },
+      {
+        "manufacturer": "James",
+        "partNumber": "JGI-17026-52",
+        "description": "JGI-17026-52",
+        "qty": 1
+      }
+    ]
+  },
+  {
+    "engineFamily": "Twin Cam 1999-2017",
+    "jobName": "Recondition cylinder heads - head removed (for non-related repairs) - both heads",
+    "jtcCode": "3426",
+    "baseWarrantyHours": 2,
+    "requiredParts": [
+      {
+        "manufacturer": "Cometic",
+        "partNumber": "C9886",
+        "description": "C9886",
+        "qty": 1
+      },
+      {
+        "manufacturer": "James",
+        "partNumber": "JGI-17026-52",
+        "description": "JGI-17026-52",
+        "qty": 1
+      }
+    ]
+  },
+  {
+    "engineFamily": "Twin Cam 1999-2017",
+    "jobName": "Replace piston rings - cylinders removed for non-related repairs. Deglaze only",
+    "jtcCode": "3428",
+    "baseWarrantyHours": 0.3,
+    "requiredParts": [
+      {
+        "manufacturer": "Cometic",
+        "partNumber": "C9886",
+        "description": "C9886",
+        "qty": 1
+      },
+      {
+        "manufacturer": "James",
+        "partNumber": "JGI-17026-52",
+        "description": "JGI-17026-52",
+        "qty": 1
+      }
+    ]
+  },
+  {
+    "engineFamily": "Twin Cam 1999-2017",
+    "jobName": "Replace pistons - cylinders removed (for non-related repairs) includes resizing cylinders",
+    "jtcCode": "3430",
+    "baseWarrantyHours": 1.4,
+    "requiredParts": [
+      {
+        "manufacturer": "Cometic",
+        "partNumber": "C9886",
+        "description": "C9886",
+        "qty": 1
+      },
+      {
+        "manufacturer": "James",
+        "partNumber": "JGI-17026-52",
+        "description": "JGI-17026-52",
+        "qty": 1
+      }
+    ]
+  },
+  {
+    "engineFamily": "Twin Cam 1999-2017",
+    "jobName": "Replace lock cam or cable in saddlebag or Tour-Pak - power locks inoperative",
+    "jtcCode": "6220",
+    "baseWarrantyHours": 0.5,
+    "requiredParts": [
+      {
+        "manufacturer": "Cometic",
+        "partNumber": "C9886",
+        "description": "C9886",
+        "qty": 1
+      },
+      {
+        "manufacturer": "James",
+        "partNumber": "JGI-17026-52",
+        "description": "JGI-17026-52",
+        "qty": 1
+      }
+    ]
+  },
+  {
+    "engineFamily": "Twin Cam 1999-2017",
+    "jobName": "Replace lock cylinder in saddlebag or Tour-Pak - power locks inoperative",
+    "jtcCode": "6221",
+    "baseWarrantyHours": 0.4,
+    "requiredParts": [
+      {
+        "manufacturer": "Cometic",
+        "partNumber": "C9886",
+        "description": "C9886",
+        "qty": 1
+      },
+      {
+        "manufacturer": "James",
+        "partNumber": "JGI-17026-52",
+        "description": "JGI-17026-52",
+        "qty": 1
+      }
+    ]
+  },
+  {
+    "engineFamily": "Evolution Sportster (XL) 2000-2022",
+    "jobName": "Recondition cylinder head – includes removal of head and gasket, remove carbon, service valve guides, grind valves and seats, test springs and install head and gaskets. - front head",
+    "jtcCode": "3101",
+    "baseWarrantyHours": 3.8,
+    "requiredParts": [
+      {
+        "manufacturer": "Cometic",
+        "partNumber": "C9886",
+        "description": "C9886",
+        "qty": 1
+      },
+      {
+        "manufacturer": "James",
+        "partNumber": "JGI-17026-52",
+        "description": "JGI-17026-52",
+        "qty": 1
+      }
+    ]
+  },
+  {
+    "engineFamily": "Evolution Sportster (XL) 2000-2022",
+    "jobName": "Recondition cylinder head – includes removal of head and gasket, remove carbon, service valve guides, grind valves and seats, test springs and install head and gaskets. - rear head",
+    "jtcCode": "3103",
+    "baseWarrantyHours": 3.8,
+    "requiredParts": [
+      {
+        "manufacturer": "Cometic",
+        "partNumber": "C9886",
+        "description": "C9886",
+        "qty": 1
+      },
+      {
+        "manufacturer": "James",
+        "partNumber": "JGI-17026-52",
+        "description": "JGI-17026-52",
+        "qty": 1
+      }
+    ]
+  },
+  {
+    "engineFamily": "Evolution Sportster (XL) 2000-2022",
+    "jobName": "Recondition cylinder head – includes removal of head and gasket, remove carbon, service valve guides, grind valves and seats, test springs and install head and gaskets. - both heads",
+    "jtcCode": "3104",
+    "baseWarrantyHours": 5.7,
+    "requiredParts": [
+      {
+        "manufacturer": "Cometic",
+        "partNumber": "C9886",
+        "description": "C9886",
+        "qty": 1
+      },
+      {
+        "manufacturer": "James",
+        "partNumber": "JGI-17026-52",
+        "description": "JGI-17026-52",
+        "qty": 1
+      }
+    ]
+  },
+  {
+    "engineFamily": "Evolution Sportster (XL) 2000-2022",
+    "jobName": "Replace cylinder head - one head",
+    "jtcCode": "3106",
+    "baseWarrantyHours": 2.8,
+    "requiredParts": [
+      {
+        "manufacturer": "Cometic",
+        "partNumber": "C9886",
+        "description": "C9886",
+        "qty": 1
+      },
+      {
+        "manufacturer": "James",
+        "partNumber": "JGI-17026-52",
+        "description": "JGI-17026-52",
+        "qty": 1
+      }
+    ]
+  },
+  {
+    "engineFamily": "Evolution Sportster (XL) 2000-2022",
+    "jobName": "Replace cylinder head - both heads",
+    "jtcCode": "3108",
+    "baseWarrantyHours": 3.9,
+    "requiredParts": [
+      {
+        "manufacturer": "Cometic",
+        "partNumber": "C9886",
+        "description": "C9886",
+        "qty": 1
+      },
+      {
+        "manufacturer": "James",
+        "partNumber": "JGI-17026-52",
+        "description": "JGI-17026-52",
+        "qty": 1
+      }
+    ]
+  },
+  {
+    "engineFamily": "Evolution Sportster (XL) 2000-2022",
+    "jobName": "Replace rear rocker wire form - rear cylinder",
+    "jtcCode": "3126",
+    "baseWarrantyHours": 0.2,
+    "requiredParts": [
+      {
+        "manufacturer": "Cometic",
+        "partNumber": "C9886",
+        "description": "C9886",
+        "qty": 1
+      },
+      {
+        "manufacturer": "James",
+        "partNumber": "JGI-17026-52",
+        "description": "JGI-17026-52",
+        "qty": 1
+      }
+    ]
+  },
+  {
+    "engineFamily": "Evolution Sportster (XL) 2000-2022",
+    "jobName": "Replace induction module cover - between cylinders",
+    "jtcCode": "3127",
+    "baseWarrantyHours": 0.3,
+    "requiredParts": [
+      {
+        "manufacturer": "Cometic",
+        "partNumber": "C9886",
+        "description": "C9886",
+        "qty": 1
+      },
+      {
+        "manufacturer": "James",
+        "partNumber": "JGI-17026-52",
+        "description": "JGI-17026-52",
+        "qty": 1
+      }
+    ]
+  },
+  {
+    "engineFamily": "Evolution Sportster (XL) 2000-2022",
+    "jobName": "Replace valve seal or spring after cylinder head removal - one seal or spring (intake or exhaust)",
+    "jtcCode": "3131",
+    "baseWarrantyHours": 0.1,
+    "requiredParts": [
+      {
+        "manufacturer": "Cometic",
+        "partNumber": "C9886",
+        "description": "C9886",
+        "qty": 1
+      },
+      {
+        "manufacturer": "James",
+        "partNumber": "JGI-17026-52",
+        "description": "JGI-17026-52",
+        "qty": 1
+      }
+    ]
+  },
+  {
+    "engineFamily": "Evolution Sportster (XL) 2000-2022",
+    "jobName": "Replace valve seal or spring after cylinder head removal - both seals or springs (intake or exhaust)",
+    "jtcCode": "3132",
+    "baseWarrantyHours": 0.2,
+    "requiredParts": [
+      {
+        "manufacturer": "Cometic",
+        "partNumber": "C9886",
+        "description": "C9886",
+        "qty": 1
+      },
+      {
+        "manufacturer": "James",
+        "partNumber": "JGI-17026-52",
+        "description": "JGI-17026-52",
+        "qty": 1
+      }
+    ]
+  },
+  {
+    "engineFamily": "Evolution Sportster (XL) 2000-2022",
+    "jobName": "Replace cylinder head gasket - front cylinder",
+    "jtcCode": "3140",
+    "baseWarrantyHours": 2,
+    "requiredParts": [
+      {
+        "manufacturer": "Cometic",
+        "partNumber": "C9886",
+        "description": "C9886",
+        "qty": 1
+      },
+      {
+        "manufacturer": "James",
+        "partNumber": "JGI-17026-52",
+        "description": "JGI-17026-52",
+        "qty": 1
+      }
+    ]
+  },
+  {
+    "engineFamily": "Evolution Sportster (XL) 2000-2022",
+    "jobName": "Replace cylinder head gasket - rear cylinder",
+    "jtcCode": "3142",
+    "baseWarrantyHours": 2,
+    "requiredParts": [
+      {
+        "manufacturer": "Cometic",
+        "partNumber": "C9886",
+        "description": "C9886",
+        "qty": 1
+      },
+      {
+        "manufacturer": "James",
+        "partNumber": "JGI-17026-52",
+        "description": "JGI-17026-52",
+        "qty": 1
+      }
+    ]
+  },
+  {
+    "engineFamily": "Evolution Sportster (XL) 2000-2022",
+    "jobName": "Replace cylinder head gasket - both cylinders",
+    "jtcCode": "3143",
+    "baseWarrantyHours": 2.5,
+    "requiredParts": [
+      {
+        "manufacturer": "Cometic",
+        "partNumber": "C9886",
+        "description": "C9886",
+        "qty": 1
+      },
+      {
+        "manufacturer": "James",
+        "partNumber": "JGI-17026-52",
+        "description": "JGI-17026-52",
+        "qty": 1
+      }
+    ]
+  },
+  {
+    "engineFamily": "Evolution Sportster (XL) 2000-2022",
+    "jobName": "Replace rocker arm covers and/or gaskets - front cylinder",
+    "jtcCode": "3144",
+    "baseWarrantyHours": 0.9,
+    "requiredParts": [
+      {
+        "manufacturer": "Cometic",
+        "partNumber": "C9886",
+        "description": "C9886",
+        "qty": 1
+      },
+      {
+        "manufacturer": "James",
+        "partNumber": "JGI-17026-52",
+        "description": "JGI-17026-52",
+        "qty": 1
+      }
+    ]
+  },
+  {
+    "engineFamily": "Evolution Sportster (XL) 2000-2022",
+    "jobName": "Replace rocker arm covers and/or gaskets - rear cylinder",
+    "jtcCode": "3145",
+    "baseWarrantyHours": 0.9,
+    "requiredParts": [
+      {
+        "manufacturer": "Cometic",
+        "partNumber": "C9886",
+        "description": "C9886",
+        "qty": 1
+      },
+      {
+        "manufacturer": "James",
+        "partNumber": "JGI-17026-52",
+        "description": "JGI-17026-52",
+        "qty": 1
+      }
+    ]
+  },
+  {
+    "engineFamily": "Evolution Sportster (XL) 2000-2022",
+    "jobName": "Replace lower rocker arm cover/gasket, or rocker arms and /or shafts/rocker arm support - front cylinder",
+    "jtcCode": "3147",
+    "baseWarrantyHours": 1,
+    "requiredParts": [
+      {
+        "manufacturer": "Cometic",
+        "partNumber": "C9886",
+        "description": "C9886",
+        "qty": 1
+      },
+      {
+        "manufacturer": "James",
+        "partNumber": "JGI-17026-52",
+        "description": "JGI-17026-52",
+        "qty": 1
+      }
+    ]
+  },
+  {
+    "engineFamily": "Evolution Sportster (XL) 2000-2022",
+    "jobName": "Replace rocker arm covers and/or gaskets - both cylinders",
+    "jtcCode": "3148",
+    "baseWarrantyHours": 1.1,
+    "requiredParts": [
+      {
+        "manufacturer": "Cometic",
+        "partNumber": "C9886",
+        "description": "C9886",
+        "qty": 1
+      },
+      {
+        "manufacturer": "James",
+        "partNumber": "JGI-17026-52",
+        "description": "JGI-17026-52",
+        "qty": 1
+      }
+    ]
+  },
+  {
+    "engineFamily": "Evolution Sportster (XL) 2000-2022",
+    "jobName": "Recondition rocker arms after heads are removed - one head",
+    "jtcCode": "3149",
+    "baseWarrantyHours": 0.5,
+    "requiredParts": [
+      {
+        "manufacturer": "Cometic",
+        "partNumber": "C9886",
+        "description": "C9886",
+        "qty": 1
+      },
+      {
+        "manufacturer": "James",
+        "partNumber": "JGI-17026-52",
+        "description": "JGI-17026-52",
+        "qty": 1
+      }
+    ]
+  },
+  {
+    "engineFamily": "Evolution Sportster (XL) 2000-2022",
+    "jobName": "Recondition rocker arms after heads are removed - both heads",
+    "jtcCode": "3150",
+    "baseWarrantyHours": 1,
+    "requiredParts": [
+      {
+        "manufacturer": "Cometic",
+        "partNumber": "C9886",
+        "description": "C9886",
+        "qty": 1
+      },
+      {
+        "manufacturer": "James",
+        "partNumber": "JGI-17026-52",
+        "description": "JGI-17026-52",
+        "qty": 1
+      }
+    ]
+  },
+  {
+    "engineFamily": "Evolution Sportster (XL) 2000-2022",
+    "jobName": "Replace lower rocker arm cover/gasket, or rocker arms and /or shafts/rocker arm support - rear cylinder",
+    "jtcCode": "3152",
+    "baseWarrantyHours": 1,
+    "requiredParts": [
+      {
+        "manufacturer": "Cometic",
+        "partNumber": "C9886",
+        "description": "C9886",
+        "qty": 1
+      },
+      {
+        "manufacturer": "James",
+        "partNumber": "JGI-17026-52",
+        "description": "JGI-17026-52",
+        "qty": 1
+      }
+    ]
+  },
+  {
+    "engineFamily": "Evolution Sportster (XL) 2000-2022",
+    "jobName": "Replace lower rocker arm cover/gasket, or rocker arms and /or shafts/rocker arm support - both cylinders",
+    "jtcCode": "3153",
+    "baseWarrantyHours": 1.6,
+    "requiredParts": [
+      {
+        "manufacturer": "Cometic",
+        "partNumber": "C9886",
+        "description": "C9886",
+        "qty": 1
+      },
+      {
+        "manufacturer": "James",
+        "partNumber": "JGI-17026-52",
+        "description": "JGI-17026-52",
+        "qty": 1
+      }
+    ]
+  },
+  {
+    "engineFamily": "Evolution Sportster (XL) 2000-2022",
+    "jobName": "Replace cylinder base gasket - front cylinder",
+    "jtcCode": "3161",
+    "baseWarrantyHours": 2.6,
+    "requiredParts": [
+      {
+        "manufacturer": "Cometic",
+        "partNumber": "C9886",
+        "description": "C9886",
+        "qty": 1
+      },
+      {
+        "manufacturer": "James",
+        "partNumber": "JGI-17026-52",
+        "description": "JGI-17026-52",
+        "qty": 1
+      }
+    ]
+  },
+  {
+    "engineFamily": "Evolution Sportster (XL) 2000-2022",
+    "jobName": "Replace cylinder base gasket - rear cylinder",
+    "jtcCode": "3163",
+    "baseWarrantyHours": 2.6,
+    "requiredParts": [
+      {
+        "manufacturer": "Cometic",
+        "partNumber": "C9886",
+        "description": "C9886",
+        "qty": 1
+      },
+      {
+        "manufacturer": "James",
+        "partNumber": "JGI-17026-52",
+        "description": "JGI-17026-52",
+        "qty": 1
+      }
+    ]
+  },
+  {
+    "engineFamily": "Evolution Sportster (XL) 2000-2022",
+    "jobName": "Replace cylinder base gasket - both cylinders",
+    "jtcCode": "3168",
+    "baseWarrantyHours": 3.1,
+    "requiredParts": [
+      {
+        "manufacturer": "Cometic",
+        "partNumber": "C9886",
+        "description": "C9886",
+        "qty": 1
+      },
+      {
+        "manufacturer": "James",
+        "partNumber": "JGI-17026-52",
+        "description": "JGI-17026-52",
+        "qty": 1
+      }
+    ]
+  },
+  {
+    "engineFamily": "Evolution Sportster (XL) 2000-2022",
+    "jobName": "Recondition TOP END - includes disassembly, replacement of piston and sizing cylinder (.005\" pistons), replacing piston rings and all items listed under RECONDITION CYLINDER HEAD and assembly. - one piston and cylinder",
+    "jtcCode": "3202",
+    "baseWarrantyHours": 5.2,
+    "requiredParts": [
+      {
+        "manufacturer": "Cometic",
+        "partNumber": "C9886",
+        "description": "C9886",
+        "qty": 1
+      },
+      {
+        "manufacturer": "James",
+        "partNumber": "JGI-17026-52",
+        "description": "JGI-17026-52",
+        "qty": 1
+      }
+    ]
+  },
+  {
+    "engineFamily": "Evolution Sportster (XL) 2000-2022",
+    "jobName": "Recondition TOP END - includes disassembly, replacement of piston and sizing cylinder (.005\" pistons), replacing piston rings and all items listed under RECONDITION CYLINDER HEAD and assembly. - both pistons and cylinders",
+    "jtcCode": "3203",
+    "baseWarrantyHours": 7.9,
+    "requiredParts": [
+      {
+        "manufacturer": "Cometic",
+        "partNumber": "C9886",
+        "description": "C9886",
+        "qty": 1
+      },
+      {
+        "manufacturer": "James",
+        "partNumber": "JGI-17026-52",
+        "description": "JGI-17026-52",
+        "qty": 1
+      }
+    ]
+  },
+  {
+    "engineFamily": "Evolution Sportster (XL) 2000-2022",
+    "jobName": "Replace piston rings – includes deglazing cylinder - one cylinder",
+    "jtcCode": "3206",
+    "baseWarrantyHours": 3.2,
+    "requiredParts": [
+      {
+        "manufacturer": "Cometic",
+        "partNumber": "C9886",
+        "description": "C9886",
+        "qty": 1
+      },
+      {
+        "manufacturer": "James",
+        "partNumber": "JGI-17026-52",
+        "description": "JGI-17026-52",
+        "qty": 1
+      }
+    ]
+  },
+  {
+    "engineFamily": "Evolution Sportster (XL) 2000-2022",
+    "jobName": "Recondition TOP END – includes disassembly, deglazing cylinder and replacing rings, or replacing cylinder and piston, all items listed under RECONDITIONING CYLINDER HEAD and assembly. - one piston and cylinder",
+    "jtcCode": "3207",
+    "baseWarrantyHours": 4.5,
+    "requiredParts": [
+      {
+        "manufacturer": "Cometic",
+        "partNumber": "C9886",
+        "description": "C9886",
+        "qty": 1
+      },
+      {
+        "manufacturer": "James",
+        "partNumber": "JGI-17026-52",
+        "description": "JGI-17026-52",
+        "qty": 1
+      }
+    ]
+  },
+  {
+    "engineFamily": "Evolution Sportster (XL) 2000-2022",
+    "jobName": "Recondition TOP END – includes disassembly, deglazing cylinder and replacing rings, or replacing cylinder and piston, all items listed under RECONDITIONING CYLINDER HEAD and assembly. - both pistons and cylinders",
+    "jtcCode": "3208",
+    "baseWarrantyHours": 7.1,
+    "requiredParts": [
+      {
+        "manufacturer": "Cometic",
+        "partNumber": "C9886",
+        "description": "C9886",
+        "qty": 1
+      },
+      {
+        "manufacturer": "James",
+        "partNumber": "JGI-17026-52",
+        "description": "JGI-17026-52",
+        "qty": 1
+      }
+    ]
+  },
+  {
+    "engineFamily": "Evolution Sportster (XL) 2000-2022",
+    "jobName": "Replace piston rings. Includes deglaze cylinder - both cylinders",
+    "jtcCode": "3216",
+    "baseWarrantyHours": 4.1,
+    "requiredParts": [
+      {
+        "manufacturer": "Cometic",
+        "partNumber": "C9886",
+        "description": "C9886",
+        "qty": 1
+      },
+      {
+        "manufacturer": "James",
+        "partNumber": "JGI-17026-52",
+        "description": "JGI-17026-52",
+        "qty": 1
+      }
+    ]
+  },
+  {
+    "engineFamily": "Evolution Sportster (XL) 2000-2022",
+    "jobName": "Replace piston and piston rings – includes removal of cylinder head and cylinder, fitting new piston with rings, resizing cylinder and assembly - one cylinder",
+    "jtcCode": "3221",
+    "baseWarrantyHours": 3.4,
+    "requiredParts": [
+      {
+        "manufacturer": "Cometic",
+        "partNumber": "C9886",
+        "description": "C9886",
+        "qty": 1
+      },
+      {
+        "manufacturer": "James",
+        "partNumber": "JGI-17026-52",
+        "description": "JGI-17026-52",
+        "qty": 1
+      }
+    ]
+  },
+  {
+    "engineFamily": "Evolution Sportster (XL) 2000-2022",
+    "jobName": "Replace piston and piston rings – includes removal of cylinder head and cylinder, fitting new piston with rings, resizing cylinder and assembly - both cylinders",
+    "jtcCode": "3231",
+    "baseWarrantyHours": 5.3,
+    "requiredParts": [
+      {
+        "manufacturer": "Cometic",
+        "partNumber": "C9886",
+        "description": "C9886",
+        "qty": 1
+      },
+      {
+        "manufacturer": "James",
+        "partNumber": "JGI-17026-52",
+        "description": "JGI-17026-52",
+        "qty": 1
+      }
+    ]
+  },
+  {
+    "engineFamily": "Evolution Sportster (XL) 2000-2022",
+    "jobName": "Replace cylinder and piston - one cylinder",
+    "jtcCode": "3236",
+    "baseWarrantyHours": 2.4,
+    "requiredParts": [
+      {
+        "manufacturer": "Cometic",
+        "partNumber": "C9886",
+        "description": "C9886",
+        "qty": 1
+      },
+      {
+        "manufacturer": "James",
+        "partNumber": "JGI-17026-52",
+        "description": "JGI-17026-52",
+        "qty": 1
+      }
+    ]
+  },
+  {
+    "engineFamily": "Evolution Sportster (XL) 2000-2022",
+    "jobName": "Replace cylinder and piston - both cylinders",
+    "jtcCode": "3246",
+    "baseWarrantyHours": 3.1,
+    "requiredParts": [
+      {
+        "manufacturer": "Cometic",
+        "partNumber": "C9886",
+        "description": "C9886",
+        "qty": 1
+      },
+      {
+        "manufacturer": "James",
+        "partNumber": "JGI-17026-52",
+        "description": "JGI-17026-52",
+        "qty": 1
+      }
+    ]
+  },
+  {
+    "engineFamily": "Evolution Sportster (XL) 2000-2022",
+    "jobName": "Replace one cylinder stud - cylinder removed",
+    "jtcCode": "3253",
+    "baseWarrantyHours": 0.1,
+    "requiredParts": [
+      {
+        "manufacturer": "Cometic",
+        "partNumber": "C9886",
+        "description": "C9886",
+        "qty": 1
+      },
+      {
+        "manufacturer": "James",
+        "partNumber": "JGI-17026-52",
+        "description": "JGI-17026-52",
+        "qty": 1
+      }
+    ]
+  },
+  {
+    "engineFamily": "Evolution Sportster (XL) 2000-2022",
+    "jobName": "Replace push rod - two – same cylinder",
+    "jtcCode": "3302",
+    "baseWarrantyHours": 1.2,
+    "requiredParts": [
+      {
+        "manufacturer": "Cometic",
+        "partNumber": "C9886",
+        "description": "C9886",
+        "qty": 1
+      },
+      {
+        "manufacturer": "James",
+        "partNumber": "JGI-17026-52",
+        "description": "JGI-17026-52",
+        "qty": 1
+      }
+    ]
+  },
+  {
+    "engineFamily": "Evolution Sportster (XL) 2000-2022",
+    "jobName": "Replace push rod - two – one each cylinder",
+    "jtcCode": "3303",
+    "baseWarrantyHours": 1.9,
+    "requiredParts": [
+      {
+        "manufacturer": "Cometic",
+        "partNumber": "C9886",
+        "description": "C9886",
+        "qty": 1
+      },
+      {
+        "manufacturer": "James",
+        "partNumber": "JGI-17026-52",
+        "description": "JGI-17026-52",
+        "qty": 1
+      }
+    ]
+  },
+  {
+    "engineFamily": "Evolution Sportster (XL) 2000-2022",
+    "jobName": "Replace tappet - two – same cylinder",
+    "jtcCode": "3311",
+    "baseWarrantyHours": 1.3,
+    "requiredParts": [
+      {
+        "manufacturer": "Cometic",
+        "partNumber": "C9886",
+        "description": "C9886",
+        "qty": 1
+      },
+      {
+        "manufacturer": "James",
+        "partNumber": "JGI-17026-52",
+        "description": "JGI-17026-52",
+        "qty": 1
+      }
+    ]
+  },
+  {
+    "engineFamily": "Evolution Sportster (XL) 2000-2022",
+    "jobName": "Replace tappet - two – one each cylinder",
+    "jtcCode": "3313",
+    "baseWarrantyHours": 2.1,
+    "requiredParts": [
+      {
+        "manufacturer": "Cometic",
+        "partNumber": "C9886",
+        "description": "C9886",
+        "qty": 1
+      },
+      {
+        "manufacturer": "James",
+        "partNumber": "JGI-17026-52",
+        "description": "JGI-17026-52",
+        "qty": 1
+      }
+    ]
+  },
+  {
+    "engineFamily": "Evolution Sportster (XL) 2000-2022",
+    "jobName": "Replace push rod, push rod cover and/or O-ring or quad seal - one or two same cylinder",
+    "jtcCode": "3317",
+    "baseWarrantyHours": 1.2,
+    "requiredParts": [
+      {
+        "manufacturer": "Cometic",
+        "partNumber": "C9886",
+        "description": "C9886",
+        "qty": 1
+      },
+      {
+        "manufacturer": "James",
+        "partNumber": "JGI-17026-52",
+        "description": "JGI-17026-52",
+        "qty": 1
+      }
+    ]
+  },
+  {
+    "engineFamily": "Evolution Sportster (XL) 2000-2022",
+    "jobName": "Replace push rod, push rod cover and/or O-ring or quad seal - one each cylinder",
+    "jtcCode": "3318",
+    "baseWarrantyHours": 1.8,
+    "requiredParts": [
+      {
+        "manufacturer": "Cometic",
+        "partNumber": "C9886",
+        "description": "C9886",
+        "qty": 1
+      },
+      {
+        "manufacturer": "James",
+        "partNumber": "JGI-17026-52",
+        "description": "JGI-17026-52",
+        "qty": 1
+      }
+    ]
+  },
+  {
+    "engineFamily": "Evolution Sportster (XL) 2000-2022",
+    "jobName": "Replace all cam gears - includes timing ignition",
+    "jtcCode": "3336",
+    "baseWarrantyHours": 2.5,
+    "requiredParts": [
+      {
+        "manufacturer": "Cometic",
+        "partNumber": "C9886",
+        "description": "C9886",
+        "qty": 1
+      },
+      {
+        "manufacturer": "James",
+        "partNumber": "JGI-17026-52",
+        "description": "JGI-17026-52",
+        "qty": 1
+      }
+    ]
+  },
+  {
+    "engineFamily": "Evolution Sportster (XL) 2000-2022",
+    "jobName": "Recondition cylinder heads - head removed (for non-related repairs) - one head",
+    "jtcCode": "3425",
+    "baseWarrantyHours": 1.8,
+    "requiredParts": [
+      {
+        "manufacturer": "Cometic",
+        "partNumber": "C9886",
+        "description": "C9886",
+        "qty": 1
+      },
+      {
+        "manufacturer": "James",
+        "partNumber": "JGI-17026-52",
+        "description": "JGI-17026-52",
+        "qty": 1
+      }
+    ]
+  },
+  {
+    "engineFamily": "Evolution Sportster (XL) 2000-2022",
+    "jobName": "Recondition cylinder heads - head removed (for non-related repairs) - both heads",
+    "jtcCode": "3426",
+    "baseWarrantyHours": 3.3,
+    "requiredParts": [
+      {
+        "manufacturer": "Cometic",
+        "partNumber": "C9886",
+        "description": "C9886",
+        "qty": 1
+      },
+      {
+        "manufacturer": "James",
+        "partNumber": "JGI-17026-52",
+        "description": "JGI-17026-52",
+        "qty": 1
+      }
+    ]
+  },
+  {
+    "engineFamily": "Evolution Sportster (XL) 2000-2022",
+    "jobName": "Replace piston rings - cylinders removed for non-related repairs. Deglaze only",
+    "jtcCode": "3428",
+    "baseWarrantyHours": 0.7,
+    "requiredParts": [
+      {
+        "manufacturer": "Cometic",
+        "partNumber": "C9886",
+        "description": "C9886",
+        "qty": 1
+      },
+      {
+        "manufacturer": "James",
+        "partNumber": "JGI-17026-52",
+        "description": "JGI-17026-52",
+        "qty": 1
+      }
+    ]
+  },
+  {
+    "engineFamily": "Evolution Sportster (XL) 2000-2022",
+    "jobName": "Replace pistons - cylinders removed (for non-related repairs) includes resizing cylinders",
+    "jtcCode": "3430",
+    "baseWarrantyHours": 1.4,
+    "requiredParts": [
+      {
+        "manufacturer": "Cometic",
+        "partNumber": "C9886",
+        "description": "C9886",
+        "qty": 1
+      },
+      {
+        "manufacturer": "James",
+        "partNumber": "JGI-17026-52",
+        "description": "JGI-17026-52",
+        "qty": 1
+      }
+    ]
+  },
+  {
+    "engineFamily": "Evolution 1340 (Big Twin)",
+    "jobName": "Recondition cylinder head – includes removal of head and gasket, remove carbon, service valve guides, grind valves and seats, test springs and install head and gaskets. - front head",
+    "jtcCode": "3101",
+    "baseWarrantyHours": 3.5,
+    "requiredParts": [
+      {
+        "manufacturer": "Cometic",
+        "partNumber": "C9886",
+        "description": "C9886",
+        "qty": 1
+      },
+      {
+        "manufacturer": "James",
+        "partNumber": "JGI-17026-52",
+        "description": "JGI-17026-52",
+        "qty": 1
+      }
+    ]
+  },
+  {
+    "engineFamily": "Evolution 1340 (Big Twin)",
+    "jobName": "Recondition cylinder head – includes removal of head and gasket, remove carbon, service valve guides, grind valves and seats, test springs and install head and gaskets. - rear head",
+    "jtcCode": "3103",
+    "baseWarrantyHours": 3.5,
+    "requiredParts": [
+      {
+        "manufacturer": "Cometic",
+        "partNumber": "C9886",
+        "description": "C9886",
+        "qty": 1
+      },
+      {
+        "manufacturer": "James",
+        "partNumber": "JGI-17026-52",
+        "description": "JGI-17026-52",
+        "qty": 1
+      }
+    ]
+  },
+  {
+    "engineFamily": "Evolution 1340 (Big Twin)",
+    "jobName": "Recondition cylinder head – includes removal of head and gasket, remove carbon, service valve guides, grind valves and seats, test springs and install head and gaskets. - both heads",
+    "jtcCode": "3104",
+    "baseWarrantyHours": 4.1,
+    "requiredParts": [
+      {
+        "manufacturer": "Cometic",
+        "partNumber": "C9886",
+        "description": "C9886",
+        "qty": 1
+      },
+      {
+        "manufacturer": "James",
+        "partNumber": "JGI-17026-52",
+        "description": "JGI-17026-52",
+        "qty": 1
+      }
+    ]
+  },
+  {
+    "engineFamily": "Evolution 1340 (Big Twin)",
+    "jobName": "Replace cylinder head - one head",
+    "jtcCode": "3106",
+    "baseWarrantyHours": 2.2,
+    "requiredParts": [
+      {
+        "manufacturer": "Cometic",
+        "partNumber": "C9886",
+        "description": "C9886",
+        "qty": 1
+      },
+      {
+        "manufacturer": "James",
+        "partNumber": "JGI-17026-52",
+        "description": "JGI-17026-52",
+        "qty": 1
+      }
+    ]
+  },
+  {
+    "engineFamily": "Evolution 1340 (Big Twin)",
+    "jobName": "Replace cylinder head - both heads",
+    "jtcCode": "3108",
+    "baseWarrantyHours": 2.8,
+    "requiredParts": [
+      {
+        "manufacturer": "Cometic",
+        "partNumber": "C9886",
+        "description": "C9886",
+        "qty": 1
+      },
+      {
+        "manufacturer": "James",
+        "partNumber": "JGI-17026-52",
+        "description": "JGI-17026-52",
+        "qty": 1
+      }
+    ]
+  },
+  {
+    "engineFamily": "Evolution 1340 (Big Twin)",
+    "jobName": "Replace cylinder head gasket - front cylinder",
+    "jtcCode": "3140",
+    "baseWarrantyHours": 1.6,
+    "requiredParts": [
+      {
+        "manufacturer": "Cometic",
+        "partNumber": "C9886",
+        "description": "C9886",
+        "qty": 1
+      },
+      {
+        "manufacturer": "James",
+        "partNumber": "JGI-17026-52",
+        "description": "JGI-17026-52",
+        "qty": 1
+      }
+    ]
+  },
+  {
+    "engineFamily": "Evolution 1340 (Big Twin)",
+    "jobName": "Replace cylinder head gasket - rear cylinder",
+    "jtcCode": "3142",
+    "baseWarrantyHours": 1.6,
+    "requiredParts": [
+      {
+        "manufacturer": "Cometic",
+        "partNumber": "C9886",
+        "description": "C9886",
+        "qty": 1
+      },
+      {
+        "manufacturer": "James",
+        "partNumber": "JGI-17026-52",
+        "description": "JGI-17026-52",
+        "qty": 1
+      }
+    ]
+  },
+  {
+    "engineFamily": "Evolution 1340 (Big Twin)",
+    "jobName": "Replace cylinder head gasket - both cylinders",
+    "jtcCode": "3143",
+    "baseWarrantyHours": 2,
+    "requiredParts": [
+      {
+        "manufacturer": "Cometic",
+        "partNumber": "C9886",
+        "description": "C9886",
+        "qty": 1
+      },
+      {
+        "manufacturer": "James",
+        "partNumber": "JGI-17026-52",
+        "description": "JGI-17026-52",
+        "qty": 1
+      }
+    ]
+  },
+  {
+    "engineFamily": "Evolution 1340 (Big Twin)",
+    "jobName": "Replace rocker arm covers and/or gaskets - front cylinder",
+    "jtcCode": "3144",
+    "baseWarrantyHours": 0.7,
+    "requiredParts": [
+      {
+        "manufacturer": "Cometic",
+        "partNumber": "C9886",
+        "description": "C9886",
+        "qty": 1
+      },
+      {
+        "manufacturer": "James",
+        "partNumber": "JGI-17026-52",
+        "description": "JGI-17026-52",
+        "qty": 1
+      }
+    ]
+  },
+  {
+    "engineFamily": "Evolution 1340 (Big Twin)",
+    "jobName": "Replace rocker arm covers and/or gaskets - rear cylinder",
+    "jtcCode": "3145",
+    "baseWarrantyHours": 0.7,
+    "requiredParts": [
+      {
+        "manufacturer": "Cometic",
+        "partNumber": "C9886",
+        "description": "C9886",
+        "qty": 1
+      },
+      {
+        "manufacturer": "James",
+        "partNumber": "JGI-17026-52",
+        "description": "JGI-17026-52",
+        "qty": 1
+      }
+    ]
+  },
+  {
+    "engineFamily": "Evolution 1340 (Big Twin)",
+    "jobName": "Replace lower rocker arm cover/gasket, or rocker arms and /or shafts/rocker arm support - front cylinder",
+    "jtcCode": "3147",
+    "baseWarrantyHours": 1.1,
+    "requiredParts": [
+      {
+        "manufacturer": "Cometic",
+        "partNumber": "C9886",
+        "description": "C9886",
+        "qty": 1
+      },
+      {
+        "manufacturer": "James",
+        "partNumber": "JGI-17026-52",
+        "description": "JGI-17026-52",
+        "qty": 1
+      }
+    ]
+  },
+  {
+    "engineFamily": "Evolution 1340 (Big Twin)",
+    "jobName": "Replace rocker arm covers and/or gaskets - both cylinders",
+    "jtcCode": "3148",
+    "baseWarrantyHours": 0.8,
+    "requiredParts": [
+      {
+        "manufacturer": "Cometic",
+        "partNumber": "C9886",
+        "description": "C9886",
+        "qty": 1
+      },
+      {
+        "manufacturer": "James",
+        "partNumber": "JGI-17026-52",
+        "description": "JGI-17026-52",
+        "qty": 1
+      }
+    ]
+  },
+  {
+    "engineFamily": "Evolution 1340 (Big Twin)",
+    "jobName": "Recondition rocker arms after heads are removed - one head",
+    "jtcCode": "3149",
+    "baseWarrantyHours": 0.7,
+    "requiredParts": [
+      {
+        "manufacturer": "Cometic",
+        "partNumber": "C9886",
+        "description": "C9886",
+        "qty": 1
+      },
+      {
+        "manufacturer": "James",
+        "partNumber": "JGI-17026-52",
+        "description": "JGI-17026-52",
+        "qty": 1
+      }
+    ]
+  },
+  {
+    "engineFamily": "Evolution 1340 (Big Twin)",
+    "jobName": "Recondition rocker arms after heads are removed - both heads",
+    "jtcCode": "3150",
+    "baseWarrantyHours": 1.4,
+    "requiredParts": [
+      {
+        "manufacturer": "Cometic",
+        "partNumber": "C9886",
+        "description": "C9886",
+        "qty": 1
+      },
+      {
+        "manufacturer": "James",
+        "partNumber": "JGI-17026-52",
+        "description": "JGI-17026-52",
+        "qty": 1
+      }
+    ]
+  },
+  {
+    "engineFamily": "Evolution 1340 (Big Twin)",
+    "jobName": "Replace lower rocker arm cover/gasket, or rocker arms and /or shafts/rocker arm support - rear cylinder",
+    "jtcCode": "3152",
+    "baseWarrantyHours": 1.1,
+    "requiredParts": [
+      {
+        "manufacturer": "Cometic",
+        "partNumber": "C9886",
+        "description": "C9886",
+        "qty": 1
+      },
+      {
+        "manufacturer": "James",
+        "partNumber": "JGI-17026-52",
+        "description": "JGI-17026-52",
+        "qty": 1
+      }
+    ]
+  },
+  {
+    "engineFamily": "Evolution 1340 (Big Twin)",
+    "jobName": "Replace lower rocker arm cover/gasket, or rocker arms and /or shafts/rocker arm support - both cylinders",
+    "jtcCode": "3153",
+    "baseWarrantyHours": 1.3,
+    "requiredParts": [
+      {
+        "manufacturer": "Cometic",
+        "partNumber": "C9886",
+        "description": "C9886",
+        "qty": 1
+      },
+      {
+        "manufacturer": "James",
+        "partNumber": "JGI-17026-52",
+        "description": "JGI-17026-52",
+        "qty": 1
+      }
+    ]
+  },
+  {
+    "engineFamily": "Evolution 1340 (Big Twin)",
+    "jobName": "Replace cylinder base gasket - front cylinder",
+    "jtcCode": "3161",
+    "baseWarrantyHours": 1.8,
+    "requiredParts": [
+      {
+        "manufacturer": "Cometic",
+        "partNumber": "C9886",
+        "description": "C9886",
+        "qty": 1
+      },
+      {
+        "manufacturer": "James",
+        "partNumber": "JGI-17026-52",
+        "description": "JGI-17026-52",
+        "qty": 1
+      }
+    ]
+  },
+  {
+    "engineFamily": "Evolution 1340 (Big Twin)",
+    "jobName": "Replace cylinder base gasket - rear cylinder",
+    "jtcCode": "3163",
+    "baseWarrantyHours": 1.8,
+    "requiredParts": [
+      {
+        "manufacturer": "Cometic",
+        "partNumber": "C9886",
+        "description": "C9886",
+        "qty": 1
+      },
+      {
+        "manufacturer": "James",
+        "partNumber": "JGI-17026-52",
+        "description": "JGI-17026-52",
+        "qty": 1
+      }
+    ]
+  },
+  {
+    "engineFamily": "Evolution 1340 (Big Twin)",
+    "jobName": "Replace cylinder base gasket - both cylinders",
+    "jtcCode": "3168",
+    "baseWarrantyHours": 2.2,
+    "requiredParts": [
+      {
+        "manufacturer": "Cometic",
+        "partNumber": "C9886",
+        "description": "C9886",
+        "qty": 1
+      },
+      {
+        "manufacturer": "James",
+        "partNumber": "JGI-17026-52",
+        "description": "JGI-17026-52",
+        "qty": 1
+      }
+    ]
+  },
+  {
+    "engineFamily": "Evolution 1340 (Big Twin)",
+    "jobName": "Recondition TOP END - includes disassembly, replacement of piston and sizing cylinder (.005\" pistons), replacing piston rings and all items listed under RECONDITION CYLINDER HEAD and assembly. - one piston and cylinder",
+    "jtcCode": "3202",
+    "baseWarrantyHours": 4.5,
+    "requiredParts": [
+      {
+        "manufacturer": "Cometic",
+        "partNumber": "C9886",
+        "description": "C9886",
+        "qty": 1
+      },
+      {
+        "manufacturer": "James",
+        "partNumber": "JGI-17026-52",
+        "description": "JGI-17026-52",
+        "qty": 1
+      }
+    ]
+  },
+  {
+    "engineFamily": "Evolution 1340 (Big Twin)",
+    "jobName": "Recondition TOP END - includes disassembly, replacement of piston and sizing cylinder (.005\" pistons), replacing piston rings and all items listed under RECONDITION CYLINDER HEAD and assembly. - both pistons and cylinders",
+    "jtcCode": "3203",
+    "baseWarrantyHours": 5.1,
+    "requiredParts": [
+      {
+        "manufacturer": "Cometic",
+        "partNumber": "C9886",
+        "description": "C9886",
+        "qty": 1
+      },
+      {
+        "manufacturer": "James",
+        "partNumber": "JGI-17026-52",
+        "description": "JGI-17026-52",
+        "qty": 1
+      }
+    ]
+  },
+  {
+    "engineFamily": "Evolution 1340 (Big Twin)",
+    "jobName": "Replace piston rings – includes deglazing cylinder - one cylinder",
+    "jtcCode": "3206",
+    "baseWarrantyHours": 2.1,
+    "requiredParts": [
+      {
+        "manufacturer": "Cometic",
+        "partNumber": "C9886",
+        "description": "C9886",
+        "qty": 1
+      },
+      {
+        "manufacturer": "James",
+        "partNumber": "JGI-17026-52",
+        "description": "JGI-17026-52",
+        "qty": 1
+      }
+    ]
+  },
+  {
+    "engineFamily": "Evolution 1340 (Big Twin)",
+    "jobName": "Recondition TOP END – includes disassembly, deglazing cylinder and replacing rings, or replacing cylinder and piston, all items listed under RECONDITIONING CYLINDER HEAD and assembly. - one piston and cylinder",
+    "jtcCode": "3207",
+    "baseWarrantyHours": 4.3,
+    "requiredParts": [
+      {
+        "manufacturer": "Cometic",
+        "partNumber": "C9886",
+        "description": "C9886",
+        "qty": 1
+      },
+      {
+        "manufacturer": "James",
+        "partNumber": "JGI-17026-52",
+        "description": "JGI-17026-52",
+        "qty": 1
+      }
+    ]
+  },
+  {
+    "engineFamily": "Evolution 1340 (Big Twin)",
+    "jobName": "Recondition TOP END – includes disassembly, deglazing cylinder and replacing rings, or replacing cylinder and piston, all items listed under RECONDITIONING CYLINDER HEAD and assembly. - both pistons and cylinders",
+    "jtcCode": "3208",
+    "baseWarrantyHours": 4.9,
+    "requiredParts": [
+      {
+        "manufacturer": "Cometic",
+        "partNumber": "C9886",
+        "description": "C9886",
+        "qty": 1
+      },
+      {
+        "manufacturer": "James",
+        "partNumber": "JGI-17026-52",
+        "description": "JGI-17026-52",
+        "qty": 1
+      }
+    ]
+  },
+  {
+    "engineFamily": "Evolution 1340 (Big Twin)",
+    "jobName": "Recondition TOP END - includes disassembly, replacement of piston and bore and hone, resizing cylinder (.010\" oversize or above), replacing piston rings and all items listed under RECONDITION CYLINDER HEAD and assembly. - one piston and cylinder",
+    "jtcCode": "3211",
+    "baseWarrantyHours": 4.9,
+    "requiredParts": [
+      {
+        "manufacturer": "Cometic",
+        "partNumber": "C9886",
+        "description": "C9886",
+        "qty": 1
+      },
+      {
+        "manufacturer": "James",
+        "partNumber": "JGI-17026-52",
+        "description": "JGI-17026-52",
+        "qty": 1
+      }
+    ]
+  },
+  {
+    "engineFamily": "Evolution 1340 (Big Twin)",
+    "jobName": "Recondition TOP END - includes disassembly, replacement of piston and bore and hone, resizing cylinder (.010\" oversize or above), replacing piston rings and all items listed under RECONDITION CYLINDER HEAD and assembly. - both pistons and cylinders",
+    "jtcCode": "3212",
+    "baseWarrantyHours": 5.5,
+    "requiredParts": [
+      {
+        "manufacturer": "Cometic",
+        "partNumber": "C9886",
+        "description": "C9886",
+        "qty": 1
+      },
+      {
+        "manufacturer": "James",
+        "partNumber": "JGI-17026-52",
+        "description": "JGI-17026-52",
+        "qty": 1
+      }
+    ]
+  },
+  {
+    "engineFamily": "Evolution 1340 (Big Twin)",
+    "jobName": "Replace piston rings. Includes deglaze cylinder - both cylinders",
+    "jtcCode": "3216",
+    "baseWarrantyHours": 2.7,
+    "requiredParts": [
+      {
+        "manufacturer": "Cometic",
+        "partNumber": "C9886",
+        "description": "C9886",
+        "qty": 1
+      },
+      {
+        "manufacturer": "James",
+        "partNumber": "JGI-17026-52",
+        "description": "JGI-17026-52",
+        "qty": 1
+      }
+    ]
+  },
+  {
+    "engineFamily": "Evolution 1340 (Big Twin)",
+    "jobName": "Replace piston and piston rings – includes removal of cylinder head and cylinder, fitting new piston with rings, resizing cylinder and assembly - one cylinder",
+    "jtcCode": "3221",
+    "baseWarrantyHours": 2.7,
+    "requiredParts": [
+      {
+        "manufacturer": "Cometic",
+        "partNumber": "C9886",
+        "description": "C9886",
+        "qty": 1
+      },
+      {
+        "manufacturer": "James",
+        "partNumber": "JGI-17026-52",
+        "description": "JGI-17026-52",
+        "qty": 1
+      }
+    ]
+  },
+  {
+    "engineFamily": "Evolution 1340 (Big Twin)",
+    "jobName": "Replace piston and piston rings – includes removal of cylinder head and cylinder, fitting new piston with rings, resizing cylinder and assembly - both cylinders",
+    "jtcCode": "3231",
+    "baseWarrantyHours": 3.9,
+    "requiredParts": [
+      {
+        "manufacturer": "Cometic",
+        "partNumber": "C9886",
+        "description": "C9886",
+        "qty": 1
+      },
+      {
+        "manufacturer": "James",
+        "partNumber": "JGI-17026-52",
+        "description": "JGI-17026-52",
+        "qty": 1
+      }
+    ]
+  },
+  {
+    "engineFamily": "Evolution 1340 (Big Twin)",
+    "jobName": "Replace cylinder and piston - one cylinder",
+    "jtcCode": "3236",
+    "baseWarrantyHours": 2,
+    "requiredParts": [
+      {
+        "manufacturer": "Cometic",
+        "partNumber": "C9886",
+        "description": "C9886",
+        "qty": 1
+      },
+      {
+        "manufacturer": "James",
+        "partNumber": "JGI-17026-52",
+        "description": "JGI-17026-52",
+        "qty": 1
+      }
+    ]
+  },
+  {
+    "engineFamily": "Evolution 1340 (Big Twin)",
+    "jobName": "Replace cylinder and piston - both cylinders",
+    "jtcCode": "3246",
+    "baseWarrantyHours": 2.5,
+    "requiredParts": [
+      {
+        "manufacturer": "Cometic",
+        "partNumber": "C9886",
+        "description": "C9886",
+        "qty": 1
+      },
+      {
+        "manufacturer": "James",
+        "partNumber": "JGI-17026-52",
+        "description": "JGI-17026-52",
+        "qty": 1
+      }
+    ]
+  },
+  {
+    "engineFamily": "Evolution 1340 (Big Twin)",
+    "jobName": "Replace all eight cylinder studs - cylinders removed",
+    "jtcCode": "3254",
+    "baseWarrantyHours": 0.5,
+    "requiredParts": [
+      {
+        "manufacturer": "Cometic",
+        "partNumber": "C9886",
+        "description": "C9886",
+        "qty": 1
+      },
+      {
+        "manufacturer": "James",
+        "partNumber": "JGI-17026-52",
+        "description": "JGI-17026-52",
+        "qty": 1
+      }
+    ]
+  },
+  {
+    "engineFamily": "Evolution 1340 (Big Twin)",
+    "jobName": "Replace lifter cover/gasket or lifter/and, or anti-rotation pin - one or two same cylinder",
+    "jtcCode": "3307",
+    "baseWarrantyHours": 1.3,
+    "requiredParts": [
+      {
+        "manufacturer": "Cometic",
+        "partNumber": "C9886",
+        "description": "C9886",
+        "qty": 1
+      },
+      {
+        "manufacturer": "James",
+        "partNumber": "JGI-17026-52",
+        "description": "JGI-17026-52",
+        "qty": 1
+      }
+    ]
+  },
+  {
+    "engineFamily": "Evolution 1340 (Big Twin)",
+    "jobName": "Replace lifter cover/gasket or lifter/and, or anti-rotation pin - both on both cylinders",
+    "jtcCode": "3310",
+    "baseWarrantyHours": 1.5,
+    "requiredParts": [
+      {
+        "manufacturer": "Cometic",
+        "partNumber": "C9886",
+        "description": "C9886",
+        "qty": 1
+      },
+      {
+        "manufacturer": "James",
+        "partNumber": "JGI-17026-52",
+        "description": "JGI-17026-52",
+        "qty": 1
+      }
+    ]
+  },
+  {
+    "engineFamily": "Evolution 1340 (Big Twin)",
+    "jobName": "Replace push rod, push rod cover and/or O-ring or quad seal - one or two same cylinder",
+    "jtcCode": "3317",
+    "baseWarrantyHours": 1.3,
+    "requiredParts": [
+      {
+        "manufacturer": "Cometic",
+        "partNumber": "C9886",
+        "description": "C9886",
+        "qty": 1
+      },
+      {
+        "manufacturer": "James",
+        "partNumber": "JGI-17026-52",
+        "description": "JGI-17026-52",
+        "qty": 1
+      }
+    ]
+  },
+  {
+    "engineFamily": "Evolution 1340 (Big Twin)",
+    "jobName": "Replace push rod, push rod cover and/or O-ring or quad seal - one each cylinder",
+    "jtcCode": "3318",
+    "baseWarrantyHours": 1.5,
+    "requiredParts": [
+      {
+        "manufacturer": "Cometic",
+        "partNumber": "C9886",
+        "description": "C9886",
+        "qty": 1
+      },
+      {
+        "manufacturer": "James",
+        "partNumber": "JGI-17026-52",
+        "description": "JGI-17026-52",
+        "qty": 1
+      }
+    ]
+  },
+  {
+    "engineFamily": "Evolution 1340 (Big Twin)",
+    "jobName": "Replace cam cover and/or gasket - **0.9h**[00-17:DYN,SFT] **1.6h**[00:FLTRSEI; 00,07-11:FLHPE; 00,07-16:FLHP; 00-03,07-09:FLTR; 00-05,07-13:FLHTC; 00-06:FLHPEI,FLHPI,FLHRCI,FLHRI,FLHTCI,FLHTPI,FLTRI; 00-10:FLHT; 00-16:FLHR; 03-06:FLHTI; 04-06:FLHRSI; 04-07:FLHRS; 06:FLHXI; 06-16:FLHX; 07-16:FLHRC,FLHTP; 10-13,15-16:FLTRX; 11:FLHRC 103,FLHTC 103,FLHX 103,FLHXSE2,FLTRX 103; 11,14:FLHR 103; 12:FLHXSE3,FLTRXSE; 13:FLHRSE5,FLTRXSE2; 14:FLHRSE; 14-16:FLHXS; 15-16:FLRT,FLTRXS; 17-18,20-25:TRK; 17-25:TRG; 18-25:SFT; 19:FLHTCUTG] **2.0h**[00-06:FLHTCUI,FLHTCUI WITH SIDECAR; 07-10:FLHTCU WITH SIDECAR; 07-16:FLHTCU; 09-14:TRK; 10-16:FLHTK; 11:FLHTCU 103,FLHTCUSE6,FLHTK WITH SIDECAR; 11,15-16:FLTRUSE; 11-13,16:FLTRU; 12:FLHTCUSE7; 13:FLHTCU8 103,FLHTCUSE8; 14:FLHTK 103; 14-16:FLHTCU TC,FLHTKSE; 15-16:FLHTCUL,FLHTCUL TC,FLHTCUTG,FLHTKL,FLHXSE] **2.9h**[19:FLRT]",
+    "jtcCode": "3325",
+    "baseWarrantyHours": 0.9,
+    "requiredParts": [
+      {
+        "manufacturer": "Cometic",
+        "partNumber": "C9886",
+        "description": "C9886",
+        "qty": 1
+      },
+      {
+        "manufacturer": "James",
+        "partNumber": "JGI-17026-52",
+        "description": "JGI-17026-52",
+        "qty": 1
+      }
+    ]
+  },
+  {
+    "engineFamily": "Evolution 1340 (Big Twin)",
+    "jobName": "Replace primary cam chain, sprockets and/or fastener - **1.0h**[00-17:DYN,SFT] **1.7h**[00:FLTRSEI; 00,07-11:FLHPE; 00,07-16:FLHP; 00-03,07-09:FLTR; 00-05,07-13:FLHTC; 00-06:FLHPEI,FLHPI,FLHRCI,FLHRI,FLHTCI,FLHTPI,FLTRI; 00-10:FLHT; 00-16:FLHR; 03-06:FLHTI; 04-06:FLHRSI; 04-07:FLHRS; 06:FLHXI; 06-16:FLHX; 07-16:FLHRC,FLHTP; 10-13,15-16:FLTRX; 11:FLHRC 103,FLHTC 103,FLHX 103,FLHXSE2,FLTRX 103; 11,14:FLHR 103; 12:FLHXSE3,FLTRXSE; 13:FLHRSE5,FLTRXSE2; 14:FLHRSE; 14-16:FLHXS; 15-16:FLRT,FLTRXS] **1.9h**[17-18,20-25:TRK; 17-22:TRG; 18-25:SFT; 19:FLHTCUTG; 23:FLHFB,FLHTKANV,FLHXS,FLHXSANV,FLHXST,FLTRKSEANV,FLTRXS,FLTRXSANV,FLTRXST; 23-24:FLHTK,FLTRK; 23-25:FLHP,FLHRXS,FLHTP,FLHX,FLTRX; 24-25:FLTRXP,FLTRXSTSE; 25:FLHXU] **2.0h**[23-25:FLHXSE,FLTRXSE] **2.1h**[00-06:FLHTCUI,FLHTCUI WITH SIDECAR; 07-10:FLHTCU WITH SIDECAR; 07-16:FLHTCU; 09-14:TRK; 10-16:FLHTK; 11:FLHTCU 103,FLHTCUSE6,FLHTK WITH SIDECAR; 11,15-16:FLTRUSE; 11-13,16:FLTRU; 12:FLHTCUSE7; 13:FLHTCU8 103,FLHTCUSE8; 14:FLHTK 103; 14-16:FLHTCU TC,FLHTKSE; 15-16:FLHTCUL,FLHTCUL TC,FLHTCUTG,FLHTKL,FLHXSE] **3.2h**[19:FLRT]",
+    "jtcCode": "3327",
+    "baseWarrantyHours": 1,
+    "requiredParts": [
+      {
+        "manufacturer": "Cometic",
+        "partNumber": "C9886",
+        "description": "C9886",
+        "qty": 1
+      },
+      {
+        "manufacturer": "James",
+        "partNumber": "JGI-17026-52",
+        "description": "JGI-17026-52",
+        "qty": 1
+      }
+    ]
+  },
+  {
+    "engineFamily": "Evolution 1340 (Big Twin)",
+    "jobName": "Replace primary cam chain tensioner - front cylinder",
+    "jtcCode": "3328",
+    "baseWarrantyHours": 1,
+    "requiredParts": [
+      {
+        "manufacturer": "Cometic",
+        "partNumber": "C9886",
+        "description": "C9886",
+        "qty": 1
+      },
+      {
+        "manufacturer": "James",
+        "partNumber": "JGI-17026-52",
+        "description": "JGI-17026-52",
+        "qty": 1
+      }
+    ]
+  },
+  {
+    "engineFamily": "Evolution 1340 (Big Twin)",
+    "jobName": "Replace cam support plate O-rings - **2.1h**[00-17:DYN,SFT] **2.8h**[00:FLTRSEI; 00,07-11:FLHPE; 00,07-16:FLHP; 00-03,07-09:FLTR; 00-05,07-13:FLHTC; 00-06:FLHPEI,FLHPI,FLHRCI,FLHRI,FLHTCI,FLHTPI,FLTRI; 00-10:FLHT; 00-16:FLHR; 03-06:FLHTI; 04-06:FLHRSI; 04-07:FLHRS; 06:FLHXI; 06-16:FLHX; 07-16:FLHRC,FLHTP; 10-13,15-16:FLTRX; 11:FLHRC 103,FLHTC 103,FLHX 103,FLHXSE2,FLTRX 103; 11,14:FLHR 103; 12:FLHXSE3,FLTRXSE; 13:FLHRSE5,FLTRXSE2; 14:FLHRSE; 14-16:FLHXS; 15-16:FLRT,FLTRXS] **3.2h**[00-06:FLHTCUI,FLHTCUI WITH SIDECAR; 07-10:FLHTCU WITH SIDECAR; 07-16:FLHTCU; 09-14:TRK; 10-16:FLHTK; 11:FLHTCU 103,FLHTCUSE6,FLHTK WITH SIDECAR; 11,15-16:FLTRUSE; 11-13,16:FLTRU; 12:FLHTCUSE7; 13:FLHTCU8 103,FLHTCUSE8; 14:FLHTK 103; 14-16:FLHTCU TC,FLHTKSE; 15-16:FLHTCUL,FLHTCUL TC,FLHTCUTG,FLHTKL,FLHXSE]",
+    "jtcCode": "3335",
+    "baseWarrantyHours": 2.1,
+    "requiredParts": [
+      {
+        "manufacturer": "Cometic",
+        "partNumber": "C9886",
+        "description": "C9886",
+        "qty": 1
+      },
+      {
+        "manufacturer": "James",
+        "partNumber": "JGI-17026-52",
+        "description": "JGI-17026-52",
+        "qty": 1
+      }
+    ]
+  },
+  {
+    "engineFamily": "Evolution 1340 (Big Twin)",
+    "jobName": "Replace cam support plate - **2.1h**[00-05:DYN,SFT] **2.8h**[00:FLHP,FLHPE,FLTRSEI; 00-03:FLTR; 00-05:FLHT,FLHTC,FLHTCI,FLHTPI,FLTRI; 00-06:FLHPEI,FLHPI,FLHR,FLHRCI,FLHRI; 03-05:FLHTI; 04-06:FLHRS,FLHRSI] **3.0h**[06-17:DYN,SFT] **3.2h**[00-05:FLHTCUI,FLHTCUI WITH SIDECAR] **3.5h**[07:FLHRS; 07-11:FLHPE; 07-16:FLHP,FLHR,FLHRC; 11:FLHRC 103; 11,14:FLHR 103; 13:FLHRSE5; 14:FLHRSE; 15-16:FLRT] **3.7h**[06:FLHTCI,FLHTI,FLHTPI,FLHXI,FLTRI; 06-10:FLHT; 06-16:FLHX; 07-09:FLTR; 07-13:FLHTC; 07-16:FLHTP; 10-13,15-16:FLTRX; 11:FLHTC 103,FLHX 103,FLHXSE2,FLTRX 103; 12:FLHXSE3,FLTRXSE; 13:FLTRXSE2; 14-16:FLHXS; 15-16:FLTRXS] **4.1h**[06:FLHTCUI,FLHTCUI WITH SIDECAR; 07-10:FLHTCU WITH SIDECAR; 07-16:FLHTCU; 09-14,17-18,20-25:TRK; 10-16,23-24:FLHTK; 11:FLHTCU 103,FLHTCUSE6,FLHTK WITH SIDECAR; 11,15-16:FLTRUSE; 11-13,16:FLTRU; 12:FLHTCUSE7; 13:FLHTCU8 103,FLHTCUSE8; 14:FLHTK 103; 14-16:FLHTCU TC,FLHTKSE; 15-16:FLHTCUL,FLHTCUL TC,FLHTKL,FLHXSE; 15-16,19:FLHTCUTG; 17-22:TRG; 18-24:SFT; 23:FLHFB,FLHTKANV,FLHX,FLHXS,FLHXSANV,FLHXST,FLTRKSEANV,FLTRX,FLTRXS,FLTRXSANV,FLTRXST; 23-24:FLTRK; 23-25:FLHP,FLHRXS,FLHTP; 24-25:FLTRXP; 25:FLHXU] **4.3h**[25:SFT] **5.0h**[24-25:FLHX,FLTRX,FLTRXSTSE] **5.1h**[23-25:FLHXSE,FLTRXSE] **5.5h**[19:FLRT]",
+    "jtcCode": "3337",
+    "baseWarrantyHours": 2.1,
+    "requiredParts": [
+      {
+        "manufacturer": "Cometic",
+        "partNumber": "C9886",
+        "description": "C9886",
+        "qty": 1
+      },
+      {
+        "manufacturer": "James",
+        "partNumber": "JGI-17026-52",
+        "description": "JGI-17026-52",
+        "qty": 1
+      }
+    ]
+  },
+  {
+    "engineFamily": "Evolution 1340 (Big Twin)",
+    "jobName": "Replace cam support bearing/cams/secondary cam chain/tensioner - **2.3h**[00-05:DYN,SFT] **3.0h**[00:FLHP,FLHPE,FLTRSEI; 00-03:FLTR; 00-05:FLHT,FLHTC,FLHTCI,FLHTPI,FLTRI; 00-06:FLHPEI,FLHPI,FLHR,FLHRCI,FLHRI; 03-05:FLHTI; 04-06:FLHRS,FLHRSI] **3.2h**[06-17:DYN,SFT] **3.4h**[00-05:FLHTCUI,FLHTCUI WITH SIDECAR] **3.7h**[07:FLHRS; 07-11:FLHPE; 07-16:FLHP,FLHR,FLHRC; 11:FLHRC 103; 11,14:FLHR 103; 13:FLHRSE5; 14:FLHRSE; 15-16:FLRT] **3.9h**[06:FLHTCI,FLHTI,FLHTPI,FLHXI,FLTRI; 06-10:FLHT; 06-16:FLHX; 07-09:FLTR; 07-13:FLHTC; 07-16:FLHTP; 10-13,15-16:FLTRX; 11:FLHTC 103,FLHX 103,FLHXSE2,FLTRX 103; 12:FLHXSE3,FLTRXSE; 13:FLTRXSE2; 14-16:FLHXS; 15-16:FLTRXS] **4.3h**[06:FLHTCUI,FLHTCUI WITH SIDECAR; 07-10:FLHTCU WITH SIDECAR; 07-16:FLHTCU; 09-14:TRK; 10-16:FLHTK; 11:FLHTCU 103,FLHTCUSE6,FLHTK WITH SIDECAR; 11,15-16:FLTRUSE; 11-13,16:FLTRU; 12:FLHTCUSE7; 13:FLHTCU8 103,FLHTCUSE8; 14:FLHTK 103; 14-16:FLHTCU TC,FLHTKSE; 15-16:FLHTCUL,FLHTCUL TC,FLHTCUTG,FLHTKL,FLHXSE] **4.7h**[17-18,20-25:TRK; 17-22:TRG; 18-25:SFT; 19:FLHTCUTG; 23:FLHFB,FLHTKANV,FLHX,FLHXS,FLHXSANV,FLHXST,FLTRKSEANV,FLTRX,FLTRXS,FLTRXSANV,FLTRXST; 23-24:FLHTK,FLTRK; 23-25:FLHP,FLHRXS,FLHTP; 24-25:FLTRXP; 25:FLHXU] **5.1h**[24-25:FLHX,FLTRX,FLTRXSTSE] **5.2h**[23-25:FLHXSE,FLTRXSE] **5.7h**[19:FLRT]",
+    "jtcCode": "3338",
+    "baseWarrantyHours": 2.3,
+    "requiredParts": [
+      {
+        "manufacturer": "Cometic",
+        "partNumber": "C9886",
+        "description": "C9886",
+        "qty": 1
+      },
+      {
+        "manufacturer": "James",
+        "partNumber": "JGI-17026-52",
+        "description": "JGI-17026-52",
+        "qty": 1
+      }
+    ]
+  },
+  {
+    "engineFamily": "Evolution 1340 (Big Twin)",
+    "jobName": "Replace cam bearing crankcase - one bearing",
+    "jtcCode": "3342",
+    "baseWarrantyHours": 2.1,
+    "requiredParts": [
+      {
+        "manufacturer": "Cometic",
+        "partNumber": "C9886",
+        "description": "C9886",
+        "qty": 1
+      },
+      {
+        "manufacturer": "James",
+        "partNumber": "JGI-17026-52",
+        "description": "JGI-17026-52",
+        "qty": 1
+      }
+    ]
+  },
+  {
+    "engineFamily": "Evolution 1340 (Big Twin)",
+    "jobName": "Replace cam bearing crankcase - two bearings",
+    "jtcCode": "3343",
+    "baseWarrantyHours": 2.2,
+    "requiredParts": [
+      {
+        "manufacturer": "Cometic",
+        "partNumber": "C9886",
+        "description": "C9886",
+        "qty": 1
+      },
+      {
+        "manufacturer": "James",
+        "partNumber": "JGI-17026-52",
+        "description": "JGI-17026-52",
+        "qty": 1
+      }
+    ]
+  },
+  {
+    "engineFamily": "Evolution 1340 (Big Twin)",
+    "jobName": "Recondition cylinder heads - head removed (for non-related repairs) - one head",
+    "jtcCode": "3425",
+    "baseWarrantyHours": 1,
+    "requiredParts": [
+      {
+        "manufacturer": "Cometic",
+        "partNumber": "C9886",
+        "description": "C9886",
+        "qty": 1
+      },
+      {
+        "manufacturer": "James",
+        "partNumber": "JGI-17026-52",
+        "description": "JGI-17026-52",
+        "qty": 1
+      }
+    ]
+  },
+  {
+    "engineFamily": "Evolution 1340 (Big Twin)",
+    "jobName": "Recondition cylinder heads - head removed (for non-related repairs) - both heads",
+    "jtcCode": "3426",
+    "baseWarrantyHours": 2,
+    "requiredParts": [
+      {
+        "manufacturer": "Cometic",
+        "partNumber": "C9886",
+        "description": "C9886",
+        "qty": 1
+      },
+      {
+        "manufacturer": "James",
+        "partNumber": "JGI-17026-52",
+        "description": "JGI-17026-52",
+        "qty": 1
+      }
+    ]
+  },
+  {
+    "engineFamily": "Evolution 1340 (Big Twin)",
+    "jobName": "Replace piston rings - cylinders removed for non-related repairs. Deglaze only",
+    "jtcCode": "3428",
+    "baseWarrantyHours": 0.3,
+    "requiredParts": [
+      {
+        "manufacturer": "Cometic",
+        "partNumber": "C9886",
+        "description": "C9886",
+        "qty": 1
+      },
+      {
+        "manufacturer": "James",
+        "partNumber": "JGI-17026-52",
+        "description": "JGI-17026-52",
+        "qty": 1
+      }
+    ]
+  },
+  {
+    "engineFamily": "Evolution 1340 (Big Twin)",
+    "jobName": "Replace pistons - cylinders removed (for non-related repairs) includes resizing cylinders",
+    "jtcCode": "3430",
+    "baseWarrantyHours": 1.4,
+    "requiredParts": [
+      {
+        "manufacturer": "Cometic",
+        "partNumber": "C9886",
+        "description": "C9886",
+        "qty": 1
+      },
+      {
+        "manufacturer": "James",
+        "partNumber": "JGI-17026-52",
+        "description": "JGI-17026-52",
+        "qty": 1
+      }
+    ]
+  },
+  {
+    "engineFamily": "Revolution (V-Rod) 2002-2017",
+    "jobName": "Recondition cylinder head – includes removal of head and gasket, remove carbon, service valve guides, grind valves and seats, test springs and install head and gaskets. - front head",
+    "jtcCode": "3101",
+    "baseWarrantyHours": 5.4,
+    "requiredParts": [
+      {
+        "manufacturer": "Cometic",
+        "partNumber": "C9886",
+        "description": "C9886",
+        "qty": 1
+      },
+      {
+        "manufacturer": "James",
+        "partNumber": "JGI-17026-52",
+        "description": "JGI-17026-52",
+        "qty": 1
+      }
+    ]
+  },
+  {
+    "engineFamily": "Revolution (V-Rod) 2002-2017",
+    "jobName": "Recondition cylinder head – includes removal of head and gasket, remove carbon, service valve guides, grind valves and seats, test springs and install head and gaskets. - rear head",
+    "jtcCode": "3103",
+    "baseWarrantyHours": 6.2,
+    "requiredParts": [
+      {
+        "manufacturer": "Cometic",
+        "partNumber": "C9886",
+        "description": "C9886",
+        "qty": 1
+      },
+      {
+        "manufacturer": "James",
+        "partNumber": "JGI-17026-52",
+        "description": "JGI-17026-52",
+        "qty": 1
+      }
+    ]
+  },
+  {
+    "engineFamily": "Revolution (V-Rod) 2002-2017",
+    "jobName": "Recondition cylinder head – includes removal of head and gasket, remove carbon, service valve guides, grind valves and seats, test springs and install head and gaskets. - both heads",
+    "jtcCode": "3104",
+    "baseWarrantyHours": 6.4,
+    "requiredParts": [
+      {
+        "manufacturer": "Cometic",
+        "partNumber": "C9886",
+        "description": "C9886",
+        "qty": 1
+      },
+      {
+        "manufacturer": "James",
+        "partNumber": "JGI-17026-52",
+        "description": "JGI-17026-52",
+        "qty": 1
+      }
+    ]
+  },
+  {
+    "engineFamily": "Revolution (V-Rod) 2002-2017",
+    "jobName": "Replace cylinder head - one head",
+    "jtcCode": "3106",
+    "baseWarrantyHours": 3.5,
+    "requiredParts": [
+      {
+        "manufacturer": "Cometic",
+        "partNumber": "C9886",
+        "description": "C9886",
+        "qty": 1
+      },
+      {
+        "manufacturer": "James",
+        "partNumber": "JGI-17026-52",
+        "description": "JGI-17026-52",
+        "qty": 1
+      }
+    ]
+  },
+  {
+    "engineFamily": "Revolution (V-Rod) 2002-2017",
+    "jobName": "Replace cylinder head - both heads",
+    "jtcCode": "3108",
+    "baseWarrantyHours": 4.4,
+    "requiredParts": [
+      {
+        "manufacturer": "Cometic",
+        "partNumber": "C9886",
+        "description": "C9886",
+        "qty": 1
+      },
+      {
+        "manufacturer": "James",
+        "partNumber": "JGI-17026-52",
+        "description": "JGI-17026-52",
+        "qty": 1
+      }
+    ]
+  },
+  {
+    "engineFamily": "Revolution (V-Rod) 2002-2017",
+    "jobName": "Screaming Eagle name plate, cylinder head - **0.1h**[05-07:VRSC]",
+    "jtcCode": "3113",
+    "baseWarrantyHours": 0.1,
+    "requiredParts": [
+      {
+        "manufacturer": "Cometic",
+        "partNumber": "C9886",
+        "description": "C9886",
+        "qty": 1
+      },
+      {
+        "manufacturer": "James",
+        "partNumber": "JGI-17026-52",
+        "description": "JGI-17026-52",
+        "qty": 1
+      }
+    ]
+  },
+  {
+    "engineFamily": "Revolution (V-Rod) 2002-2017",
+    "jobName": "Replace valve seal or spring after cylinder head removal - both seals or springs (intake or exhaust)",
+    "jtcCode": "3132",
+    "baseWarrantyHours": 0.4,
+    "requiredParts": [
+      {
+        "manufacturer": "Cometic",
+        "partNumber": "C9886",
+        "description": "C9886",
+        "qty": 1
+      },
+      {
+        "manufacturer": "James",
+        "partNumber": "JGI-17026-52",
+        "description": "JGI-17026-52",
+        "qty": 1
+      }
+    ]
+  },
+  {
+    "engineFamily": "Revolution (V-Rod) 2002-2017",
+    "jobName": "Replace cylinder head gasket - front cylinder",
+    "jtcCode": "3140",
+    "baseWarrantyHours": 3,
+    "requiredParts": [
+      {
+        "manufacturer": "Cometic",
+        "partNumber": "C9886",
+        "description": "C9886",
+        "qty": 1
+      },
+      {
+        "manufacturer": "James",
+        "partNumber": "JGI-17026-52",
+        "description": "JGI-17026-52",
+        "qty": 1
+      }
+    ]
+  },
+  {
+    "engineFamily": "Revolution (V-Rod) 2002-2017",
+    "jobName": "Replace cylinder head gasket - rear cylinder",
+    "jtcCode": "3142",
+    "baseWarrantyHours": 4.2,
+    "requiredParts": [
+      {
+        "manufacturer": "Cometic",
+        "partNumber": "C9886",
+        "description": "C9886",
+        "qty": 1
+      },
+      {
+        "manufacturer": "James",
+        "partNumber": "JGI-17026-52",
+        "description": "JGI-17026-52",
+        "qty": 1
+      }
+    ]
+  },
+  {
+    "engineFamily": "Revolution (V-Rod) 2002-2017",
+    "jobName": "Replace secondary cam chain tensioner - both",
+    "jtcCode": "3155",
+    "baseWarrantyHours": 0.3,
+    "requiredParts": [
+      {
+        "manufacturer": "Cometic",
+        "partNumber": "C9886",
+        "description": "C9886",
+        "qty": 1
+      },
+      {
+        "manufacturer": "James",
+        "partNumber": "JGI-17026-52",
+        "description": "JGI-17026-52",
+        "qty": 1
+      }
+    ]
+  },
+  {
+    "engineFamily": "Revolution (V-Rod) 2002-2017",
+    "jobName": "Replace camshaft/sprocket - front cylinder",
+    "jtcCode": "3158",
+    "baseWarrantyHours": 1.5,
+    "requiredParts": [
+      {
+        "manufacturer": "Cometic",
+        "partNumber": "C9886",
+        "description": "C9886",
+        "qty": 1
+      },
+      {
+        "manufacturer": "James",
+        "partNumber": "JGI-17026-52",
+        "description": "JGI-17026-52",
+        "qty": 1
+      }
+    ]
+  },
+  {
+    "engineFamily": "Revolution (V-Rod) 2002-2017",
+    "jobName": "Replace secondary cam chain - could be done in chassis; remove engine if heads are damaged",
+    "jtcCode": "3159",
+    "baseWarrantyHours": 1.7,
+    "requiredParts": [
+      {
+        "manufacturer": "Cometic",
+        "partNumber": "C9886",
+        "description": "C9886",
+        "qty": 1
+      },
+      {
+        "manufacturer": "James",
+        "partNumber": "JGI-17026-52",
+        "description": "JGI-17026-52",
+        "qty": 1
+      }
+    ]
+  },
+  {
+    "engineFamily": "Revolution (V-Rod) 2002-2017",
+    "jobName": "Replace piston rings – includes deglazing cylinder - one cylinder",
+    "jtcCode": "3206",
+    "baseWarrantyHours": 9.5,
+    "requiredParts": [
+      {
+        "manufacturer": "Cometic",
+        "partNumber": "C9886",
+        "description": "C9886",
+        "qty": 1
+      },
+      {
+        "manufacturer": "James",
+        "partNumber": "JGI-17026-52",
+        "description": "JGI-17026-52",
+        "qty": 1
+      }
+    ]
+  },
+  {
+    "engineFamily": "Revolution (V-Rod) 2002-2017",
+    "jobName": "Replace piston rings. Includes deglaze cylinder - both cylinders",
+    "jtcCode": "3216",
+    "baseWarrantyHours": 9.7,
+    "requiredParts": [
+      {
+        "manufacturer": "Cometic",
+        "partNumber": "C9886",
+        "description": "C9886",
+        "qty": 1
+      },
+      {
+        "manufacturer": "James",
+        "partNumber": "JGI-17026-52",
+        "description": "JGI-17026-52",
+        "qty": 1
+      }
+    ]
+  },
+  {
+    "engineFamily": "Revolution (V-Rod) 2002-2017",
+    "jobName": "Replace piston and piston rings – includes removal of cylinder head and cylinder, fitting new piston with rings, resizing cylinder and assembly - one cylinder",
+    "jtcCode": "3221",
+    "baseWarrantyHours": 9.5,
+    "requiredParts": [
+      {
+        "manufacturer": "Cometic",
+        "partNumber": "C9886",
+        "description": "C9886",
+        "qty": 1
+      },
+      {
+        "manufacturer": "James",
+        "partNumber": "JGI-17026-52",
+        "description": "JGI-17026-52",
+        "qty": 1
+      }
+    ]
+  },
+  {
+    "engineFamily": "Revolution (V-Rod) 2002-2017",
+    "jobName": "Replace piston and piston rings – includes removal of cylinder head and cylinder, fitting new piston with rings, resizing cylinder and assembly - both cylinders",
+    "jtcCode": "3231",
+    "baseWarrantyHours": 9.7,
+    "requiredParts": [
+      {
+        "manufacturer": "Cometic",
+        "partNumber": "C9886",
+        "description": "C9886",
+        "qty": 1
+      },
+      {
+        "manufacturer": "James",
+        "partNumber": "JGI-17026-52",
+        "description": "JGI-17026-52",
+        "qty": 1
+      }
+    ]
+  },
+  {
+    "engineFamily": "Revolution (V-Rod) 2002-2017",
+    "jobName": "Replace cylinder liner and piston - one cylinder",
+    "jtcCode": "3237",
+    "baseWarrantyHours": 0.1,
+    "requiredParts": [
+      {
+        "manufacturer": "Cometic",
+        "partNumber": "C9886",
+        "description": "C9886",
+        "qty": 1
+      },
+      {
+        "manufacturer": "James",
+        "partNumber": "JGI-17026-52",
+        "description": "JGI-17026-52",
+        "qty": 1
+      }
+    ]
+  },
+  {
+    "engineFamily": "Revolution (V-Rod) 2002-2017",
+    "jobName": "Deglaze/measure one cylinder - **0.2h**[02-17:VRSC]",
+    "jtcCode": "3238",
+    "baseWarrantyHours": 0.2,
+    "requiredParts": [
+      {
+        "manufacturer": "Cometic",
+        "partNumber": "C9886",
+        "description": "C9886",
+        "qty": 1
+      },
+      {
+        "manufacturer": "James",
+        "partNumber": "JGI-17026-52",
+        "description": "JGI-17026-52",
+        "qty": 1
+      }
+    ]
+  },
+  {
+    "engineFamily": "Revolution (V-Rod) 2002-2017",
+    "jobName": "Replace cam cover/gasket, lower - front",
+    "jtcCode": "3319",
+    "baseWarrantyHours": 1.2,
+    "requiredParts": [
+      {
+        "manufacturer": "Cometic",
+        "partNumber": "C9886",
+        "description": "C9886",
+        "qty": 1
+      },
+      {
+        "manufacturer": "James",
+        "partNumber": "JGI-17026-52",
+        "description": "JGI-17026-52",
+        "qty": 1
+      }
+    ]
+  },
+  {
+    "engineFamily": "Revolution (V-Rod) 2002-2017",
+    "jobName": "Replace cam cover/gasket, lower - rear",
+    "jtcCode": "3320",
+    "baseWarrantyHours": 1.2,
+    "requiredParts": [
+      {
+        "manufacturer": "Cometic",
+        "partNumber": "C9886",
+        "description": "C9886",
+        "qty": 1
+      },
+      {
+        "manufacturer": "James",
+        "partNumber": "JGI-17026-52",
+        "description": "JGI-17026-52",
+        "qty": 1
+      }
+    ]
+  },
+  {
+    "engineFamily": "Revolution (V-Rod) 2002-2017",
+    "jobName": "Replace cam cover/gasket, lower - both",
+    "jtcCode": "3321",
+    "baseWarrantyHours": 1.4,
+    "requiredParts": [
+      {
+        "manufacturer": "Cometic",
+        "partNumber": "C9886",
+        "description": "C9886",
+        "qty": 1
+      },
+      {
+        "manufacturer": "James",
+        "partNumber": "JGI-17026-52",
+        "description": "JGI-17026-52",
+        "qty": 1
+      }
+    ]
+  },
+  {
+    "engineFamily": "Revolution (V-Rod) 2002-2017",
+    "jobName": "Replace cam cover/gasket, upper - front",
+    "jtcCode": "3322",
+    "baseWarrantyHours": 1.1,
+    "requiredParts": [
+      {
+        "manufacturer": "Cometic",
+        "partNumber": "C9886",
+        "description": "C9886",
+        "qty": 1
+      },
+      {
+        "manufacturer": "James",
+        "partNumber": "JGI-17026-52",
+        "description": "JGI-17026-52",
+        "qty": 1
+      }
+    ]
+  },
+  {
+    "engineFamily": "Revolution (V-Rod) 2002-2017",
+    "jobName": "Replace cam cover/gasket, upper - rear",
+    "jtcCode": "3324",
+    "baseWarrantyHours": 1.1,
+    "requiredParts": [
+      {
+        "manufacturer": "Cometic",
+        "partNumber": "C9886",
+        "description": "C9886",
+        "qty": 1
+      },
+      {
+        "manufacturer": "James",
+        "partNumber": "JGI-17026-52",
+        "description": "JGI-17026-52",
+        "qty": 1
+      }
+    ]
+  },
+  {
+    "engineFamily": "Revolution (V-Rod) 2002-2017",
+    "jobName": "Replace cam cover/gasket, upper - both",
+    "jtcCode": "3329",
+    "baseWarrantyHours": 1.2,
+    "requiredParts": [
+      {
+        "manufacturer": "Cometic",
+        "partNumber": "C9886",
+        "description": "C9886",
+        "qty": 1
+      },
+      {
+        "manufacturer": "James",
+        "partNumber": "JGI-17026-52",
+        "description": "JGI-17026-52",
+        "qty": 1
+      }
+    ]
+  },
+  {
+    "engineFamily": "Revolution (V-Rod) 2002-2017",
+    "jobName": "Replace cam cover gasket, inner - front",
+    "jtcCode": "3330",
+    "baseWarrantyHours": 1.2,
+    "requiredParts": [
+      {
+        "manufacturer": "Cometic",
+        "partNumber": "C9886",
+        "description": "C9886",
+        "qty": 1
+      },
+      {
+        "manufacturer": "James",
+        "partNumber": "JGI-17026-52",
+        "description": "JGI-17026-52",
+        "qty": 1
+      }
+    ]
+  },
+  {
+    "engineFamily": "Revolution (V-Rod) 2002-2017",
+    "jobName": "Replace cam cover gasket, inner - rear",
+    "jtcCode": "3332",
+    "baseWarrantyHours": 1.2,
+    "requiredParts": [
+      {
+        "manufacturer": "Cometic",
+        "partNumber": "C9886",
+        "description": "C9886",
+        "qty": 1
+      },
+      {
+        "manufacturer": "James",
+        "partNumber": "JGI-17026-52",
+        "description": "JGI-17026-52",
+        "qty": 1
+      }
+    ]
+  },
+  {
+    "engineFamily": "Revolution (V-Rod) 2002-2017",
+    "jobName": "Replace cam cover gasket, inner - both",
+    "jtcCode": "3334",
+    "baseWarrantyHours": 1.4,
+    "requiredParts": [
+      {
+        "manufacturer": "Cometic",
+        "partNumber": "C9886",
+        "description": "C9886",
+        "qty": 1
+      },
+      {
+        "manufacturer": "James",
+        "partNumber": "JGI-17026-52",
+        "description": "JGI-17026-52",
+        "qty": 1
+      }
+    ]
+  },
+  {
+    "engineFamily": "Revolution (V-Rod) 2002-2017",
+    "jobName": "Recondition cylinder heads - head removed (for non-related repairs) - one head",
+    "jtcCode": "3425",
+    "baseWarrantyHours": 1.7,
+    "requiredParts": [
+      {
+        "manufacturer": "Cometic",
+        "partNumber": "C9886",
+        "description": "C9886",
+        "qty": 1
+      },
+      {
+        "manufacturer": "James",
+        "partNumber": "JGI-17026-52",
+        "description": "JGI-17026-52",
+        "qty": 1
+      }
+    ]
+  },
+  {
+    "engineFamily": "Revolution (V-Rod) 2002-2017",
+    "jobName": "Replace primary crank gear - engine can stay in frame",
+    "jtcCode": "3451",
+    "baseWarrantyHours": 1.3,
+    "requiredParts": [
+      {
+        "manufacturer": "Cometic",
+        "partNumber": "C9886",
+        "description": "C9886",
+        "qty": 1
+      },
+      {
+        "manufacturer": "James",
+        "partNumber": "JGI-17026-52",
+        "description": "JGI-17026-52",
+        "qty": 1
+      }
+    ]
+  },
+  {
+    "engineFamily": "Revolution (V-Rod) 2002-2017",
+    "jobName": "Remove primary crank gear from crank - add to crankshaft replacement",
+    "jtcCode": "3471",
+    "baseWarrantyHours": 0.2,
+    "requiredParts": [
+      {
+        "manufacturer": "Cometic",
+        "partNumber": "C9886",
+        "description": "C9886",
+        "qty": 1
+      },
+      {
+        "manufacturer": "James",
+        "partNumber": "JGI-17026-52",
+        "description": "JGI-17026-52",
+        "qty": 1
+      }
+    ]
+  },
+  {
+    "engineFamily": "Revolution (V-Rod) 2002-2017",
+    "jobName": "Replace primary cam chain tensioner - **0.4h**[02-09:VRSC; 10:VRSCAW; 10-17:VRSCDX; 12:VRSCDX 105] **0.6h**[10-17:VRSCF]",
+    "jtcCode": "3472",
+    "baseWarrantyHours": 0.4,
+    "requiredParts": [
+      {
+        "manufacturer": "Cometic",
+        "partNumber": "C9886",
+        "description": "C9886",
+        "qty": 1
+      },
+      {
+        "manufacturer": "James",
+        "partNumber": "JGI-17026-52",
+        "description": "JGI-17026-52",
+        "qty": 1
+      }
+    ]
+  },
+  {
+    "engineFamily": "Revolution (V-Rod) 2002-2017",
+    "jobName": "Replace primary cam chain guide - **0.4h**[02-09:VRSC; 10:VRSCAW; 10-17:VRSCDX; 12:VRSCDX 105] **0.6h**[10-17:VRSCF]",
+    "jtcCode": "3473",
+    "baseWarrantyHours": 0.4,
+    "requiredParts": [
+      {
+        "manufacturer": "Cometic",
+        "partNumber": "C9886",
+        "description": "C9886",
+        "qty": 1
+      },
+      {
+        "manufacturer": "James",
+        "partNumber": "JGI-17026-52",
+        "description": "JGI-17026-52",
+        "qty": 1
+      }
+    ]
+  },
+  {
+    "engineFamily": "Revolution (V-Rod) 2002-2017",
+    "jobName": "Replace primary cam chain - can be done in chassis, depends on damage",
+    "jtcCode": "3474",
+    "baseWarrantyHours": 1.9,
+    "requiredParts": [
+      {
+        "manufacturer": "Cometic",
+        "partNumber": "C9886",
+        "description": "C9886",
+        "qty": 1
+      },
+      {
+        "manufacturer": "James",
+        "partNumber": "JGI-17026-52",
+        "description": "JGI-17026-52",
+        "qty": 1
+      }
+    ]
+  },
+  {
+    "engineFamily": "Revolution Max 2021-2025",
+    "jobName": "Replace valve seal or spring after cylinder head removal - one seal or spring (intake or exhaust)",
+    "jtcCode": "3131",
+    "baseWarrantyHours": 0.1,
+    "requiredParts": [
+      {
+        "manufacturer": "Cometic",
+        "partNumber": "C9886",
+        "description": "C9886",
+        "qty": 1
+      },
+      {
+        "manufacturer": "James",
+        "partNumber": "JGI-17026-52",
+        "description": "JGI-17026-52",
+        "qty": 1
+      }
+    ]
+  },
+  {
+    "engineFamily": "Revolution Max 2021-2025",
+    "jobName": "Replace valve seal or spring after cylinder head removal - both seals or springs (intake or exhaust)",
+    "jtcCode": "3132",
+    "baseWarrantyHours": 0.4,
+    "requiredParts": [
+      {
+        "manufacturer": "Cometic",
+        "partNumber": "C9886",
+        "description": "C9886",
+        "qty": 1
+      },
+      {
+        "manufacturer": "James",
+        "partNumber": "JGI-17026-52",
+        "description": "JGI-17026-52",
+        "qty": 1
+      }
+    ]
+  },
+  {
+    "engineFamily": "Revolution Max 2021-2025",
+    "jobName": "Replace cam sprocket cover - front or rear",
+    "jtcCode": "3264",
+    "baseWarrantyHours": 0.1,
+    "requiredParts": [
+      {
+        "manufacturer": "Cometic",
+        "partNumber": "C9886",
+        "description": "C9886",
+        "qty": 1
+      },
+      {
+        "manufacturer": "James",
+        "partNumber": "JGI-17026-52",
+        "description": "JGI-17026-52",
+        "qty": 1
+      }
+    ]
+  },
+  {
+    "engineFamily": "Revolution Max 2021-2025",
+    "jobName": "Replace cam sensor rear head - P0345, P0390",
+    "jtcCode": "3266",
+    "baseWarrantyHours": 0.8,
+    "requiredParts": [
+      {
+        "manufacturer": "Cometic",
+        "partNumber": "C9886",
+        "description": "C9886",
+        "qty": 1
+      },
+      {
+        "manufacturer": "James",
+        "partNumber": "JGI-17026-52",
+        "description": "JGI-17026-52",
+        "qty": 1
+      }
+    ]
+  }
+]
