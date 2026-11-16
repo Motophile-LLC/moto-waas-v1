@@ -91,7 +91,12 @@
       letter-spacing:.4px;
     }
 
-    input[type="text"], input[type="file"], select{
+    input[type="text"], input[type="search"], input[type="number"], input[type="file"], select{
+      font-size:16px;
+      min-width:0;
+      -webkit-appearance:none;
+      appearance:none;
+      touch-action:manipulation;
       width:100%;
       padding:12px 12px;
       border-radius:10px;
@@ -102,7 +107,7 @@
       font-weight:700;
       letter-spacing:.2px;
     }
-    input[type="text"]::placeholder{ color:rgba(255,255,255,.35); font-weight:700; }
+    input[type="text"]::placeholder, input[type="search"]::placeholder{ color:rgba(255,255,255,.35); font-weight:700; }
     select:disabled{
       opacity:.4;
       cursor:not-allowed;
@@ -601,8 +606,8 @@
         <div style="margin-top:14px;">
           <label for="searchJobs">Search Jobs (filtered)</label>
           <div class="jobs-tools">
-            <input id="searchJobs" type="text" placeholder="Type a keyword like 'stator', 'cylinder', 'primary'…" disabled />
-            <button id="clearSearchBtn" type="button" class="btn-secondary" style="flex:.5; width:auto;" disabled>Clear</button>
+            <input id="searchJobs" type="search" inputmode="search" placeholder="Type a keyword like 'stator', 'cylinder', 'primary'…" />
+            <button id="clearSearchBtn" type="button" class="btn-secondary" style="flex:.5; width:auto;">Clear</button>
           </div>
 
           <div style="display:flex;align-items:center;justify-content:space-between;gap:8px;margin-top:8px;flex-wrap:wrap;">
@@ -1482,7 +1487,11 @@ decodeBtn.addEventListener('click', onDecode);
 loadDbBtn.addEventListener('click', onLoadCatalog);
 
 searchJobsEl.addEventListener('input', () => {
-  if (!catalog.length || !locked.year || !locked.jtcPlatform) return;
+  if (!catalog.length) return;
+  if (!locked.year || !locked.jtcPlatform) {
+    jobsListEl.innerHTML = '<div style="padding:12px;color:rgba(255,255,255,.75);font-weight:900;font-size:13px;">Select a <b>Year + Platform</b> or <b>Decode VIN</b> above first to filter matching jobs.</div>';
+    return;
+  }
   renderJobs();
 });
 
