@@ -58,6 +58,15 @@ The system operates as a unified lead capture and expectation-setting engine. It
 * **Widget UI:** Displays a live countdown on the shop's site (*"Only 2 upgrades remaining\!"*).  
 * **Fallback:** Once capacity is hit, the CTA flips to *"Join Waitlist for Next Batch."*
 
+## **F. Curated Accessory Packages & Major Mileage Services**
+
+* **Curated Accessory Packages (Shop-Defined):** Rather than ingesting an entire aftermarket catalog upfront, shops can manually define custom upgrade/accessory packages with:
+  * **Fitment Guide:** `platforms`, optional `models`, and year span (`y1`–`y2`) so the option only surfaces when a customer's decoded VIN (or manual selection) matches.
+  * **Bundled Parts List:** Custom parts & pricing (e.g., *14" Handlebars + Extended Brake/Clutch Lines + Wire Extensions + Riser Bushings*).
+  * **Custom Labor Hours:** Shop-defined install time (routed as `PARTS_REQUIRED` unless pre-stocked as a Monthly Special).
+* **Major Mileage Services:** All factory scheduled mileage intervals (`1k`, `5k`, `10k`, `15k`, `20k`, `25k`, `30k`, `35k`, `40k`, `45k`, `50k+` miles from JTC Section 3) are surfaced as Track 1 (`STANDARD_SERVICE`) options with exact model/platform labor hours and drain/gasket consumables.
+* **Future Dealer Catalog Importer (Deferred):** When a Drag Specialties / LeMans dealer CSV or OEM parts export is available, a 3-tier importer (Direct Fitment CSV → Description/Year/Platform parser → `OEM #` cross-reference) will merge non-gasket OEM and aftermarket parts into the same unified parts schema.
+
 ---
 
 # **3\. DATABASE SCHEMA UPDATES (PRISMA)**

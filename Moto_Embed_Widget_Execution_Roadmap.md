@@ -9,9 +9,13 @@
 
 * **JTC Labor Guide:** Audited all 2,404 canonical labor operations (2000–2025) across Sections 3 and 4.1–4.9.
 * **Aftermarket Parts Extraction:** Extracted full 234-page James Gaskets catalog (`pdf_text_alt/james.txt`) alongside Cometic Harley-Davidson pages 178–220 (`pdf_text_alt/cometic.txt`).
-* **Catalog Builder (`master_parse_catalogs_v4.mjs`):** Built `parsed_catalog.json` (**3,484 records**) with explicit `platform`, `y1`/`y2`, `serviceTrack` (`STANDARD_SERVICE` vs. `PARTS_REQUIRED`), and era-matched Cometic/James part numbers, descriptions, OE#, and pricing.
-* **v1 Prototype (`index.html`):** Fixed `Evolution 1340` year matching, Sportster (`XL`) platform leakage, JTC platform code alignment (`TRG`, `SFT`, `DYN`, `XL`, `TRK`, `VRSC`, `REV`, `XG`, `EV`), and embedded the 3,484-record catalog.
-* **Next Up:** Phase 1 (Next.js App Router + Prisma + Clerk Auth).
+* **Catalog Builder (`master_parse_catalogs_v4.mjs`):** Built `parsed_catalog.json` (**6,165 records**, including **1,550** with exact sub-model `modelHours`) and `parts_price_list.json` (**451** unique parts with Cometic catalog pricing, Cometic→James cross-ref estimates, and `update_part_prices.mjs`).
+* **v1 Prototype (`index.html`):** Fixed `Evolution 1340` year matching, Sportster (`XL`) platform leakage, JTC platform code alignment (`TRG`, `SFT`, `DYN`, `XL`, `TRK`, `VRSC`, `REV`, `XG`, `EV`), OEM cross-ref badges, kit breakdown options, age-scaled labor multiplier (`1.5x`/`2.0x`/`2.25x`), hourly rate dollar estimate, Two-Speed track filters, custom line items, and print/PDF CSS.
+* **Next Up (v1 Tool Polish before SaaS Phases 1–5):**
+  1. **Curated Accessory Packages:** Add a shop-defined accessory/upgrade package format (e.g., *14" Handlebars + Lines + Wire Extensions + Riser Bushings* with custom labor hours and fitment `platforms`/`models`/`y1`–`y2`) that automatically surfaces when a matching VIN is decoded.
+  2. **Major Mileage Services:** Ensure all factory mileage intervals (`1k`–`50k+` miles from JTC Section 3) are cleanly surfaced and filterable with their exact model/platform times.
+  3. **Dealer Catalog Importer (Deferred until CSV is available):** Build the Drag Specialties / OEM CSV importer (Direct Fitment → Text Fitment Parser → `OEM #` cross-ref) once a sample dealer export is ready.
+* **SaaS Build:** Phases 1–5 below (Next.js App Router + Prisma + Clerk Auth + Resend/Twilio + Admin Portal).
 
 ---
 
