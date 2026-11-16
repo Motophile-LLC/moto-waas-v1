@@ -202,10 +202,35 @@ function parseCometicCatalog() {
 }
 
 // ---------------------------------------------------------------------------
-// 3. Parse James Gaskets Catalog (Pages 5-234)
+// 3. Parse James Gaskets Catalog (Pages 5-234) + Cross Reference OEM Map
 // ---------------------------------------------------------------------------
+function parseJamesOemMap(lines) {
+  const oemMap = new Map();
+  let inXref = false;
+  for (const raw of lines) {
+    const line = raw.trim();
+    if (line.startsWith('CROSS REFERENCE & PAGE NUMBER GUIDE')) {
+      inXref = true;
+      continue;
+    }
+    if (!inXref) continue;
+    // Match one or more "JGI-XXX  OEMXXX  PAGE" pairs on a line
+    const re = /\b(JGI-[0-9A-Z\-]+)\s+([0-9A-Z\-\/]+)\s+\d{1,3}\b/g;
+    let m;
+    while ((m = re.exec(line)) !== null) {
+      const jgi = m[1].toUpperCase();
+      const oem = m[2].toUpperCase();
+      if (oem !== 'N/A' && oem !== 'NA' && oem.length >= 4) {
+        oemMap.set(jgi, oem);
+      }
+    }
+  }
+  return oemMap;
+}
+
 function parseJamesCatalog() {
   const lines = fs.readFileSync(jamesTxtPath, 'utf8').split(/\r?\n/);
+  const oemMap = parseJamesOemMap(lines);
   const SKIP_SECTIONS = /POLARIS|VICTORY|INDIAN|APPAREL|GASKET BOARD|CROSS REFERENCE|TABLE OF CONTENTS/i;
 
   let pageSection = '';
@@ -259,9 +284,11 @@ function parseJamesCatalog() {
         const partNumber = m[1].toUpperCase();
         if (seen.has(partNumber)) continue;
         seen.add(partNumber);
+        const oeNumber = oemMap.get(partNumber) || null;
         parts.push({
           manufacturer: 'James',
           partNumber,
+          ...(oeNumber ? { oeNumber } : {}),
           section: pageSection,
           description: [title, modelsMatch ? modelsMatch[1].trim() : '', usedOnMatch ? `(${usedOnMatch[1].trim()})` : ''].filter(Boolean).join(' — ') || rawDesc || pageSection,
           y1: yearSpan ? yearSpan[0] : 1999,
@@ -486,11 +513,10 @@ function mapJobToTargetCategories(row) {
   return [...new Set(cats)];
 }
 
-function findBestPart(partsList, row, targetCats) {
-  if (!targetCats.length) return null;
+function findRankedParts(partsList, row, targetCats, limit = 5) {
+  if (!targetCats.length) return [];
   const rowEra = getEngineEra(row.platform, row.y1);
-  let best = null;
-  let bestScore = 0;
+  const scored = [];
 
   for (const p of partsList) {
     // Year overlap required
@@ -512,18 +538,15 @@ function findBestPart(partsList, row, targetCats) {
     let score = catHits.length * 10;
     if (platMatch) score += 20;
     if (p.eraTag && p.eraTag === rowEra) score += 30;
-    // Prefer exact primary category hit (index 0)
     if (p.categories.includes(targetCats[0])) score += 15;
-    // Prefer tighter year overlap
+    if (p.oeNumber) score += 5;
     const overlapYears = Math.min(p.y2, row.y2) - Math.max(p.y1, row.y1);
     score += Math.min(overlapYears, 10);
 
-    if (score > bestScore) {
-      bestScore = score;
-      best = p;
-    }
+    scored.push({ part: p, score });
   }
-  return best;
+  scored.sort((a, b) => b.score - a.score);
+  return scored.slice(0, limit).map(s => s.part);
 }
 
 // ---------------------------------------------------------------------------
@@ -547,8 +570,10 @@ const seenKeys = new Set();
 
 for (const row of jtcRows) {
   const targetCats = mapJobToTargetCategories(row);
-  const cometicMatch = findBestPart(cometicParts, row, targetCats);
-  const jamesMatch = findBestPart(jamesParts, row, targetCats);
+  const cometicMatches = findRankedParts(cometicParts, row, targetCats, 4);
+  const jamesMatches = findRankedParts(jamesParts, row, targetCats, 4);
+  const cometicMatch = cometicMatches[0] || null;
+  const jamesMatch = jamesMatches[0] || null;
 
   const isStandardMaint = row.section.startsWith('Section 3') || /brake pad|tire|fork.*seal|oil|fluid/i.test(row.jobName);
   if (!cometicMatch && !jamesMatch && !isStandardMaint) continue;
@@ -557,25 +582,23 @@ for (const row of jtcRows) {
   if (seenKeys.has(key)) continue;
   seenKeys.add(key);
 
+  const toPartObj = (p) => ({
+    manufacturer: p.manufacturer,
+    partNumber: p.partNumber,
+    ...(p.oeNumber ? { oeNumber: p.oeNumber } : {}),
+    description: p.description,
+    ...(p.price ? { price: p.price } : {}),
+    qty: 1,
+  });
+
   const requiredParts = [];
-  if (cometicMatch) {
-    requiredParts.push({
-      manufacturer: 'Cometic',
-      partNumber: cometicMatch.partNumber,
-      ...(cometicMatch.oeNumber ? { oeNumber: cometicMatch.oeNumber } : {}),
-      description: cometicMatch.description,
-      ...(cometicMatch.price ? { price: cometicMatch.price } : {}),
-      qty: 1,
-    });
-  }
-  if (jamesMatch) {
-    requiredParts.push({
-      manufacturer: 'James',
-      partNumber: jamesMatch.partNumber,
-      description: jamesMatch.description,
-      qty: 1,
-    });
-  }
+  if (cometicMatch) requiredParts.push(toPartObj(cometicMatch));
+  if (jamesMatch) requiredParts.push(toPartObj(jamesMatch));
+
+  const breakdownParts = [
+    ...cometicMatches.slice(1).map(toPartObj),
+    ...jamesMatches.slice(1).map(toPartObj),
+  ];
 
   catalog.push({
     engineFamily: getEngineFamilyLabel(row.platform, row.y1, row.y2),
@@ -588,6 +611,7 @@ for (const row of jtcRows) {
     baseWarrantyHours: row.baseWarrantyHours,
     serviceTrack: classifyServiceTrack(row),
     requiredParts,
+    ...(breakdownParts.length ? { breakdownParts } : {}),
   });
 }
 
