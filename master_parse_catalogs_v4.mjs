@@ -400,6 +400,7 @@ function parseJtcRows(md) {
     const tierRegex = /\*\*(\d+(?:\.\d+)?)h\*\*\[([^\]]+)\]/g;
     let m;
     const platformEntries = new Map(); // key: `${platform}|${y1}|${y2}` -> hours[]
+    const modelHoursByEra = new Map(); // key: `${platform}|${era}` -> Map<modelCode, hours>
 
     while ((m = tierRegex.exec(hoursCol)) !== null) {
       const hours = parseFloat(m[1]);
@@ -419,8 +420,22 @@ function parseJtcRows(md) {
 
         const plats = new Set();
         for (const tok of modelsPart.split(',')) {
-          const p = mapModelTokenToPlatform(tok);
-          if (p) plats.add(p);
+          const cleanTok = tok.trim().toUpperCase();
+          const p = mapModelTokenToPlatform(cleanTok);
+          if (p) {
+            plats.add(p);
+            // If token is a specific model code (not a platform/ALL), record exact modelHours
+            if (!['TRG', 'SFT', 'DYN', 'XL', 'TRK', 'VRSC', 'REV', 'XG', 'EV', 'SDC', 'ALL'].includes(cleanTok)) {
+              for (const [ry1, ry2] of yearRanges) {
+                for (let yr = ry1; yr <= ry2; yr++) {
+                  const era = getEngineEra(p, yr);
+                  const ek = `${p}|${era}`;
+                  if (!modelHoursByEra.has(ek)) modelHoursByEra.set(ek, new Map());
+                  modelHoursByEra.get(ek).set(cleanTok, hours);
+                }
+              }
+            }
+          }
         }
 
         if (plats.has('ALL')) {
@@ -457,11 +472,13 @@ function parseJtcRows(md) {
       }
     }
 
-    for (const { platform, years, hours: hrsList } of byPlatformEra.values()) {
+    for (const [eraKey, { platform, years, hours: hrsList }] of byPlatformEra.entries()) {
       const yrs = [...years].sort((a, b) => a - b);
       const minY = yrs[0];
       const maxY = yrs[yrs.length - 1];
       const hours = Math.round((hrsList.reduce((a, b) => a + b, 0) / hrsList.length) * 10) / 10;
+      const mMap = modelHoursByEra.get(eraKey);
+      const modelHours = (mMap && mMap.size > 0) ? Object.fromEntries(mMap.entries()) : null;
       rows.push({
         section,
         jtcCode,
@@ -471,6 +488,7 @@ function parseJtcRows(md) {
         y1: minY,
         y2: maxY,
         baseWarrantyHours: hours,
+        ...(modelHours ? { modelHours } : {}),
       });
     }
   }
@@ -516,6 +534,9 @@ function mapJobToTargetCategories(row) {
 function findRankedParts(partsList, row, targetCats, limit = 5) {
   if (!targetCats.length) return [];
   const rowEra = getEngineEra(row.platform, row.y1);
+  const jobLower = (row.jobName || '').toLowerCase();
+  const isRebuildJob = /kit|rebuild|overhaul|complete|top end/.test(jobLower);
+  const isSinglePartJob = !isRebuildJob && /gasket|seal|o-ring|cover/.test(jobLower);
   const scored = [];
 
   for (const p of partsList) {
@@ -540,6 +561,12 @@ function findRankedParts(partsList, row, targetCats, limit = 5) {
     if (p.eraTag && p.eraTag === rowEra) score += 30;
     if (p.categories.includes(targetCats[0])) score += 15;
     if (p.oeNumber) score += 5;
+
+    const pText = `${p.section || ''} ${p.description || ''}`.toLowerCase();
+    const pIsFullKit = /complete engine|motor.*kit|top end.*kit|engine gasket kit/.test(pText);
+    if (isSinglePartJob && pIsFullKit) score -= 25;
+    if (isRebuildJob && pIsFullKit) score += 15;
+
     const overlapYears = Math.min(p.y2, row.y2) - Math.max(p.y1, row.y1);
     score += Math.min(overlapYears, 10);
 
@@ -575,8 +602,11 @@ for (const row of jtcRows) {
   const cometicMatch = cometicMatches[0] || null;
   const jamesMatch = jamesMatches[0] || null;
 
-  const isStandardMaint = row.section.startsWith('Section 3') || /brake pad|tire|fork.*seal|oil|fluid/i.test(row.jobName);
-  if (!cometicMatch && !jamesMatch && !isStandardMaint) continue;
+  const isCommonService = row.section.startsWith('Section 3')
+    || row.section.startsWith('Section 4.2')
+    || row.section.startsWith('Section 4.5')
+    || /brake|tire|wheel|fork|oil|fluid|clutch|belt|stator|starter|battery|handlebar|exhaust/i.test(row.jobName);
+  if (!cometicMatch && !jamesMatch && !isCommonService) continue;
 
   const key = `${row.platform}|${row.y1}|${row.y2}|${row.jtcCode}|${row.jobName}`;
   if (seenKeys.has(key)) continue;
@@ -609,14 +639,55 @@ for (const row of jtcRows) {
     system: row.system,
     jobName: row.jobName,
     baseWarrantyHours: row.baseWarrantyHours,
+    ...(row.modelHours ? { modelHours: row.modelHours } : {}),
     serviceTrack: classifyServiceTrack(row),
     requiredParts,
     ...(breakdownParts.length ? { breakdownParts } : {}),
   });
 }
 
+// Build / update parts_price_list.json (preserving any existing web_search or manual prices)
+const priceListPath = `${workdir}/parts_price_list.json`;
+let existingPrices = new Map();
+if (fs.existsSync(priceListPath)) {
+  try {
+    const prev = JSON.parse(fs.readFileSync(priceListPath, 'utf8'));
+    for (const item of prev) {
+      if (item && item.partNumber) existingPrices.set(item.partNumber, item);
+    }
+  } catch (_) {}
+}
+
+const priceMap = new Map();
+for (const job of catalog) {
+  for (const p of [...(job.requiredParts || []), ...(job.breakdownParts || [])]) {
+    if (priceMap.has(p.partNumber)) continue;
+    const prev = existingPrices.get(p.partNumber);
+    const catalogCost = p.price ? parseFloat(String(p.price).replace(/[^0-9.]/g, '')) : null;
+    const estimatedCost = (prev && prev.estimatedCost != null && prev.priceSource !== 'cometic_catalog')
+      ? prev.estimatedCost
+      : (Number.isFinite(catalogCost) ? catalogCost : (prev ? prev.estimatedCost : null));
+    const priceSource = (prev && prev.estimatedCost != null && prev.priceSource !== 'cometic_catalog')
+      ? prev.priceSource
+      : (Number.isFinite(catalogCost) ? 'cometic_catalog' : (prev ? prev.priceSource : null));
+    priceMap.set(p.partNumber, {
+      partNumber: p.partNumber,
+      manufacturer: p.manufacturer,
+      oeNumber: p.oeNumber || (prev ? prev.oeNumber : null) || null,
+      description: p.description,
+      estimatedCost: estimatedCost ?? null,
+      priceSource: priceSource || null,
+      lastUpdated: (prev && prev.lastUpdated) ? prev.lastUpdated : (Number.isFinite(catalogCost) ? new Date().toISOString().slice(0, 10) : null),
+    });
+  }
+}
+
+const priceList = [...priceMap.values()].sort((a, b) => a.partNumber.localeCompare(b.partNumber));
+fs.writeFileSync(priceListPath, JSON.stringify(priceList, null, 2), 'utf8');
+
 fs.writeFileSync(outPath, JSON.stringify(catalog, null, 2), 'utf8');
 console.log(`DONE. Wrote ${catalog.length} records to ${outPath}`);
+console.log(`Wrote ${priceList.length} unique parts to ${priceListPath}`);
 
 const uniqueCometic = new Set(catalog.flatMap(j => j.requiredParts.filter(p => p.manufacturer === 'Cometic').map(p => p.partNumber)));
 const uniqueJames = new Set(catalog.flatMap(j => j.requiredParts.filter(p => p.manufacturer === 'James').map(p => p.partNumber)));
