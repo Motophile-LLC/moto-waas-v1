@@ -637,13 +637,26 @@
             </div>
           </div>
 
+          <div style="display:flex;align-items:center;justify-content:space-between;gap:12px;margin-top:12px;padding:10px 12px;border-radius:10px;background:rgba(255,255,255,.03);border:1px solid var(--border);">
+            <div>
+              <div style="font-size:11px;font-weight:900;color:var(--muted);text-transform:uppercase;letter-spacing:.45px;">Shop Hourly Rate ($/hr)</div>
+              <div id="ageMultBadge" style="font-size:12px;color:var(--copper);font-weight:900;margin-top:2px;">Age Multiplier: — (lock vehicle)</div>
+            </div>
+            <input id="hourlyRate" type="number" min="50" max="400" step="5" value="120" style="width:96px;text-align:right;font-weight:900;" />
+          </div>
+
           <div class="total">
             <div class="left">
               <div class="k">Running Total</div>
-              <div class="v">Labor Hours</div>
+              <div class="v" id="totalMeta">0.0h base → 0.0h billable</div>
             </div>
-            <div class="right" id="totalHours">0.0</div>
+            <div style="text-align:right;">
+              <div class="right" id="totalCost">$0.00</div>
+              <div style="font-size:12px;color:var(--muted);font-weight:900;" id="totalHours">0.0h</div>
+            </div>
           </div>
+
+          <div id="expectationBanner" class="status" style="display:none;margin-top:12px;"></div>
 
           <button id="printQuoteBtn" type="button" class="btn-secondary" style="margin-top:14px; width:100%;">
             Print / Save as PDF
@@ -826,114 +839,6 @@ function getJobYearRange(job){
   return null;
 }
 
-function entryPlatform(job, targetPlatform){
-  if (job.platform) return job.platform;
-  if (job.jtcPlatform) return job.jtcPlatform;
-  if (job.jtcPlatformCode) return job.jtcPlatformCode;
-  const ef = (job.engineFamily || '').toUpperCase();
-  if (targetPlatform === 'TRG' && (ef.includes('MILWAUKEE') || ef.includes('TWIN CAM') || ef.includes('EVOLUTION 1340') || ef.includes('TOUR'))) return 'TRG';
-  if (targetPlatform === 'SFT' && (ef.includes('SOFTAIL') || ef.includes('MILWAUKEE') || ef.includes('TWIN CAM') || ef.includes('EVOLUTION 1340'))) return 'SFT';
-  if (targetPlatform === 'DYN' && (ef.includes('DYNA') || ef.includes('TWIN CAM') || ef.includes('EVOLUTION 1340'))) return 'DYN';
-  if (targetPlatform === 'XL' && (ef.includes('SPORTSTER') || ef.includes('(XL)'))) return 'XL';
-  if (targetPlatform === 'VRSC' && (ef.includes('V-ROD') || ef.includes('REVOLUTION (') || ef.includes('VRSC'))) return 'VRSC';
-  if (targetPlatform === 'REV' && (ef.includes('REVOLUTION MAX') || ef.includes('PAN AMERICA') || ef.includes('RH1250') || ef.includes('RA1250'))) return 'REV';
-  if (targetPlatform === 'TRK' && (ef.includes('TRIKE') || ef.includes('MILWAUKEE'))) return 'TRK';
-  if (targetPlatform === 'XG' && (ef.includes('STREET 500') || ef.includes('(XG)'))) return 'XG';
-  if (targetPlatform === 'EV' && (ef.includes('LIVEWIRE') || ef.includes('(EV)'))) return 'EV';
-  if (ef.includes(targetPlatform)) return targetPlatform;
-  return null;
-}
-
-function getJobYearRange(job){
-  if (job.y1 !== undefined && job.y1 !== null && job.y1 !== '') {
-    const parseY = (v) => {
-      const n = parseInt(v, 10);
-      if (isNaN(n)) return null;
-      return n < 100 ? (n >= 36 ? 1900 + n : 2000 + n) : n;
-    };
-    const startYear = parseY(job.y1);
-    const endYear = (job.y2 !== undefined && job.y2 !== null && job.y2 !== '') ? parseY(job.y2) : startYear;
-    if (startYear !== null) return [startYear, endYear || startYear];
-  }
-
-  const groupStr = job.yearGroup || job.year_span || job.yearSpan;
-  if (groupStr) {
-    const s = String(groupStr).trim();
-    if (/^\d{4}\s*-\s*\d{4}$/.test(s)) {
-      const [a, b] = s.split('-').map(x => parseInt(x.trim(), 10));
-      return [a, b];
-    }
-    if (/^\d{2}\s*-\s*\d{2}$/.test(s)) {
-      const [a, b] = s.split('-').map(x => parseInt(x.trim(), 10));
-      const py = (y) => y >= 36 ? 1900 + y : 2000 + y;
-      return [py(a), py(b)];
-    }
-  }
-
-  const ef = (job.engineFamily || '').toString();
-  const m = ef.match(/(\d{4})\s*-\s*(\d{4})/);
-  if (m) {
-    return [parseInt(m[1], 10), parseInt(m[2], 10)];
-  }
-  if (/EVOLUTION 1340/i.test(ef)) return [2000, 2000];
-
-  return null;
-}
-
-function entryPlatform(job, targetPlatform){
-  if (job.platform) return job.platform;
-  if (job.jtcPlatform) return job.jtcPlatform;
-  if (job.jtcPlatformCode) return job.jtcPlatformCode;
-  const ef = (job.engineFamily || '').toUpperCase();
-  if (targetPlatform === 'TRG' && (ef.includes('MILWAUKEE') || ef.includes('TWIN CAM') || ef.includes('EVOLUTION 1340') || ef.includes('TOUR'))) return 'TRG';
-  if (targetPlatform === 'SFT' && (ef.includes('SOFTAIL') || ef.includes('MILWAUKEE') || ef.includes('TWIN CAM') || ef.includes('EVOLUTION 1340'))) return 'SFT';
-  if (targetPlatform === 'DYN' && (ef.includes('DYNA') || ef.includes('TWIN CAM') || ef.includes('EVOLUTION 1340'))) return 'DYN';
-  if (targetPlatform === 'XL' && (ef.includes('SPORTSTER') || ef.includes('(XL)'))) return 'XL';
-  if (targetPlatform === 'VRSC' && (ef.includes('V-ROD') || ef.includes('REVOLUTION (') || ef.includes('VRSC'))) return 'VRSC';
-  if (targetPlatform === 'REV' && (ef.includes('REVOLUTION MAX') || ef.includes('PAN AMERICA') || ef.includes('RH1250') || ef.includes('RA1250'))) return 'REV';
-  if (targetPlatform === 'TRK' && (ef.includes('TRIKE') || ef.includes('MILWAUKEE'))) return 'TRK';
-  if (targetPlatform === 'XG' && (ef.includes('STREET 500') || ef.includes('(XG)'))) return 'XG';
-  if (targetPlatform === 'EV' && (ef.includes('LIVEWIRE') || ef.includes('(EV)'))) return 'EV';
-  if (ef.includes(targetPlatform)) return targetPlatform;
-  return null;
-}
-
-function getJobYearRange(job){
-  if (job.y1 !== undefined && job.y1 !== null && job.y1 !== '') {
-    const parseY = (v) => {
-      const n = parseInt(v, 10);
-      if (isNaN(n)) return null;
-      return n < 100 ? (n >= 36 ? 1900 + n : 2000 + n) : n;
-    };
-    const startYear = parseY(job.y1);
-    const endYear = (job.y2 !== undefined && job.y2 !== null && job.y2 !== '') ? parseY(job.y2) : startYear;
-    if (startYear !== null) return [startYear, endYear || startYear];
-  }
-
-  const groupStr = job.yearGroup || job.year_span || job.yearSpan;
-  if (groupStr) {
-    const s = String(groupStr).trim();
-    if (/^\d{4}\s*-\s*\d{4}$/.test(s)) {
-      const [a, b] = s.split('-').map(x => parseInt(x.trim(), 10));
-      return [a, b];
-    }
-    if (/^\d{2}\s*-\s*\d{2}$/.test(s)) {
-      const [a, b] = s.split('-').map(x => parseInt(x.trim(), 10));
-      const py = (y) => y >= 36 ? 1900 + y : 2000 + y;
-      return [py(a), py(b)];
-    }
-  }
-
-  const ef = (job.engineFamily || '').toString();
-  const m = ef.match(/(\d{4})\s*-\s*(\d{4})/);
-  if (m) {
-    return [parseInt(m[1], 10), parseInt(m[2], 10)];
-  }
-  if (/EVOLUTION 1340/i.test(ef)) return [2000, 2000];
-
-  return null;
-}
-
 function findMatchingCatalogJobs(){
   if (!locked.year || !locked.jtcPlatform) return [];
 
@@ -970,8 +875,30 @@ function removeFromCart(id){
   renderCart();
 }
 
+function getAgeMultiplier(year){
+  const y = parseInt(year, 10);
+  if (!Number.isFinite(y)) return { mult: 1.5, age: null, label: 'Default 1.5x' };
+  const age = Math.max(0, new Date().getFullYear() - y);
+  if (age <= 10) return { mult: 1.5, age, label: `${age} yrs old → 1.5x` };
+  if (age <= 20) return { mult: 2.0, age, label: `${age} yrs old → 2.0x` };
+  return { mult: 2.25, age, label: `${age} yrs old → 2.25x` };
+}
+
+function getHourlyRate(){
+  const el = $('hourlyRate');
+  const r = el ? parseFloat(el.value) : 120;
+  return (Number.isFinite(r) && r > 0) ? r : 120;
+}
+
 function renderCart(){
   cartListEl.innerHTML = '';
+  const { mult, label } = getAgeMultiplier(locked.year);
+  const rate = getHourlyRate();
+  const ageBadgeEl = $('ageMultBadge');
+  const totalMetaEl = $('totalMeta');
+  const totalCostEl = $('totalCost');
+  const expectationEl = $('expectationBanner');
+  if (ageBadgeEl) ageBadgeEl.textContent = locked.year ? `Age Multiplier: ${label}` : 'Age Multiplier: — (lock vehicle)';
 
   if (!cart.length){
     const div = document.createElement('div');
@@ -981,20 +908,29 @@ function renderCart(){
     div.style.fontSize = '13px';
     div.innerHTML = 'Your quote cart is empty. Click <b>Add</b> on a job result.';
     cartListEl.appendChild(div);
-    totalHoursEl.textContent = '0.0';
+    totalHoursEl.textContent = '0.0h';
+    if (totalMetaEl) totalMetaEl.textContent = '0.0h base → 0.0h billable';
+    if (totalCostEl) totalCostEl.textContent = '$0.00';
+    if (expectationEl) expectationEl.style.display = 'none';
     return;
   }
 
-  let total = 0;
+  let baseTotal = 0;
+  let billableTotal = 0;
+  let needsParts = false;
 
   for (const item of cart){
-    total += Number(item.baseWarrantyHours || 0);
+    const baseH = Number(item.baseWarrantyHours || 0);
+    const billableH = Math.round(baseH * mult * 10) / 10;
+    const itemCost = billableH * rate;
+    baseTotal += baseH;
+    billableTotal += billableH;
+    if (item.serviceTrack === 'PARTS_REQUIRED') needsParts = true;
 
     const el = document.createElement('div');
     el.className = 'cart-item';
 
     const parts = item.requiredParts || [];
-
     const cometicParts = parts.filter(p => (p.manufacturer || '').toLowerCase().includes('cometic'));
     const jamesParts = parts.filter(p => (p.manufacturer || '').toLowerCase().includes('james'));
     const otherParts = parts.filter(p => !(p.manufacturer || '').toLowerCase().includes('cometic') && !(p.manufacturer || '').toLowerCase().includes('james'));
@@ -1061,7 +997,10 @@ function renderCart(){
           <div class="cart-code">JTC Code: <span style="color:var(--copper);font-weight:1000">${escapeHtml(item.jtcCode || '')}</span></div>
         </div>
         <div style="display:flex;align-items:center;gap:12px;">
-          <div class="cart-hours">${Number(item.baseWarrantyHours || 0).toFixed(1)}h</div>
+          <div style="text-align:right;">
+            <div class="cart-hours">$${itemCost.toFixed(2)}</div>
+            <div style="font-size:11px;color:var(--muted);font-weight:900;">${baseH.toFixed(1)}h × ${mult}x = ${billableH.toFixed(1)}h</div>
+          </div>
           <button type="button" class="btn-remove" data-id="${escapeHtml(item.id)}">Remove</button>
         </div>
       </div>
@@ -1095,7 +1034,19 @@ function renderCart(){
     cartListEl.appendChild(el);
   }
 
-  totalHoursEl.textContent = total.toFixed(1);
+  totalHoursEl.textContent = `${billableTotal.toFixed(1)}h billable`;
+  if (totalMetaEl) totalMetaEl.textContent = `${baseTotal.toFixed(1)}h base × ${mult}x ($${rate}/hr)`;
+  if (totalCostEl) totalCostEl.textContent = `$${(billableTotal * rate).toFixed(2)}`;
+  if (expectationEl) {
+    expectationEl.style.display = 'block';
+    if (needsParts) {
+      expectationEl.style.borderColor = 'rgba(197,106,58,.45)';
+      expectationEl.innerHTML = `<b>Track 2 — Parts Required:</b> Estimated labor is <b>$${(billableTotal * rate).toFixed(2)}</b> (${billableTotal.toFixed(1)}h @ $${rate}/hr). This repair requires ordering specific gaskets or components (typically 7–10 days shipping).`;
+    } else {
+      expectationEl.style.borderColor = 'rgba(53,208,127,.45)';
+      expectationEl.innerHTML = `<span class="ok">Track 1 — Standard Service:</span> Estimated labor is <b>$${(billableTotal * rate).toFixed(2)}</b> (${billableTotal.toFixed(1)}h @ $${rate}/hr) plus standard consumables.`;
+    }
+  }
 }
 
 function escapeHtml(s){
@@ -1113,6 +1064,7 @@ function addToCart(job){
     jobName: job.jobName,
     jtcCode: job.jtcCode,
     baseWarrantyHours: job.baseWarrantyHours,
+    serviceTrack: job.serviceTrack || 'PARTS_REQUIRED',
     requiredParts: job.requiredParts || [],
     breakdownParts: job.breakdownParts || [],
   });
@@ -1335,6 +1287,7 @@ function onManualLock() {
   clearSearchBtn.disabled = false;
 
   renderJobs();
+  renderCart();
 }
 
 /**
@@ -1448,6 +1401,10 @@ clearSearchBtn.addEventListener('click', () => {
 
 if (printQuoteBtn) {
   printQuoteBtn.addEventListener('click', () => window.print());
+}
+const hourlyRateEl = $('hourlyRate');
+if (hourlyRateEl) {
+  hourlyRateEl.addEventListener('input', renderCart);
 }
 
 if (manualYearEl) {
