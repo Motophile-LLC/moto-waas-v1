@@ -19,4 +19,4 @@ yarn-error.log
 # (Uncomment and edit these if you keep raw data in the same folder)
 # raw_catalog.json
 # *.md
-# *.pdf
+*.pdf

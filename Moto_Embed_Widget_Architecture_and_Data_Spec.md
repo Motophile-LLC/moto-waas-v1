@@ -19,19 +19,19 @@ The system operates as a unified lead capture and expectation-setting engine. It
 2. Users click **"Continue with Apple/Google"**.  
 3. The system automatically captures `customerName`, `customerEmail`, and requests the `customerPhone` and `preferredContactMethod` (Call/Email) in one screen.
 
-## **C. Age-Scaled Labor Math (Variable Retail Rates)**
-
-* To account for increased labor complexity and frozen/weathered hardware on older motorcycles, labor estimates automatically scale based on the `ModelYear` decoded from the NHTSA API:  
-* **0 to 10 Years Old:** Applies a **1.5x** Warranty time multiplier.  
-* **10 to 20 Years Old:** Applies a **2.0x** Warranty time multiplier.  
-* **20 to 25 Years Old:** Applies a **2.25x** Warranty time multiplier.
-
 ## **B. Vehicle Identification (NHTSA API Integration)**
 
 * The widget requires precise vehicle data to accurately route the JTC logic and parts pulling.  
 * **Input Paths:** Users can manually select Year/Make/Model, or input a 17-digit VIN (Recommended).  
 * **NHTSA vPIC Decoder:** If a VIN is provided, the Next.js backend queries the free National Highway Traffic Safety Administration (NHTSA) API (`https://vpic.nhtsa.dot.gov/api/vehicles/decodevinvalues/{VIN}?format=json`).  
 * **Extraction:** The system extracts the `ModelYear`, `Make`, `Model`, and `DisplacementCC` to perfectly map the motorcycle to the Flat Rate Master catalogs before generating the quote, eliminating customer guessing errors.
+
+## **C. Age-Scaled Labor Math (Variable Retail Rates)**
+
+* To account for increased labor complexity and frozen/weathered hardware on older motorcycles, labor estimates automatically scale based on the `ModelYear` decoded from the NHTSA API:  
+* **0 to 10 Years Old:** Applies a **1.5x** Warranty time multiplier.  
+* **10 to 20 Years Old:** Applies a **2.0x** Warranty time multiplier.  
+* **20 to 25 Years Old:** Applies a **2.25x** Warranty time multiplier.
 
 ## **D. The Two-Speed Scheduling Engine**
 

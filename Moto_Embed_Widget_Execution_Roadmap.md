@@ -5,6 +5,16 @@
 
 ---
 
+# **CURRENT STATUS: PHASE 0 COMPLETE (DATA PIPELINE & V1 PROTOTYPE)**
+
+* **JTC Labor Guide:** Audited all 2,404 canonical labor operations (2000–2025) across Sections 3 and 4.1–4.9.
+* **Aftermarket Parts Extraction:** Extracted full 234-page James Gaskets catalog (`pdf_text_alt/james.txt`) alongside Cometic Harley-Davidson pages 178–220 (`pdf_text_alt/cometic.txt`).
+* **Catalog Builder (`master_parse_catalogs_v4.mjs`):** Built `parsed_catalog.json` (**3,484 records**) with explicit `platform`, `y1`/`y2`, `serviceTrack` (`STANDARD_SERVICE` vs. `PARTS_REQUIRED`), and era-matched Cometic/James part numbers, descriptions, OE#, and pricing.
+* **v1 Prototype (`index.html`):** Fixed `Evolution 1340` year matching, Sportster (`XL`) platform leakage, JTC platform code alignment (`TRG`, `SFT`, `DYN`, `XL`, `TRK`, `VRSC`, `REV`, `XG`, `EV`), and embedded the 3,484-record catalog.
+* **Next Up:** Phase 1 (Next.js App Router + Prisma + Clerk Auth).
+
+---
+
 # **PHASE 1: PRISMA DB & CLERK AUTHENTICATION**
 
 1. **Initialize Project:**  
@@ -17,7 +27,7 @@
 
 ---
 
-1. # **PHASE 2: VEHICLE IDENTIFICATION & THE LOGIC ENGINE**
+# **PHASE 2: VEHICLE IDENTIFICATION & THE LOGIC ENGINE**
 
 4. **NHTSA VIN Decoder API (`/api/vin/route.ts`):**  
    * Create a serverless endpoint that accepts a 17-digit VIN.  
@@ -68,8 +78,13 @@
 # **DIRECTORY STRUCTURE MAPPING**
 
 ```
+/app
+  /api
+    /vin/route.ts             # Phase 2: NHTSA vPIC VIN Decoder
     /leads/route.ts           # Phase 4: Handoff & Notification Logic
-  /admin
+  /widget
+    page.tsx                  # Phase 3: Embeddable React Widget
+  /admin/[shopId]
     page.tsx                  # Phase 5: Shop Owner Portal & Campaigns
 /lib
   quoteEngine.ts              # Phase 2: The Two-Speed Engine
