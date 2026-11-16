@@ -1885,9 +1885,9 @@
     "manufacturer": "James",
     "oeNumber": "10966",
     "description": "XR-1200® — XR-1200® — (2008 - 2013)",
-    "estimatedCost": null,
-    "priceSource": null,
-    "lastUpdated": null
+    "estimatedCost": 10.44,
+    "priceSource": "cometic_cross_ref_est",
+    "lastUpdated": "2026-11-16"
   },
   {
     "partNumber": "JGI-10967",
@@ -1921,9 +1921,9 @@
     "manufacturer": "James",
     "oeNumber": "11105",
     "description": "Pack of 25",
-    "estimatedCost": null,
-    "priceSource": null,
-    "lastUpdated": null
+    "estimatedCost": 12.05,
+    "priceSource": "cometic_cross_ref_est",
+    "lastUpdated": "2026-11-16"
   },
   {
     "partNumber": "JGI-11113",
@@ -1939,9 +1939,9 @@
     "manufacturer": "James",
     "oeNumber": "11116",
     "description": "ASSEMBLY — Sportster®, — (1981 - 2006)",
-    "estimatedCost": null,
-    "priceSource": null,
-    "lastUpdated": null
+    "estimatedCost": 7.89,
+    "priceSource": "cometic_cross_ref_est",
+    "lastUpdated": "2026-11-16"
   },
   {
     "partNumber": "JGI-11120",
@@ -1957,9 +1957,9 @@
     "manufacturer": "James",
     "oeNumber": "11124",
     "description": "SPORTSTER® — Sportster® — (1971 - 2003)",
-    "estimatedCost": null,
-    "priceSource": null,
-    "lastUpdated": null
+    "estimatedCost": 40.88,
+    "priceSource": "cometic_cross_ref_est",
+    "lastUpdated": "2026-11-16"
   },
   {
     "partNumber": "JGI-11124-DL",
@@ -1984,18 +1984,18 @@
     "manufacturer": "James",
     "oeNumber": null,
     "description": "EVO®, BIG TWIN, TWIN-CAM® — Evolution® — (L1984 - 2006)",
-    "estimatedCost": null,
-    "priceSource": null,
-    "lastUpdated": null
+    "estimatedCost": 27.49,
+    "priceSource": "cometic_cross_ref_est",
+    "lastUpdated": "2026-11-16"
   },
   {
     "partNumber": "JGI-11132",
     "manufacturer": "James",
     "oeNumber": "11132",
     "description": "Pack of 25",
-    "estimatedCost": null,
-    "priceSource": null,
-    "lastUpdated": null
+    "estimatedCost": 12.05,
+    "priceSource": "cometic_cross_ref_est",
+    "lastUpdated": "2026-11-16"
   },
   {
     "partNumber": "JGI-11132-A",
@@ -2056,18 +2056,18 @@
     "manufacturer": "James",
     "oeNumber": "11176",
     "description": "EVO SPORTSTER® — Evo Sportster® — (1991 to Present)",
-    "estimatedCost": null,
-    "priceSource": null,
-    "lastUpdated": null
+    "estimatedCost": 14.32,
+    "priceSource": "cometic_cross_ref_est",
+    "lastUpdated": "2026-11-16"
   },
   {
     "partNumber": "JGI-11187",
     "manufacturer": "James",
     "oeNumber": "11187",
     "description": "INSPECTION COVER — Sportster® — (1991 - 2003)",
-    "estimatedCost": null,
-    "priceSource": null,
-    "lastUpdated": null
+    "estimatedCost": 2.69,
+    "priceSource": "cometic_cross_ref_est",
+    "lastUpdated": "2026-11-16"
   },
   {
     "partNumber": "JGI-11188",
@@ -2092,9 +2092,9 @@
     "manufacturer": "James",
     "oeNumber": "11191",
     "description": "FLSTC, FXSTC — Softail®, — (1990 to Present)",
-    "estimatedCost": null,
-    "priceSource": null,
-    "lastUpdated": null
+    "estimatedCost": 36.49,
+    "priceSource": "cometic_cross_ref_est",
+    "lastUpdated": "2026-11-16"
   },
   {
     "partNumber": "JGI-11201",
@@ -2110,9 +2110,9 @@
     "manufacturer": "James",
     "oeNumber": "11202",
     "description": "SPORTSTER® — Sportster® — (2004 - 2009)",
-    "estimatedCost": null,
-    "priceSource": null,
-    "lastUpdated": null
+    "estimatedCost": 6.78,
+    "priceSource": "cometic_cross_ref_est",
+    "lastUpdated": "2026-11-16"
   },
   {
     "partNumber": "JGI-11244",
@@ -2182,9 +2182,9 @@
     "manufacturer": "James",
     "oeNumber": null,
     "description": "TWIN-CAM® — Twin-Cam® — (1999 to Present)",
-    "estimatedCost": null,
-    "priceSource": null,
-    "lastUpdated": null
+    "estimatedCost": 70.91,
+    "priceSource": "cometic_cross_ref_est",
+    "lastUpdated": "2026-11-16"
   },
   {
     "partNumber": "JGI-11293-TC",
@@ -2209,9 +2209,9 @@
     "manufacturer": "James",
     "oeNumber": "11298",
     "description": "EVO SPORTSTER® — Evo Sportster® — (2004 to Present)",
-    "estimatedCost": null,
-    "priceSource": null,
-    "lastUpdated": null
+    "estimatedCost": 7.79,
+    "priceSource": "cometic_cross_ref_est",
+    "lastUpdated": "2026-11-16"
   },
   {
     "partNumber": "JGI-11326",
@@ -2272,9 +2272,9 @@
     "manufacturer": "James",
     "oeNumber": "12026B",
     "description": "ENGINE & SPROCKET SEALS",
-    "estimatedCost": null,
-    "priceSource": null,
-    "lastUpdated": null
+    "estimatedCost": 13.64,
+    "priceSource": "cometic_cross_ref_est",
+    "lastUpdated": "2026-11-16"
   },
   {
     "partNumber": "JGI-12030",
@@ -2308,18 +2308,18 @@
     "manufacturer": "James",
     "oeNumber": "12066",
     "description": "COVER, STARTER SHAFT — FLT, FXR, — (1994 - 2006)",
-    "estimatedCost": null,
-    "priceSource": null,
-    "lastUpdated": null
+    "estimatedCost": 19.12,
+    "priceSource": "cometic_cross_ref_est",
+    "lastUpdated": "2026-11-16"
   },
   {
     "partNumber": "JGI-12068",
     "manufacturer": "James",
     "oeNumber": "12068",
     "description": "TWIN-CAM®, SPORTSTER® — 1999 & Up — (1999 - Present)",
-    "estimatedCost": null,
-    "priceSource": null,
-    "lastUpdated": null
+    "estimatedCost": 13.64,
+    "priceSource": "cometic_cross_ref_est",
+    "lastUpdated": "2026-11-16"
   },
   {
     "partNumber": "JGI-12074-XL",
@@ -2353,9 +2353,9 @@
     "manufacturer": "James",
     "oeNumber": "16664-86",
     "description": "GASKET, CYLINDER HEAD — 883cc Sportster® — (1986 to Present)",
-    "estimatedCost": null,
-    "priceSource": null,
-    "lastUpdated": null
+    "estimatedCost": 56.78,
+    "priceSource": "cometic_cross_ref_est",
+    "lastUpdated": "2026-11-16"
   },
   {
     "partNumber": "JGI-16715-83",
@@ -2371,18 +2371,18 @@
     "manufacturer": "James",
     "oeNumber": "16715-83",
     "description": "EXHAUST GASKET KITS, GASKETS & HARDWARE",
-    "estimatedCost": null,
-    "priceSource": null,
-    "lastUpdated": null
+    "estimatedCost": 24.5,
+    "priceSource": "cometic_cross_ref_est",
+    "lastUpdated": "2026-11-16"
   },
   {
     "partNumber": "JGI-16719-99",
     "manufacturer": "James",
     "oeNumber": "16719-99",
     "description": "TWIN-CAM® — Twin-Cam® — (1999 to Present)",
-    "estimatedCost": null,
-    "priceSource": null,
-    "lastUpdated": null
+    "estimatedCost": 46.34,
+    "priceSource": "cometic_cross_ref_est",
+    "lastUpdated": "2026-11-16"
   },
   {
     "partNumber": "JGI-16771-08",
@@ -2407,18 +2407,18 @@
     "manufacturer": "James",
     "oeNumber": "16773-85",
     "description": "EVOLUTION® — Evolution® — (3 5/8” Bore)",
-    "estimatedCost": null,
-    "priceSource": null,
-    "lastUpdated": null
+    "estimatedCost": 218.69,
+    "priceSource": "cometic_cross_ref_est",
+    "lastUpdated": "2026-11-16"
   },
   {
     "partNumber": "JGI-16774-72-R",
     "manufacturer": "James",
     "oeNumber": "16774-72R",
     "description": "XR-750® / XR-1000® — XR750® XR1000® — (1972 to Present)",
-    "estimatedCost": null,
-    "priceSource": null,
-    "lastUpdated": null
+    "estimatedCost": 114.81,
+    "priceSource": "cometic_cross_ref_est",
+    "lastUpdated": "2026-11-16"
   },
   {
     "partNumber": "JGI-16774-86",
@@ -2452,18 +2452,18 @@
     "manufacturer": "James",
     "oeNumber": "16775-99",
     "description": "GASKET, CYLINDER HEAD — 88/96ci Twin-Cam® — (1999 to Present)",
-    "estimatedCost": null,
-    "priceSource": null,
-    "lastUpdated": null
+    "estimatedCost": 46.34,
+    "priceSource": "cometic_cross_ref_est",
+    "lastUpdated": "2026-11-16"
   },
   {
     "partNumber": "JGI-16775-99-MLS",
     "manufacturer": "James",
     "oeNumber": "16775-99",
     "description": "GASKET, CYLINDER BASE — 88/96ci Twin-Cam® — (1999 to Present)",
-    "estimatedCost": null,
-    "priceSource": null,
-    "lastUpdated": null
+    "estimatedCost": 46.34,
+    "priceSource": "cometic_cross_ref_est",
+    "lastUpdated": "2026-11-16"
   },
   {
     "partNumber": "JGI-16777-83-A",
@@ -2587,18 +2587,18 @@
     "manufacturer": "James",
     "oeNumber": null,
     "description": "GASKET KIT, TOP END — (4” Bore Evolution®)",
-    "estimatedCost": null,
-    "priceSource": null,
-    "lastUpdated": null
+    "estimatedCost": 109.37,
+    "priceSource": "cometic_cross_ref_est",
+    "lastUpdated": "2026-11-16"
   },
   {
     "partNumber": "JGI-17042-92-SS",
     "manufacturer": "James",
     "oeNumber": null,
     "description": "S&S®, LANDMARK®, EVO® — Evolution® — (S&S®, Landmark®)",
-    "estimatedCost": null,
-    "priceSource": null,
-    "lastUpdated": null
+    "estimatedCost": 109.37,
+    "priceSource": "cometic_cross_ref_est",
+    "lastUpdated": "2026-11-16"
   },
   {
     "partNumber": "JGI-17043-99",
@@ -2641,18 +2641,18 @@
     "manufacturer": "James",
     "oeNumber": "17049-04",
     "description": "GASKET KIT, TOP END — 883cc & 1200cc — (2004 - 2006)",
-    "estimatedCost": null,
-    "priceSource": null,
-    "lastUpdated": null
+    "estimatedCost": 56.78,
+    "priceSource": "cometic_cross_ref_est",
+    "lastUpdated": "2026-11-16"
   },
   {
     "partNumber": "JGI-17049-07-X",
     "manufacturer": "James",
     "oeNumber": "17049-04B",
     "description": "GASKET KIT, TOP END — 883cc & 1200cc — (2007 to Present)",
-    "estimatedCost": null,
-    "priceSource": null,
-    "lastUpdated": null
+    "estimatedCost": 56.78,
+    "priceSource": "cometic_cross_ref_est",
+    "lastUpdated": "2026-11-16"
   },
   {
     "partNumber": "JGI-17049-08-X",
@@ -2668,9 +2668,9 @@
     "manufacturer": "James",
     "oeNumber": "17052-99B",
     "description": "GASKET KIT, TOP END — 88/96ci Twin-Cam® — (2005 to Present)",
-    "estimatedCost": null,
-    "priceSource": null,
-    "lastUpdated": null
+    "estimatedCost": 114.81,
+    "priceSource": "cometic_cross_ref_est",
+    "lastUpdated": "2026-11-16"
   },
   {
     "partNumber": "JGI-17052-05-MLS",
@@ -2686,9 +2686,9 @@
     "manufacturer": "James",
     "oeNumber": "17052-99B",
     "description": "GASKET KIT, TOP END — 88/96ciTwin-Cam® — (2005 to Present)",
-    "estimatedCost": null,
-    "priceSource": null,
-    "lastUpdated": null
+    "estimatedCost": 116.79,
+    "priceSource": "cometic_cross_ref_est",
+    "lastUpdated": "2026-11-16"
   },
   {
     "partNumber": "JGI-17052-99",
@@ -2713,9 +2713,9 @@
     "manufacturer": "James",
     "oeNumber": "17053-99A/B",
     "description": "GASKET KIT, MOTOR — 88/96ci Twin-Cam® — (2005 to Present)",
-    "estimatedCost": null,
-    "priceSource": null,
-    "lastUpdated": null
+    "estimatedCost": 70.91,
+    "priceSource": "cometic_cross_ref_est",
+    "lastUpdated": "2026-11-16"
   },
   {
     "partNumber": "JGI-17053-05-MLS",
@@ -2740,9 +2740,9 @@
     "manufacturer": "James",
     "oeNumber": "17053-99A/B",
     "description": "GASKET KIT, MOTOR — 88ci Twin-Cam® — (1999 - 2004)",
-    "estimatedCost": null,
-    "priceSource": null,
-    "lastUpdated": null
+    "estimatedCost": 70.91,
+    "priceSource": "cometic_cross_ref_est",
+    "lastUpdated": "2026-11-16"
   },
   {
     "partNumber": "JGI-17053-99-MLS",
@@ -2758,9 +2758,9 @@
     "manufacturer": "James",
     "oeNumber": "17053-99A/B",
     "description": "GASKET KIT, MOTOR — 95/103ciTwin-Cam® — (2005 to Present)",
-    "estimatedCost": null,
-    "priceSource": null,
-    "lastUpdated": null
+    "estimatedCost": 10.44,
+    "priceSource": "cometic_cross_ref_est",
+    "lastUpdated": "2026-11-16"
   },
   {
     "partNumber": "JGI-17054-05",
@@ -2776,9 +2776,9 @@
     "manufacturer": "James",
     "oeNumber": "17052-99",
     "description": "TOP END & ROCKER COVER KITS",
-    "estimatedCost": null,
-    "priceSource": null,
-    "lastUpdated": null
+    "estimatedCost": 46.34,
+    "priceSource": "cometic_cross_ref_est",
+    "lastUpdated": "2026-11-16"
   },
   {
     "partNumber": "JGI-17055-05",
@@ -2803,9 +2803,9 @@
     "manufacturer": "James",
     "oeNumber": null,
     "description": "GASKET KIT, MOTOR — 95/103ci Twin-Cam® — (2005 to Present)",
-    "estimatedCost": null,
-    "priceSource": null,
-    "lastUpdated": null
+    "estimatedCost": 114.81,
+    "priceSource": "cometic_cross_ref_est",
+    "lastUpdated": "2026-11-16"
   },
   {
     "partNumber": "JGI-17055-99",
@@ -2830,9 +2830,9 @@
     "manufacturer": "James",
     "oeNumber": "17369-06",
     "description": "BIG TWIN — 2007 to Present — (2006 to Present Dyna®)",
-    "estimatedCost": null,
-    "priceSource": null,
-    "lastUpdated": null
+    "estimatedCost": 27.6,
+    "priceSource": "cometic_cross_ref_est",
+    "lastUpdated": "2026-11-16"
   },
   {
     "partNumber": "JGI-17535-38-K",
@@ -2893,9 +2893,9 @@
     "manufacturer": "James",
     "oeNumber": "25244-99",
     "description": "TWIN-CAM® — Twin-Cam® — (1999 to Present)",
-    "estimatedCost": null,
-    "priceSource": null,
-    "lastUpdated": null
+    "estimatedCost": 70.91,
+    "priceSource": "cometic_cross_ref_est",
+    "lastUpdated": "2026-11-16"
   },
   {
     "partNumber": "JGI-25244-99-F",
@@ -2911,9 +2911,9 @@
     "manufacturer": "James",
     "oeNumber": "25263-90C",
     "description": "SPORTSTER® — Sportster® — (2000 to Present)",
-    "estimatedCost": null,
-    "priceSource": null,
-    "lastUpdated": null
+    "estimatedCost": 7.79,
+    "priceSource": "cometic_cross_ref_est",
+    "lastUpdated": "2026-11-16"
   },
   {
     "partNumber": "JGI-25263-00-X",
@@ -2938,9 +2938,9 @@
     "manufacturer": "James",
     "oeNumber": null,
     "description": "BUELL® — Buell® Blast® & XB — (2003 - 2010)",
-    "estimatedCost": null,
-    "priceSource": null,
-    "lastUpdated": null
+    "estimatedCost": 13.64,
+    "priceSource": "cometic_cross_ref_est",
+    "lastUpdated": "2026-11-16"
   },
   {
     "partNumber": "JGI-25353-00-YX",
@@ -2965,9 +2965,9 @@
     "manufacturer": "James",
     "oeNumber": "25416-99C",
     "description": "BIG TWIN — 2007 to Present — (2006 to Present Dyna®)",
-    "estimatedCost": null,
-    "priceSource": null,
-    "lastUpdated": null
+    "estimatedCost": 6.32,
+    "priceSource": "cometic_cross_ref_est",
+    "lastUpdated": "2026-11-16"
   },
   {
     "partNumber": "JGI-25416-70-DL",
@@ -3010,18 +3010,18 @@
     "manufacturer": "James",
     "oeNumber": "25416-99A",
     "description": "INSPECTION & DERBY COVER — Softail® — (1999 - 2006)",
-    "estimatedCost": null,
-    "priceSource": null,
-    "lastUpdated": null
+    "estimatedCost": 105.17,
+    "priceSource": "cometic_cross_ref_est",
+    "lastUpdated": "2026-11-16"
   },
   {
     "partNumber": "JGI-25416-99-K",
     "manufacturer": "James",
     "oeNumber": null,
     "description": "INSPECTION & DERBY COVER — Touring® — (1999 - 2006)",
-    "estimatedCost": null,
-    "priceSource": null,
-    "lastUpdated": null
+    "estimatedCost": 99.9,
+    "priceSource": "cometic_cross_ref_est",
+    "lastUpdated": "2026-11-16"
   },
   {
     "partNumber": "JGI-25416-99-KT",
@@ -3037,45 +3037,45 @@
     "manufacturer": "James",
     "oeNumber": "25535-74R",
     "description": "XR-750® — XR-750® — (1975 to Present)",
-    "estimatedCost": null,
-    "priceSource": null,
-    "lastUpdated": null
+    "estimatedCost": 12.05,
+    "priceSource": "cometic_cross_ref_est",
+    "lastUpdated": "2026-11-16"
   },
   {
     "partNumber": "JGI-26072-99",
     "manufacturer": "James",
     "oeNumber": "26072-99",
     "description": "OIL PAN — Dyna® — (1999 to Present)",
-    "estimatedCost": null,
-    "priceSource": null,
-    "lastUpdated": null
+    "estimatedCost": 35.5,
+    "priceSource": "cometic_cross_ref_est",
+    "lastUpdated": "2026-11-16"
   },
   {
     "partNumber": "JGI-26072-99-F",
     "manufacturer": "James",
     "oeNumber": "26072-99",
     "description": "OIL PAN — Dyna® — (1999 to Present)",
-    "estimatedCost": null,
-    "priceSource": null,
-    "lastUpdated": null
+    "estimatedCost": 35.5,
+    "priceSource": "cometic_cross_ref_est",
+    "lastUpdated": "2026-11-16"
   },
   {
     "partNumber": "JGI-26072-99-X",
     "manufacturer": "James",
     "oeNumber": "26072-99",
     "description": "OIL PAN — Dyna® — (1999 to Present)",
-    "estimatedCost": null,
-    "priceSource": null,
-    "lastUpdated": null
+    "estimatedCost": 35.5,
+    "priceSource": "cometic_cross_ref_est",
+    "lastUpdated": "2026-11-16"
   },
   {
     "partNumber": "JGI-26077-99",
     "manufacturer": "James",
     "oeNumber": "26077-99",
     "description": "OIL PAN — Twin-Cam®, — (1999 to Present)",
-    "estimatedCost": null,
-    "priceSource": null,
-    "lastUpdated": null
+    "estimatedCost": 56.97,
+    "priceSource": "cometic_cross_ref_est",
+    "lastUpdated": "2026-11-16"
   },
   {
     "partNumber": "JGI-26256-72-R",
@@ -3091,9 +3091,9 @@
     "manufacturer": "James",
     "oeNumber": "26495-89",
     "description": "SPORTSTER® — Sportster® — (1991 to Present)",
-    "estimatedCost": null,
-    "priceSource": null,
-    "lastUpdated": null
+    "estimatedCost": 10.44,
+    "priceSource": "cometic_cross_ref_est",
+    "lastUpdated": "2026-11-16"
   },
   {
     "partNumber": "JGI-26495-89-DL",
@@ -3127,9 +3127,9 @@
     "manufacturer": "James",
     "oeNumber": "26995-86A",
     "description": "SEAL, INTAKE MANIFOLD — All Models — (1986 to Present)",
-    "estimatedCost": null,
-    "priceSource": null,
-    "lastUpdated": null
+    "estimatedCost": 20.47,
+    "priceSource": "cometic_cross_ref_est",
+    "lastUpdated": "2026-11-16"
   },
   {
     "partNumber": "JGI-27002-89-K",
@@ -3163,9 +3163,9 @@
     "manufacturer": "James",
     "oeNumber": "27237-95",
     "description": "TWIN-CAM® — Twin-Cam® — (1999 - 2009)",
-    "estimatedCost": null,
-    "priceSource": null,
-    "lastUpdated": null
+    "estimatedCost": 9.29,
+    "priceSource": "cometic_cross_ref_est",
+    "lastUpdated": "2026-11-16"
   },
   {
     "partNumber": "JGI-27244-95",
@@ -3181,27 +3181,27 @@
     "manufacturer": "James",
     "oeNumber": "27329-57",
     "description": "LINKERT®,DE LUXE® CARBS — Linkert® Carburetor",
-    "estimatedCost": null,
-    "priceSource": null,
-    "lastUpdated": null
+    "estimatedCost": 6.78,
+    "priceSource": "cometic_cross_ref_est",
+    "lastUpdated": "2026-11-16"
   },
   {
     "partNumber": "JGI-27444-00-Y",
     "manufacturer": "James",
     "oeNumber": "27444-00Y",
     "description": "CRANKCASE — Sportster, Dyna®, — (2000 to Present)",
-    "estimatedCost": null,
-    "priceSource": null,
-    "lastUpdated": null
+    "estimatedCost": 14.63,
+    "priceSource": "cometic_cross_ref_est",
+    "lastUpdated": "2026-11-16"
   },
   {
     "partNumber": "JGI-27648-01",
     "manufacturer": "James",
     "oeNumber": "27648-01",
     "description": "XR-1200® — XR1200® — (2008 - 2013)",
-    "estimatedCost": null,
-    "priceSource": null,
-    "lastUpdated": null
+    "estimatedCost": 9.29,
+    "priceSource": "cometic_cross_ref_est",
+    "lastUpdated": "2026-11-16"
   },
   {
     "partNumber": "JGI-27892-78",
@@ -3226,18 +3226,18 @@
     "manufacturer": "James",
     "oeNumber": null,
     "description": "BACKPLATE — Softail®, Dyna®, — (1995 - 2005)",
-    "estimatedCost": null,
-    "priceSource": null,
-    "lastUpdated": null
+    "estimatedCost": 10.29,
+    "priceSource": "cometic_cross_ref_est",
+    "lastUpdated": "2026-11-16"
   },
   {
     "partNumber": "JGI-29241-08-F",
     "manufacturer": "James",
     "oeNumber": "29241-08",
     "description": "BACKING PLATE — Touring® — (2008 to Present)",
-    "estimatedCost": null,
-    "priceSource": null,
-    "lastUpdated": null
+    "estimatedCost": 17.51,
+    "priceSource": "cometic_cross_ref_est",
+    "lastUpdated": "2026-11-16"
   },
   {
     "partNumber": "JGI-29250-78",
@@ -3271,9 +3271,9 @@
     "manufacturer": "James",
     "oeNumber": "29463-99",
     "description": "ELEMENT — Touring® — (1999 - 2001)",
-    "estimatedCost": null,
-    "priceSource": null,
-    "lastUpdated": null
+    "estimatedCost": 10.29,
+    "priceSource": "cometic_cross_ref_est",
+    "lastUpdated": "2026-11-16"
   },
   {
     "partNumber": "JGI-29539-99-Y",
@@ -3307,9 +3307,9 @@
     "manufacturer": "James",
     "oeNumber": "29550-56R",
     "description": "XR-750® — XR-750® — (1972 to Present)",
-    "estimatedCost": null,
-    "priceSource": null,
-    "lastUpdated": null
+    "estimatedCost": 7.89,
+    "priceSource": "cometic_cross_ref_est",
+    "lastUpdated": "2026-11-16"
   },
   {
     "partNumber": "JGI-29602-56-R",
@@ -3325,18 +3325,18 @@
     "manufacturer": "James",
     "oeNumber": "29645-08",
     "description": "PLATE TO CARBURETOR — Touring® — (2008 to Present)",
-    "estimatedCost": null,
-    "priceSource": null,
-    "lastUpdated": null
+    "estimatedCost": 26.76,
+    "priceSource": "cometic_cross_ref_est",
+    "lastUpdated": "2026-11-16"
   },
   {
     "partNumber": "JGI-29645-08-F",
     "manufacturer": "James",
     "oeNumber": "29645-08",
     "description": "PLATE TO CARBURETOR — Touring® — (2008 to Present)",
-    "estimatedCost": null,
-    "priceSource": null,
-    "lastUpdated": null
+    "estimatedCost": 26.76,
+    "priceSource": "cometic_cross_ref_est",
+    "lastUpdated": "2026-11-16"
   },
   {
     "partNumber": "JGI-29718-08",
@@ -3361,27 +3361,27 @@
     "manufacturer": "James",
     "oeNumber": "33340-90",
     "description": "SHAFT BOLT — FLT, FXR, — (1990 - 2006)",
-    "estimatedCost": null,
-    "priceSource": null,
-    "lastUpdated": null
+    "estimatedCost": 99.9,
+    "priceSource": "cometic_cross_ref_est",
+    "lastUpdated": "2026-11-16"
   },
   {
     "partNumber": "JGI-34901-07",
     "manufacturer": "James",
     "oeNumber": "34901-07",
     "description": "TOURING® — Touring® — (2007 to Present)",
-    "estimatedCost": null,
-    "priceSource": null,
-    "lastUpdated": null
+    "estimatedCost": 34.74,
+    "priceSource": "cometic_cross_ref_est",
+    "lastUpdated": "2026-11-16"
   },
   {
     "partNumber": "JGI-34901-07-F",
     "manufacturer": "James",
     "oeNumber": "34901-07",
     "description": "TOURING® — Touring® — (2007 to Present)",
-    "estimatedCost": null,
-    "priceSource": null,
-    "lastUpdated": null
+    "estimatedCost": 34.74,
+    "priceSource": "cometic_cross_ref_est",
+    "lastUpdated": "2026-11-16"
   },
   {
     "partNumber": "JGI-34901-07-K",
@@ -3397,9 +3397,9 @@
     "manufacturer": "James",
     "oeNumber": null,
     "description": "TOURING® — Touring® — (2007 to Present)",
-    "estimatedCost": null,
-    "priceSource": null,
-    "lastUpdated": null
+    "estimatedCost": 66.95,
+    "priceSource": "cometic_cross_ref_est",
+    "lastUpdated": "2026-11-16"
   },
   {
     "partNumber": "JGI-34901-79-K",
@@ -3424,9 +3424,9 @@
     "manufacturer": "James",
     "oeNumber": "34901-94",
     "description": "FLT, FXR — FLT, FXR — (1994 - 2006)",
-    "estimatedCost": null,
-    "priceSource": null,
-    "lastUpdated": null
+    "estimatedCost": 99.9,
+    "priceSource": "cometic_cross_ref_est",
+    "lastUpdated": "2026-11-16"
   },
   {
     "partNumber": "JGI-34901-94-K",
@@ -3460,9 +3460,9 @@
     "manufacturer": "James",
     "oeNumber": "34904-00C",
     "description": "TOP COVER — FLT, FXR 5-Speed — (2000 to Present)",
-    "estimatedCost": null,
-    "priceSource": null,
-    "lastUpdated": null
+    "estimatedCost": 54.45,
+    "priceSource": "cometic_cross_ref_est",
+    "lastUpdated": "2026-11-16"
   },
   {
     "partNumber": "JGI-34917-99",
@@ -3487,18 +3487,18 @@
     "manufacturer": "James",
     "oeNumber": "34934-06",
     "description": "TOURING® — Touring® — (2007 to Present)",
-    "estimatedCost": null,
-    "priceSource": null,
-    "lastUpdated": null
+    "estimatedCost": 27.49,
+    "priceSource": "cometic_cross_ref_est",
+    "lastUpdated": "2026-11-16"
   },
   {
     "partNumber": "JGI-34955-04",
     "manufacturer": "James",
     "oeNumber": "34955-04",
     "description": "SPORTSTER® — Sportster® — (2004 to Present)",
-    "estimatedCost": null,
-    "priceSource": null,
-    "lastUpdated": null
+    "estimatedCost": 108.31,
+    "priceSource": "cometic_cross_ref_est",
+    "lastUpdated": "2026-11-16"
   },
   {
     "partNumber": "JGI-34955-04-K",
@@ -3514,9 +3514,9 @@
     "manufacturer": "James",
     "oeNumber": null,
     "description": "SPORTSTER® — Sportster® — (2004 to Present)",
-    "estimatedCost": null,
-    "priceSource": null,
-    "lastUpdated": null
+    "estimatedCost": 30.38,
+    "priceSource": "cometic_cross_ref_est",
+    "lastUpdated": "2026-11-16"
   },
   {
     "partNumber": "JGI-34955-67-KF",
@@ -3550,9 +3550,9 @@
     "manufacturer": "James",
     "oeNumber": "35147-03",
     "description": "GASKET, BEARING COVER — Screamin’ Eagle® — (6-Speed Transmission)",
-    "estimatedCost": null,
-    "priceSource": null,
-    "lastUpdated": null
+    "estimatedCost": 8.19,
+    "priceSource": "cometic_cross_ref_est",
+    "lastUpdated": "2026-11-16"
   },
   {
     "partNumber": "JGI-35148-03-F",
@@ -3577,9 +3577,9 @@
     "manufacturer": "James",
     "oeNumber": "35151-52A",
     "description": "ENGINE & SPROCKET SEALS",
-    "estimatedCost": null,
-    "priceSource": null,
-    "lastUpdated": null
+    "estimatedCost": 13.64,
+    "priceSource": "cometic_cross_ref_est",
+    "lastUpdated": "2026-11-16"
   },
   {
     "partNumber": "JGI-35154-52",
@@ -3595,9 +3595,9 @@
     "manufacturer": "James",
     "oeNumber": "35652-79",
     "description": "BEARING COVER — FLT, FXR, — (1979 - 2006)",
-    "estimatedCost": null,
-    "priceSource": null,
-    "lastUpdated": null
+    "estimatedCost": 54.45,
+    "priceSource": "cometic_cross_ref_est",
+    "lastUpdated": "2026-11-16"
   },
   {
     "partNumber": "JGI-35652-79-F",
@@ -3667,9 +3667,9 @@
     "manufacturer": "James",
     "oeNumber": "45359-00",
     "description": "SOFTAIL® — Softail® — (2000 to Present)",
-    "estimatedCost": null,
-    "priceSource": null,
-    "lastUpdated": null
+    "estimatedCost": 13.64,
+    "priceSource": "cometic_cross_ref_est",
+    "lastUpdated": "2026-11-16"
   },
   {
     "partNumber": "JGI-45377-87",
@@ -3892,9 +3892,9 @@
     "manufacturer": "James",
     "oeNumber": "60547-06",
     "description": "SOFTAIL®, DYNA® — 2007 to Present — (2006 to Present)",
-    "estimatedCost": null,
-    "priceSource": null,
-    "lastUpdated": null
+    "estimatedCost": 34.74,
+    "priceSource": "cometic_cross_ref_est",
+    "lastUpdated": "2026-11-16"
   },
   {
     "partNumber": "JGI-60547-06-K",
@@ -3910,9 +3910,9 @@
     "manufacturer": "James",
     "oeNumber": null,
     "description": "SOFTAIL®, DYNA® — 2007 to Present — (2006 to Present)",
-    "estimatedCost": null,
-    "priceSource": null,
-    "lastUpdated": null
+    "estimatedCost": 66.95,
+    "priceSource": "cometic_cross_ref_est",
+    "lastUpdated": "2026-11-16"
   },
   {
     "partNumber": "JGI-6156",
@@ -3928,18 +3928,18 @@
     "manufacturer": "James",
     "oeNumber": "62432-93",
     "description": "GASKET, OIL TANK SPOUT — FLT — (1993 to Present)",
-    "estimatedCost": null,
-    "priceSource": null,
-    "lastUpdated": null
+    "estimatedCost": 47.56,
+    "priceSource": "cometic_cross_ref_est",
+    "lastUpdated": "2026-11-16"
   },
   {
     "partNumber": "JGI-62432-93-F",
     "manufacturer": "James",
     "oeNumber": "62432-93",
     "description": "GASKET, OIL TANK SPOUT — FLT — (1993 to Present)",
-    "estimatedCost": null,
-    "priceSource": null,
-    "lastUpdated": null
+    "estimatedCost": 47.56,
+    "priceSource": "cometic_cross_ref_est",
+    "lastUpdated": "2026-11-16"
   },
   {
     "partNumber": "JGI-62617-52",
@@ -3955,9 +3955,9 @@
     "manufacturer": "James",
     "oeNumber": "62702-52",
     "description": "GASKET, OIL TANK SPOUT — FLT — (1993 to Present)",
-    "estimatedCost": null,
-    "priceSource": null,
-    "lastUpdated": null
+    "estimatedCost": 12.29,
+    "priceSource": "cometic_cross_ref_est",
+    "lastUpdated": "2026-11-16"
   },
   {
     "partNumber": "JGI-63848-07-SS",
@@ -3973,27 +3973,27 @@
     "manufacturer": "James",
     "oeNumber": "63869-06",
     "description": "0.031” Paper w/ Silicone Bead Pack of 5",
-    "estimatedCost": null,
-    "priceSource": null,
-    "lastUpdated": null
+    "estimatedCost": 23.87,
+    "priceSource": "cometic_cross_ref_est",
+    "lastUpdated": "2026-11-16"
   },
   {
     "partNumber": "JGI-64971-09",
     "manufacturer": "James",
     "oeNumber": "64971-09",
     "description": "V-ROD® — V-Rod® — (2009 to Present)",
-    "estimatedCost": null,
-    "priceSource": null,
-    "lastUpdated": null
+    "estimatedCost": 98.08,
+    "priceSource": "cometic_cross_ref_est",
+    "lastUpdated": "2026-11-16"
   },
   {
     "partNumber": "JGI-65109-01",
     "manufacturer": "James",
     "oeNumber": "65109-01",
     "description": "V-ROD® — V-Rod® — (2009 to Present)",
-    "estimatedCost": null,
-    "priceSource": null,
-    "lastUpdated": null
+    "estimatedCost": 24.5,
+    "priceSource": "cometic_cross_ref_est",
+    "lastUpdated": "2026-11-16"
   },
   {
     "partNumber": "JGI-65721-85",
@@ -4009,9 +4009,9 @@
     "manufacturer": "James",
     "oeNumber": "65781-82",
     "description": "INTER-CONNECT — FXR, Softail®, — (1982 to Present)",
-    "estimatedCost": null,
-    "priceSource": null,
-    "lastUpdated": null
+    "estimatedCost": 24.5,
+    "priceSource": "cometic_cross_ref_est",
+    "lastUpdated": "2026-11-16"
   },
   {
     "partNumber": "JGI-65826-90",
@@ -4054,8 +4054,8 @@
     "manufacturer": "James",
     "oeNumber": "8866",
     "description": "BALL BEARING, OIL PUMP — 1941-99 Big Twin — (1941 to Present)",
-    "estimatedCost": null,
-    "priceSource": null,
-    "lastUpdated": null
+    "estimatedCost": 8.19,
+    "priceSource": "cometic_cross_ref_est",
+    "lastUpdated": "2026-11-16"
   }
 ]

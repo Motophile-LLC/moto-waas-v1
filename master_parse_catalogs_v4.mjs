@@ -658,18 +658,53 @@ if (fs.existsSync(priceListPath)) {
   } catch (_) {}
 }
 
+// Build OEM -> Cometic price lookup and job-paired Cometic price lookup for James cross-ref estimates
+const oemToCometicPrice = new Map();
+for (const p of cometicParts) {
+  if (p.oeNumber && p.price) {
+    const c = parseFloat(String(p.price).replace(/[^0-9.]/g, ''));
+    if (Number.isFinite(c)) oemToCometicPrice.set(p.oeNumber.toUpperCase(), c);
+  }
+}
+
+const pairedCometicPrice = new Map(); // jamesPartNumber -> cometicPrice[]
+for (const job of catalog) {
+  const com = (job.requiredParts || []).find(p => p.manufacturer === 'Cometic' && p.price);
+  const jam = (job.requiredParts || []).find(p => p.manufacturer === 'James');
+  if (com && jam) {
+    const c = parseFloat(String(com.price).replace(/[^0-9.]/g, ''));
+    if (Number.isFinite(c)) {
+      if (!pairedCometicPrice.has(jam.partNumber)) pairedCometicPrice.set(jam.partNumber, []);
+      pairedCometicPrice.get(jam.partNumber).push(c);
+    }
+  }
+}
+
 const priceMap = new Map();
 for (const job of catalog) {
   for (const p of [...(job.requiredParts || []), ...(job.breakdownParts || [])]) {
     if (priceMap.has(p.partNumber)) continue;
     const prev = existingPrices.get(p.partNumber);
     const catalogCost = p.price ? parseFloat(String(p.price).replace(/[^0-9.]/g, '')) : null;
-    const estimatedCost = (prev && prev.estimatedCost != null && prev.priceSource !== 'cometic_catalog')
+
+    let crossRefCost = null;
+    if (!Number.isFinite(catalogCost) && p.manufacturer === 'James') {
+      if (p.oeNumber && oemToCometicPrice.has(p.oeNumber.toUpperCase())) {
+        crossRefCost = oemToCometicPrice.get(p.oeNumber.toUpperCase());
+      } else if (pairedCometicPrice.has(p.partNumber)) {
+        const arr = pairedCometicPrice.get(p.partNumber).slice().sort((a, b) => a - b);
+        crossRefCost = arr[Math.floor(arr.length / 2)];
+      }
+    }
+
+    const keepPrev = prev && prev.estimatedCost != null && !['cometic_catalog', 'cometic_cross_ref_est'].includes(prev.priceSource);
+    const estimatedCost = keepPrev
       ? prev.estimatedCost
-      : (Number.isFinite(catalogCost) ? catalogCost : (prev ? prev.estimatedCost : null));
-    const priceSource = (prev && prev.estimatedCost != null && prev.priceSource !== 'cometic_catalog')
+      : (Number.isFinite(catalogCost) ? catalogCost : (crossRefCost != null ? crossRefCost : (prev ? prev.estimatedCost : null)));
+    const priceSource = keepPrev
       ? prev.priceSource
-      : (Number.isFinite(catalogCost) ? 'cometic_catalog' : (prev ? prev.priceSource : null));
+      : (Number.isFinite(catalogCost) ? 'cometic_catalog' : (crossRefCost != null ? 'cometic_cross_ref_est' : (prev ? prev.priceSource : null)));
+
     priceMap.set(p.partNumber, {
       partNumber: p.partNumber,
       manufacturer: p.manufacturer,
@@ -677,8 +712,19 @@ for (const job of catalog) {
       description: p.description,
       estimatedCost: estimatedCost ?? null,
       priceSource: priceSource || null,
-      lastUpdated: (prev && prev.lastUpdated) ? prev.lastUpdated : (Number.isFinite(catalogCost) ? new Date().toISOString().slice(0, 10) : null),
+      lastUpdated: (prev && prev.lastUpdated) ? prev.lastUpdated : (estimatedCost != null ? new Date().toISOString().slice(0, 10) : null),
     });
+  }
+}
+
+// Sync estimatedCost back onto catalog parts so index.html has them embedded
+for (const job of catalog) {
+  for (const p of [...(job.requiredParts || []), ...(job.breakdownParts || [])]) {
+    const entry = priceMap.get(p.partNumber);
+    if (entry && entry.estimatedCost != null) {
+      p.estimatedCost = entry.estimatedCost;
+      p.priceSource = entry.priceSource;
+    }
   }
 }
 

@@ -7,6 +7,8 @@ const catalogPath = `${workdir}/parsed_catalog.json`;
 const args = process.argv.slice(2);
 const limitArg = args.find(a => a.startsWith('--limit='));
 const limit = limitArg ? parseInt(limitArg.split('=')[1], 10) : 25;
+const mfgArg = args.find(a => a.startsWith('--manufacturer='));
+const mfgFilter = mfgArg ? mfgArg.split('=')[1].toLowerCase() : null;
 const staleDays = 30;
 const refreshStale = args.includes('--stale');
 const dryRun = args.includes('--dry-run');
@@ -69,11 +71,27 @@ function syncPricesToCatalog(priceList) {
 
 async function main() {
   const priceList = JSON.parse(fs.readFileSync(priceListPath, 'utf8'));
-  const targets = priceList.filter(p =>
-    p.estimatedCost == null || (refreshStale && isStale(p.lastUpdated))
-  ).slice(0, limit);
+  // Prioritize parts that appear most frequently in parsed_catalog.json requiredParts
+  const usageCount = new Map();
+  if (fs.existsSync(catalogPath)) {
+    const cat = JSON.parse(fs.readFileSync(catalogPath, 'utf8'));
+    for (const job of cat) {
+      for (const p of (job.requiredParts || [])) {
+        usageCount.set(p.partNumber, (usageCount.get(p.partNumber) || 0) + 10);
+      }
+      for (const p of (job.breakdownParts || [])) {
+        usageCount.set(p.partNumber, (usageCount.get(p.partNumber) || 0) + 1);
+      }
+    }
+  }
 
-  console.log(`Loaded ${priceList.length} parts. Checking ${targets.length} missing/stale parts (limit=${limit}, dryRun=${dryRun})...`);
+  const targets = priceList
+    .filter(p => (!mfgFilter || (p.manufacturer || '').toLowerCase() === mfgFilter))
+    .filter(p => p.estimatedCost == null || (refreshStale && isStale(p.lastUpdated)))
+    .sort((a, b) => (usageCount.get(b.partNumber) || 0) - (usageCount.get(a.partNumber) || 0))
+    .slice(0, limit);
+
+  console.log(`Loaded ${priceList.length} parts. Checking ${targets.length} missing/stale parts (limit=${limit}, mfg=${mfgFilter || 'all'}, dryRun=${dryRun})...`);
 
   let updated = 0;
   for (const part of targets) {
@@ -93,7 +111,7 @@ async function main() {
     } catch (err) {
       console.log(`  [ERR]   ${part.partNumber}: ${err.message}`);
     }
-    await new Promise(r => setTimeout(r, 800));
+    await new Promise(r => setTimeout(r, 1500));
   }
 
   if (!dryRun) {
