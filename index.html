@@ -634,7 +634,7 @@
           <div class="brand">Cart</div>
           <div class="main">Quote Builder</div>
         </div>
-        <div class="sub">Add job lines to build a labor + parts pull sheet.</div>
+        <div class="sub">Add job lines to build a labor + gasket pull sheet. <b>Note:</b> Automated part pricing currently covers <b>Cometic &amp; James gaskets/seals only</b> (other OEM parts &amp; accessories can be added via Custom Line).</div>
       </div>
 
       <div class="bd cart-pane">
@@ -1112,17 +1112,17 @@ function renderCart(){
 
   const laborTotal = billableTotal * rate;
   const grandTotal = laborTotal + partsTotal;
-  totalHoursEl.textContent = `Labor $${laborTotal.toFixed(2)} + Est. Parts $${partsTotal.toFixed(2)}`;
+  totalHoursEl.textContent = `Labor $${laborTotal.toFixed(2)} + Est. Gaskets $${partsTotal.toFixed(2)}`;
   if (totalMetaEl) totalMetaEl.textContent = `${baseTotal.toFixed(1)}h base × ${mult}x = ${billableTotal.toFixed(1)}h ($${rate}/hr)`;
   if (totalCostEl) totalCostEl.textContent = `$${grandTotal.toFixed(2)}`;
   if (expectationEl) {
     expectationEl.style.display = 'block';
     if (needsParts) {
       expectationEl.style.borderColor = 'rgba(197,106,58,.45)';
-      expectationEl.innerHTML = `<b>Track 2 — Parts Required:</b> Est. Total <b>$${grandTotal.toFixed(2)}</b> (Labor $${laborTotal.toFixed(2)} + Est. Parts $${partsTotal.toFixed(2)}). Custom/OEM gaskets typically take 7–10 days to ship.`;
+      expectationEl.innerHTML = `<b>Track 2 — Parts Required:</b> Est. Total <b>$${grandTotal.toFixed(2)}</b> (Labor $${laborTotal.toFixed(2)} + Est. Gaskets $${partsTotal.toFixed(2)}). Custom/OEM gaskets typically take 7–10 days to ship.`;
     } else {
       expectationEl.style.borderColor = 'rgba(53,208,127,.45)';
-      expectationEl.innerHTML = `<span class="ok">Track 1 — Standard Service:</span> Est. Total <b>$${grandTotal.toFixed(2)}</b> (Labor $${laborTotal.toFixed(2)} + Est. Parts/Fluids $${partsTotal.toFixed(2)}).`;
+      expectationEl.innerHTML = `<span class="ok">Track 1 — Standard Service:</span> Est. Total <b>$${grandTotal.toFixed(2)}</b> (Labor $${laborTotal.toFixed(2)} + Est. Gaskets/Fluids $${partsTotal.toFixed(2)}).`;
     }
   }
 }
